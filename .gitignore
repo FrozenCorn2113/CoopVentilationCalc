@@ -1,0 +1,10 @@
+.vercel
+.next
+node_modules
+.env*.local
+Vault/
+*.log
+.env
+.env.*
+!.env.example
+docs/.DS_Store

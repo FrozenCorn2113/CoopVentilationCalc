@@ -1,0 +1,22 @@
+# Coop Ventilation Calculator
+
+> Free chicken coop ventilation calculator that sizes the exact airflow, vent area, and inlet/outlet split for a backyard flock using cooperative-extension formulas (University of Kentucky, Penn State, University of Maine). Enter bird count, coop floor area, and climate to get target CFM and vent square inches.
+
+## Calculator
+
+- [Chicken Coop Ventilation Calculator](https://coopventilationcalc.com/): Enter flock size and coop floor area to get airflow (CFM), total vent area (sq in), and the low-inlet / high-outlet split, sized to extension-service rules.
+
+## Key guides
+
+- [How Much Ventilation Does a Chicken Coop Need](https://coopventilationcalc.com/blog/how-much-ventilation-does-a-chicken-coop-need): Per-bird airflow and vent-area targets by season.
+- [Chicken Coop Ventilation Requirements](https://coopventilationcalc.com/blog/chicken-coop-ventilation-requirements): How much air per bird, summer and winter.
+- [Chicken Coop Ventilation Sq Ft](https://coopventilationcalc.com/blog/chicken-coop-ventilation-sq-ft): Vent area per square foot of coop floor.
+- [Ideal Air Changes Per Hour for a Chicken Coop](https://coopventilationcalc.com/blog/ideal-air-changes-per-hour-chicken-coop): ACH formula and seasonal targets.
+- [Natural vs Mechanical Ventilation](https://coopventilationcalc.com/blog/natural-vs-mechanical-ventilation-chicken-coop): When passive vents are enough and when to add a fan.
+- [Winter Ventilation Without Drafts](https://coopventilationcalc.com/blog/winter-ventilation-without-drafts): Moisture removal without chilling the roost.
+- [Summer Ventilation and Heat Stress](https://coopventilationcalc.com/blog/summer-heat-stress): Airflow targets to prevent heat stress.
+- [Vent Placement: High, Low, and Ridge](https://coopventilationcalc.com/blog/vent-placement-high-low-ridge): Where to put inlets and outlets.
+
+## More
+
+- [All guides](https://coopventilationcalc.com/blog): Full library on coop airflow, bedding, seasonal care, and flock health.

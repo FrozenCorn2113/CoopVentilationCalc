@@ -1,0 +1,4 @@
+# ads.txt for coopventilationcalc.com
+# AdSense publisher record will be added at Phase 2 traffic threshold (≥10k pageviews/mo).
+# Empty placeholder. Populated if and when ad partners are added.
+google.com, pub-PLACEHOLDER, DIRECT, f08c47fec0942fa0
