@@ -72,13 +72,21 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             By Coop Ventilation Calculator · Updated {publishedLabel}
           </p>
         )}
-        <div className="mt-10 prose-styled space-y-5 text-[17px] leading-[1.65] text-[var(--color-ink)] [&_h2]:font-display [&_h2]:text-2xl [&_h2]:sm:text-3xl [&_h2]:mt-10 [&_h2]:mb-3 [&_h3]:font-display [&_h3]:text-xl [&_h3]:mt-8 [&_h3]:mb-2 [&_a]:text-[var(--color-accent)] [&_a]:underline [&_strong]:text-[var(--color-ink)] [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:space-y-1 [&_ol]:list-decimal [&_ol]:pl-6 [&_ol]:space-y-1 [&_code]:bg-[var(--color-paper-warm)] [&_code]:px-1.5 [&_code]:py-0.5 [&_code]:rounded [&_code]:text-[15px] [&_blockquote]:border-l-4 [&_blockquote]:border-[var(--color-accent)] [&_blockquote]:pl-4 [&_blockquote]:italic">
+        <div className="mt-10 prose-styled space-y-5 text-[17px] leading-[1.65] text-[var(--color-ink)] [&_h2]:font-display [&_h2]:text-2xl [&_h2]:sm:text-3xl [&_h2]:mt-10 [&_h2]:mb-3 [&_h3]:font-display [&_h3]:text-xl [&_h3]:mt-8 [&_h3]:mb-2 [&_a]:text-[var(--color-accent)] [&_a]:underline [&_strong]:text-[var(--color-ink)] [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:space-y-1 [&_ol]:list-decimal [&_ol]:pl-6 [&_ol]:space-y-1 [&_code]:bg-[var(--color-paper-warm)] [&_code]:px-1.5 [&_code]:py-0.5 [&_code]:rounded [&_code]:text-[15px] [&_blockquote]:border-l-4 [&_blockquote]:border-[var(--color-accent)] [&_blockquote]:pl-4 [&_blockquote]:italic [&_th]:border-b-2 [&_th]:border-[var(--color-ink)] [&_th]:px-3 [&_th]:py-2 [&_th]:text-left [&_th]:font-semibold [&_td]:border-b [&_td]:border-[var(--color-line)] [&_td]:px-3 [&_td]:py-2 [&_td]:align-top">
           <ReactMarkdown
             remarkPlugins={[remarkGfm]}
             components={{
               // The page title is the sole <h1>. Any leading `#` in a post body
               // renders one level down so every /blog/* page has exactly one h1.
               h1: ({ node: _node, ...props }) => <h2 {...props} />,
+              // Markdown tables arrive unstyled, so cells butt against each
+              // other and column labels read as one run-on word. The min-width
+              // keeps them legible on a phone by scrolling rather than crushing.
+              table: ({ node: _node, ...props }) => (
+                <div className="overflow-x-auto">
+                  <table className="w-full min-w-[32rem] border-collapse text-[15px]" {...props} />
+                </div>
+              ),
             }}
           >
             {post.body}
