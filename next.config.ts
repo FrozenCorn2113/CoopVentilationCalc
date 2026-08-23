@@ -60,6 +60,21 @@ const config: NextConfig = {
         destination: 'https://coopventilationcalc.com/:path*',
         permanent: true,
       },
+      // Ventilation cluster merge: two thin guides were folded into
+      // /blog/chicken-coop-ventilation-requirements, so the ranking signal from
+      // the retired URLs consolidates on the surviving guide. statusCode: 301
+      // rather than permanent: true, which Next emits as a 308 -- equivalent to
+      // Google but not what every SEO crawler and log report expects to see.
+      {
+        source: '/blog/ventilation-basics',
+        destination: '/blog/chicken-coop-ventilation-requirements',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/how-much-ventilation-does-a-chicken-coop-need',
+        destination: '/blog/chicken-coop-ventilation-requirements',
+        statusCode: 301,
+      },
     ]
   },
 }
