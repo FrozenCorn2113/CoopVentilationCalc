@@ -19,32 +19,20 @@
 
 export const RELATED_GUIDES: Record<string, string[]> = {
   // --- Ventilation core ---
-  'ventilation-basics': [
-    'how-much-ventilation-does-a-chicken-coop-need',
-    'vent-placement-high-low-ridge',
-    'chicken-coop-ventilation-requirements',
-    'ammonia-and-moisture',
-  ],
-  'how-much-ventilation-does-a-chicken-coop-need': [
-    'chicken-coop-ventilation-sq-ft',
-    'ideal-air-changes-per-hour-chicken-coop',
-    'chicken-coop-ventilation-requirements',
-    'winter-ventilation-without-drafts',
-  ],
   'chicken-coop-ventilation-requirements': [
-    'how-much-ventilation-does-a-chicken-coop-need',
+    'ideal-air-changes-per-hour-chicken-coop',
     'chicken-coop-ventilation-sq-ft',
     'natural-vs-mechanical-ventilation-chicken-coop',
     'coop-space-requirements',
   ],
   'chicken-coop-ventilation-sq-ft': [
     'vent-placement-high-low-ridge',
-    'how-much-ventilation-does-a-chicken-coop-need',
+    'chicken-coop-ventilation-requirements',
     'ideal-air-changes-per-hour-chicken-coop',
     'coop-size-calculator',
   ],
   'ideal-air-changes-per-hour-chicken-coop': [
-    'how-much-ventilation-does-a-chicken-coop-need',
+    'chicken-coop-ventilation-requirements',
     'chicken-coop-ventilation-sq-ft',
     'fan-vs-passive-vents',
     'ammonia-and-moisture',
@@ -59,13 +47,13 @@ export const RELATED_GUIDES: Record<string, string[]> = {
     'natural-vs-mechanical-ventilation-chicken-coop',
     'vent-placement-high-low-ridge',
     'fan-vs-passive-vents',
-    'ventilation-basics',
+    'chicken-coop-ventilation-requirements',
   ],
   'vent-placement-high-low-ridge': [
     'chicken-coop-ventilation-sq-ft',
     'winter-ventilation-without-drafts',
     'natural-vs-mechanical-ventilation-chicken-coop',
-    'ventilation-basics',
+    'chicken-coop-ventilation-requirements',
   ],
   'fan-vs-passive-vents': [
     'natural-vs-mechanical-ventilation-chicken-coop',
@@ -117,7 +105,7 @@ export const RELATED_GUIDES: Record<string, string[]> = {
     'chicken-respiratory-issues',
     'deep-litter-method',
     'how-to-clean-chicken-coop',
-    'ventilation-basics',
+    'chicken-coop-ventilation-requirements',
   ],
   'chicken-respiratory-issues': [
     'ammonia-and-moisture',
@@ -148,7 +136,7 @@ export const RELATED_GUIDES: Record<string, string[]> = {
   'chicken-coop-size-calculator': [
     'coop-size-calculator',
     'coop-space-requirements',
-    'how-much-ventilation-does-a-chicken-coop-need',
+    'chicken-coop-ventilation-requirements',
     'beginner-chicken-keeping',
   ],
   'coop-space-requirements': [
@@ -161,7 +149,7 @@ export const RELATED_GUIDES: Record<string, string[]> = {
     'coop-size-calculator',
     'summer-heat-stress',
     'predator-proofing-coop-run',
-    'ventilation-basics',
+    'chicken-coop-ventilation-requirements',
   ],
   'coop-flooring-options': [
     'sand-vs-shavings-coop-bedding',
@@ -225,7 +213,7 @@ export const RELATED_GUIDES: Record<string, string[]> = {
   // --- Getting started + upkeep ---
   'beginner-chicken-keeping': [
     'coop-size-calculator',
-    'ventilation-basics',
+    'chicken-coop-ventilation-requirements',
     'coop-space-requirements',
     'coop-inspection-checklist',
   ],
@@ -240,10 +228,10 @@ export const RELATED_GUIDES: Record<string, string[]> = {
 // Fallback for any post with no curated entry: the four core ventilation guides,
 // minus itself. Guarantees no post ever renders an empty related block.
 const FALLBACK = [
-  'how-much-ventilation-does-a-chicken-coop-need',
   'chicken-coop-ventilation-requirements',
+  'chicken-coop-ventilation-sq-ft',
   'vent-placement-high-low-ridge',
-  'ventilation-basics',
+  'ideal-air-changes-per-hour-chicken-coop',
 ]
 
 export function relatedSlugsFor(slug: string): string[] {

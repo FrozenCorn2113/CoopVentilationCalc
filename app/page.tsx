@@ -308,7 +308,7 @@ export default function HomePage() {
             <span className="font-semibold uppercase tracking-[0.1em] text-xs">Start here:</span>
             <Link href="/blog/chicken-coop-ventilation-requirements" className="underline decoration-[var(--color-line)] underline-offset-4 hover:text-[var(--color-accent-deep)]">Coop ventilation requirements</Link>
             <Link href="/blog/coop-size-calculator" className="underline decoration-[var(--color-line)] underline-offset-4 hover:text-[var(--color-accent-deep)]">What size coop you need</Link>
-            <Link href="/blog/ventilation-basics" className="underline decoration-[var(--color-line)] underline-offset-4 hover:text-[var(--color-accent-deep)]">Ventilation basics</Link>
+            <Link href="/blog/chicken-coop-ventilation-sq-ft" className="underline decoration-[var(--color-line)] underline-offset-4 hover:text-[var(--color-accent-deep)]">Vent area per square foot</Link>
             <Link href="/blog/winter-ventilation-without-drafts" className="underline decoration-[var(--color-line)] underline-offset-4 hover:text-[var(--color-accent-deep)]">Winter without drafts</Link>
             <Link href="/blog/summer-heat-stress" className="underline decoration-[var(--color-line)] underline-offset-4 hover:text-[var(--color-accent-deep)]">Summer heat stress</Link>
             <Link href="/blog/ammonia-and-moisture" className="underline decoration-[var(--color-line)] underline-offset-4 hover:text-[var(--color-accent-deep)]">Fixing ammonia smell</Link>

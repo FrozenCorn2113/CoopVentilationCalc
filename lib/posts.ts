@@ -1,5 +1,5 @@
-// Blog posts — guides cluster anchoring the calculator-tool homepage and the
-// SEO-BRIEF FAQ-hub anchor at /blog/ventilation-basics.
+// Blog posts: the guides cluster anchoring the calculator-tool homepage and the
+// SEO-BRIEF FAQ-hub anchor at /blog/chicken-coop-ventilation-requirements.
 
 export type Post = {
   slug: string
@@ -962,74 +962,77 @@ Inside works for most builds. External boxes bolted to the outside wall are a co
     slug: 'chicken-coop-ventilation-requirements',
     title: 'Chicken Coop Ventilation Requirements: How Much Air Per Bird',
     description:
-      'A backyard coop needs enough vent area to keep relative humidity under about 70 percent and ammonia under roughly 25 ppm, not to hold a target temperature.',
+      'A chicken coop needs about 1 square foot of vent opening per 10 square feet of floor, split evenly between a low inlet and a high outlet. Here is how to size yours.',
     publishedAt: '2026-06-05',
     body: `# Chicken Coop Ventilation Requirements: How Much Air Per Bird
 
-A backyard coop needs enough vent area to keep relative humidity under about 70 percent and ammonia under roughly 25 ppm, not to hold a target temperature. The practical working rule is 1 square foot of vent opening for every 10 square feet of floor, split between a high outlet and a low inlet. Ventilation is sized to remove moisture and ammonia the birds produce, and that is what drives the number, not the thermometer.
+A backyard coop needs roughly 1 square foot of vent opening for every 10 square feet of floor, which is 144 square inches per 10 square feet, split evenly between a low inlet and a high outlet. That opening exists to hold humidity under about 70 percent and ammonia under 25 ppm, not to hold a temperature.
 
-That distinction is where most keepers go wrong. They seal a coop tight to keep birds warm and end up trapping the exact moisture and gas that cause frostbite and respiratory illness. Here is what the requirement actually is, how it scales with flock size and season, and how to check your own coop in about two minutes.
+That distinction is where most keepers go wrong. They seal a coop tight against winter cold, never open it back up, and trap the exact moisture and gas that cause frostbite and respiratory illness.
 
-## Chicken Coop Ventilation Requirements
+## How Much Ventilation Does a Chicken Coop Need?
 
-The job of coop ventilation is moisture and gas removal, in that order. Each adult hen breathes out water vapor and produces manure that releases ammonia as it breaks down. In a closed coop that moisture pushes humidity up and the ammonia has nowhere to go.
+Two numbers cover almost every backyard coop: 144 square inches of vent area per 10 square feet of floor, and about 1 cubic foot per minute (CFM) of airflow per hen in winter, rising to roughly 5 CFM in summer. Both are design rules. The requirement itself is an outcome. [Poultry Extension](https://poultry.extension.org/articles/getting-started-with-small-and-backyard-poultry/housing-for-small-and-backyard-poultry-flocks/ventilation-in-small-and-backyard-poultry-flock-housing/) defines the job: maintain adequate oxygen levels while removing carbon dioxide, moisture, dust, and odors. Two thresholds tell you whether you did. The [Alabama Cooperative Extension System](https://www.aces.edu/blog/topics/farming/cold-weather-ventilation-moisture-control-of-poultry-houses/) states that general practice is to maintain house relative humidity between 50 and 70 percent during cold weather, and the [University of Kentucky ventilation principles chapter](https://afs.mgcafe.uky.edu/files/chapter7.pdf) sets the gas limit at under 25 ppm ammonia. Both were written for heated commercial houses, so treat them as targets an unheated coop moves toward, not setpoints it holds through January.
 
-Cooperative extension guidance is to hold in-house relative humidity in the 50 to 70 percent range during cold weather, because above that band moisture starts condensing on combs, wattles, and litter. The [Alabama Cooperative Extension System](https://www.aces.edu/blog/topics/farming/cold-weather-ventilation-moisture-control-of-poultry-houses/) states it plainly: it is general practice to maintain house relative humidity between 50 and 70 percent during cold weather, and adequate inlet area is what makes that possible.
-
-Ammonia is the second target. Sustained levels above about 25 ppm damage the respiratory lining and suppress immune function long before the smell is obvious to a person standing upright. As [The Poultry Site](https://www.thepoultrysite.com/articles/key-factors-for-poultry-house-ventilation) notes, ventilation air removes excess heat, moisture, dust, and harmful gases while diluting airborne disease organisms. Stop the airflow and all four build up at once.
+That Kentucky chapter also carries the finding that should change how you inspect. Keepers exposed to ammonia daily lose the ability to smell it, and most cannot detect it until 50 to 60 ppm, already double the limit. "I do not smell anything" is not a passing grade.
 
 ## Ventilation Rate Per Bird: Winter vs Summer
 
-Ventilation requirements per bird are seasonal, and the swing is large. In winter you ventilate only enough to carry off moisture and ammonia while keeping heat loss reasonable. In summer you ventilate far more, because airflow is now doing double duty: removing moisture and carrying away body heat before birds reach heat stress.
+Airflow per bird swings about fivefold between seasons, because in winter you are only clearing moisture and ammonia, while in summer you are also carrying away body heat.
 
-The underlying engineering principle is covered in the [University of Kentucky ventilation principles reference](https://afs.mgcafe.uky.edu/files/chapter7.pdf): airflow is sized to the moisture and heat load of the animals in the building, not to a fixed temperature. That is why a flock needs several times more air movement in July than in January even though the bird count never changed.
+This site's calculator uses 1 CFM per standard-breed hen in winter and 5 CFM in summer, then applies a climate multiplier from 1.0 in a cold-winter zone to 1.5 on a humid coast, putting the summer figure between 5 and 7.5 CFM per bird. Bantams draw about half that, heavy breeds like Brahmas about 1.3 times. Eight hens in a temperate climate come to 8 CFM in winter and about 48 in summer.
 
-In practice this means two things for a backyard coop:
+Those are this site's sizing model, not a measurement of your coop. No cooperative-extension small-flock publication we could retrieve gives a CFM-per-bird figure for backyard coops at all, worth knowing before you accept one from a page that states it flatly.
 
-- **Winter:** keep at least one high vent open year-round so humid air escapes continuously. Reducing airflow to zero to stay warm is the single most common cause of winter frostbite.
-- **Summer:** open everything, and add a fan if passive vents cannot move enough air. Heat-stressed birds pant, stop laying, and in extreme cases die, all of which airflow prevents.
+It matters less than it looks, because in a passive coop CFM is not what you build. Vent area is. Kentucky's chapter puts a mechanical inlet at roughly one square inch per four CFM of fan capacity, and the fan is what makes that ratio work. Unpowered openings on stack effect move a fraction of that per square inch, which is why passive coops size off floor area instead.
 
 ## Vent Area Per Square Foot of Floor
 
-The simplest requirement to check is vent area against floor area. The working standard for backyard coops is 1 square foot of total vent opening for every 10 square feet of floor space. A 4 foot by 8 foot coop has 32 square feet of floor, so it needs roughly 3.2 square feet of vent area.
+Vent area is the one requirement you can check with a tape measure: 1 square foot of opening per 10 square feet of floor, split 50/50 between low inlets and high outlets. A 4 by 8 coop has 32 square feet of floor, so it needs 461 square inches total: 231 of low inlet, 230 of high outlet.
 
-Two details make that number actually work:
+Two details decide whether that number does any work:
 
-1. **Split high and low.** Put a little more than half the area up high, above roost level, where warm moist ammonia-laden air collects, and the rest down low for fresh intake below the birds. This high-low arrangement drives passive stack-effect airflow without a fan.
-2. **Measure the real opening, not the frame.** A vent covered by 1/2 inch hardware cloth keeps most of its open area. A vent backed by fine insect screen can lose a third or more, so size up to compensate.
+1. **Split it evenly, high and low.** Warm, moist, ammonia-laden air collects above roost height and leaves through the high outlet, pulling fresh air in low. Poultry Extension describes the same chimney effect running through a ridge or eave opening, no electricity required.
+2. **Measure the opening, not the frame.** A vent covered in half-inch hardware cloth keeps most of its open area. The same vent backed by fine insect screen can lose a third or more.
 
-If you have never measured your vents, do it now. Total the openings in square inches, divide by 144 to get square feet, and compare against one tenth of your floor area. Most undersized coops fail this check badly.
+The floor rule always governs. At 14.4 square inches per square foot of floor and a realistic 3 to 4 square feet per bird, it asks 43 to 58 square inches per bird. The airflow path, converted at this site's passive rate, asks at most 12. Stop chasing CFM per bird and go measure square inches.
 
-## How Much Ventilation Per Chicken Coop
+## How Much Ventilation Per Chicken Coop: The Floor Area Everyone Guesses
 
-The per-coop requirement scales with three things: flock size, climate, and coop construction. More birds means more moisture and ammonia to remove. A humid or cold-winter climate raises the moisture-removal demand. And a tight, well-insulated coop actually needs deliberate vents more than a drafty one does, because it has no accidental air leaks doing the work for it.
+The input that swings your vent requirement hardest is not flock size or climate. It is square feet of floor per bird, and the extension sources put that anywhere from 3 to 10, a threefold spread.
 
-Stocking density sets the floor area, and floor area sets the vent area, so the chain runs flock size to floor space to vent requirement. That is why getting your coop size right comes first. If you are still planning the build, the [winter ventilation without drafts](/blog/winter-ventilation-without-drafts) guide covers how to keep that airflow steady through the cold months without chilling the roost.
+[Poultry Extension's space allowances](https://poultry.extension.org/articles/getting-started-with-small-and-backyard-poultry/housing-for-small-and-backyard-poultry-flocks/space-allowances-in-housing-for-small-and-backyard-poultry-flocks/) recommend a minimum of 3 to 4 square feet per hen indoors plus 10 square feet outdoors. [Oregon State University Extension bulletin EC 1644](https://extension.oregonstate.edu/catalog/ec-1644-living-land-backyard-chicken-coop-design), published 2014 and reviewed 2023, splits on run access: at least 3 square feet per bird with a run, and 8 to 10 square feet with no outdoor access. Same six hens, same 144-per-10 rule, even split:
 
-Climate adjusts the rest. Hot, humid regions push toward the high end of vent area plus active fans for summer. Cold, dry regions can run closer to the baseline but must never close vents entirely. The number is a starting point you tune to your own coop and weather, not a fixed answer.
+| Floor standard | Coop floor | Total vent | Low inlets | High outlets |
+|---|---|---|---|---|
+| 3 sq ft/bird (run access) | 18 sq ft | 259 sq in | 130 sq in | 129 sq in |
+| 4 sq ft/bird (indoor minimum) | 24 sq ft | 346 sq in | 173 sq in | 173 sq in |
+| 10 sq ft/bird (no outdoor access) | 60 sq ft | 864 sq in | 432 sq in | 432 sq in |
+
+A confined coop needs more than three times the vent area of one whose birds range during the day, because those birds and their droppings sit indoors producing moisture around the clock. If your run door stays shut all winter, size to the confined figure.
+
+Oregon State is blunt about the ceiling: build in as much ventilation as possible without creating drafts or predator access. Total area is not the risk. Placement is, and the [winter ventilation without drafts](/blog/winter-ventilation-without-drafts) guide covers holding that airflow through cold months.
 
 ## Size Your Coop's Vents With the Calculator
 
-Rather than guess, run your numbers. The [coop ventilation calculator](/) takes your floor dimensions and flock size and returns the exact vent area you need, split into high and low openings, plus the summer airflow target. It turns the 1-per-10 rule and the seasonal CFM math into a single number for your specific coop, and the result panel points you to the vents, exhaust fans, and hardware cloth that match it.
-
-Measure your coop, enter the numbers, and compare the result against what you have now. If your current vents fall short, fixing that one gap does more for flock health than almost anything else you can change.
+Rather than guess at which floor standard applies to you, run your own numbers. The [coop ventilation calculator](/) takes your floor dimensions and flock size and returns total vent area, split into inlet and outlet square inches, plus seasonal airflow targets. Measure what you have and compare. Most undersized coops fail badly.
 
 ## Frequently Asked Questions
 
 **How much ventilation does a chicken coop need per bird?**
-There is no single CFM-per-bird figure that fits every coop, because the requirement is driven by moisture and ammonia load and by season. The reliable approach is vent area: 1 square foot of opening per 10 square feet of floor, then increase airflow in summer to carry away body heat. Use the calculator to convert your floor and flock size into a specific number.
+Work from floor area, not bird count: 14.4 square inches of vent per square foot of floor, or 43 to 58 square inches per bird at standard density. The 1 CFM winter and 5 CFM summer figures describe what that opening should achieve, not what you cut.
 
 **Can a chicken coop have too much ventilation?**
-In winter, drafts blowing directly across roosting birds cause problems, but total vent area is rarely the issue. The fix is placement, not less area: keep outlets high and inlets low so air exchanges without a draft at roost height. You almost never want to reduce overall vent area to stay warm.
+Rarely. Drafts across roosting birds cause problems, but total area almost never does. The fix is placement, not less opening: outlets high, inlets low, so air exchanges above the birds.
 
-**Does ventilation make the coop too cold in winter?**
-No. Ventilation removes moisture, and dry air at a given temperature is far easier for chickens to tolerate than damp air. Cold dry birds are fine. Cold damp birds get frostbite. Maintaining 50 to 70 percent humidity is the goal, and that requires steady airflow even in freezing weather.
+**Do I need a fan, or are passive vents enough?**
+Correctly sized passive vents handle most small flocks in mild and cold climates year round. A fan earns its place once summer temperatures regularly pass 85F, or when the summer airflow target exceeds what passive openings can move.
 
-**Where should coop vents be placed?**
-High vents above roost height let warm, humid, ammonia-laden air escape as it rises. Low vents below roost height bring fresh air in without aiming it at sleeping birds. This high-low split creates passive stack-effect airflow and is the placement the calculator's result assumes.
+**How do I know if my coop is under-ventilated?**
+Do not trust your nose alone, since ammonia goes undetected well past the 25 ppm limit. Look for morning condensation on windows and hardware, hang a cheap hygrometer at roost height, and measure your vent opening against the calculator's figure. Two of those three failing means add area.
 
-**How do I know if my coop is underventilated?**
-Crouch to roost height and breathe for ten seconds. Any sting in your eyes or nose means ammonia is already high enough to harm the birds. Condensation on windows or coop walls in the morning is a second clear sign that humidity is too high and vent area is too small.
+**What if humidity is already above 70 percent?**
+Raise airflow by about half and add roughly 25 percent more vent area until the coop dries out and the smell clears.
 `,
   },
   {
@@ -1436,22 +1439,6 @@ The litter should smell earthy, not like ammonia. It should feel slightly cool f
 `,
   },
 
-  {
-    slug: 'ventilation-basics',
-    title: 'The basics of chicken coop ventilation',
-    description:
-      'How airflow works inside a coop, why moisture is the real enemy, and the cooperative-extension numbers every flock-keeper should know.',
-    publishedAt: '2026-05-09',
-    body: `Most backyard coops fail ventilation for the same reason: the keeper sealed everything against winter cold and never opened it back up.
-
-Cold is rarely what hurts a flock. Trapped moisture is. Birds exhale water vapor every breath. Droppings release ammonia as they break down. In a sealed coop, both sit at roost height and cause the frostbite, respiratory illness, and pasty combs that owners blame on the weather.
-
-Two numbers from the University of Kentucky Cooperative Extension Service do most of the work. In summer, target 5 CFM (cubic feet per minute, the unit for airflow) per adult standard hen. In winter, drop to about 1 CFM per bird. The summer number is for cooling. The winter number is for moisture removal, not heat exchange.
-
-Vent area itself is sized off the floor, not the flock alone. Plan 144 square inches of total vent area for every 10 square feet of coop floor. Split that roughly 50/50 between low inlets near the floor and high outlets near the ridge. Air enters low, warms and absorbs moisture, leaves high. A coop with vents only on one side does not move air, it traps it.
-
-Use the calculator on the homepage to convert your specific flock and floor area into a vent plan with inlet and outlet square inches. Then read the seasonal guides for the adjustments your climate needs.`,
-  },
   {
     slug: 'winter-ventilation-without-drafts',
     title: 'Winter ventilation without drafts',
@@ -2565,70 +2552,6 @@ It can. Coarse sand has low thermal mass and drops to ambient temperature quickl
 ### What bedding should I avoid in a chicken coop?
 
 Cedar shavings are a hard no: the aromatic oils cause respiratory damage. Straw holds moisture and mats down, making it harder to dry than either sand or shavings. Fine play sand compacts when wet and creates mold habitat. Hay behaves like straw with added mold risk if it was baled damp.`,
-  },
-  {
-    slug: 'how-much-ventilation-does-a-chicken-coop-need',
-    title: 'How Much Ventilation Does a Chicken Coop Need?',
-    description:
-      'A chicken coop needs about 1 CFM of airflow per hen in winter and 4 to 8 per bird in summer. Here is how to size the vents.',
-    publishedAt: '2026-06-16',
-    body: `A backyard chicken coop needs roughly 1 cubic foot per minute (CFM) of airflow per standard hen in cold weather and 4 to 8 CFM per bird in summer, delivered through about 1 square foot of vent opening for every 10 square feet of floor. Ventilation is sized to remove moisture and ammonia, not to heat or cool the coop, which is why the target climbs in summer and drops in winter even though fresh air matters all year.
-
-Most coop problems, wet litter, ammonia smell, respiratory illness, and winter frostbite, trace back to the same root cause: not enough air moving through the building. Get the airflow right and the rest usually takes care of itself. Here are the numbers, where they come from, and how to apply them to your flock.
-
-## How much ventilation per chicken coop
-
-The job of coop ventilation is air exchange, not temperature control. According to [Poultry Extension](https://poultry.extension.org/articles/getting-started-with-small-and-backyard-poultry/housing-for-small-and-backyard-poultry-flocks/ventilation-in-small-and-backyard-poultry-flock-housing/), the main function of a ventilation system is to maintain adequate oxygen levels while removing carbon dioxide, moisture, dust, and odors. Clear those four and you have prevented most coop trouble before it starts.
-
-Two numbers cover almost every backyard situation:
-
-- **Airflow:** about 1 CFM per standard-breed hen in cold weather, rising to 4 to 8 CFM per bird in summer heat.
-- **Vent area:** about 1 square foot (144 square inches) of total vent opening per 10 square feet of coop floor, split evenly between a low inlet and a high outlet.
-
-A coop that hits both targets exchanges its air often enough to stay dry without blasting the birds with drafts. The two numbers are linked, because the vent openings are what let the airflow happen in a coop with no fan.
-
-## Ventilation rate per bird: winter vs summer CFM
-
-The airflow target changes with the season because the problem you are solving changes. In winter you are clearing moisture and ammonia. In summer you are also fighting heat. A rough per-bird guide for an adult standard breed:
-
-| Outdoor temperature | CFM per bird | Main goal |
-|---|---|---|
-| Below 40F | 1 | Remove moisture and ammonia, no cooling |
-| 40 to 70F | 2 to 3 | General air quality |
-| 70 to 85F | 4 to 5 | Begin managing heat |
-| Above 85F | 7 to 8 | Active cooling, usually a fan |
-
-Adjust for body size. Bantams need about half the airflow of a standard hen, and heavy breeds like Brahmas or Jersey Giants need roughly 1.3 times as much. Worked through for a flock of eight standard hens, winter ventilation is 8 birds times 1 CFM, or 8 CFM total. The same flock on a 90F afternoon needs closer to 40 to 60 CFM, which is the point where passive vents alone stop keeping up and a thermostat fan earns its keep.
-
-## Vent area per square foot of floor
-
-If your coop has no fan, vent area is what does the work, so size it to the floor. The standard passive rule is 1 square foot of total vent for every 10 square feet of floor, divided 50/50 between a low inlet near the litter and a high outlet up near the roofline. Warm stale air rises and leaves through the high vent, drawing fresh air in low. That stack effect runs on its own with no electricity.
-
-Floor area sets the number. [Poultry Extension's space allowances](https://poultry.extension.org/articles/getting-started-with-small-and-backyard-poultry/housing-for-small-and-backyard-poultry-flocks/space-allowances-in-housing-for-small-and-backyard-poultry-flocks/) put laying hens at a minimum of 3 to 4 square feet per hen indoors, so a six-bird coop runs about 24 square feet of floor and needs roughly 2.4 square feet of vent, or about 18 to 24 square inches per bird. In a persistently damp or coastal climate, add about 25 percent more opening to keep moisture moving.
-
-This is also the part that prevents winter frostbite. [University of Minnesota Extension](https://extension.umn.edu/small-scale-poultry/caring-chickens-cold-weather) notes that chicken manure is about 70 percent water, and that high moisture combined with cold temperatures causes the condensation that leads to frostbite on combs, wattles, and feet. The instinct to seal the coop tight in winter is exactly backward. You keep the high outlet open to vent that moisture and only reduce the low inlets to cut drafts at roost height. For the full cold-weather method, see our guide on [winter ventilation without drafts](/blog/winter-ventilation-without-drafts).
-
-One more adjustment worth knowing: if you can smell ammonia at bird level or relative humidity sits above 70 percent, bump airflow by about 50 percent and add about 25 percent more vent area until the coop dries out and the smell clears.
-
-## Size your coop's vents with the calculator
-
-Doing this math by hand for your exact flock and climate is the slow way. The [ventilation calculator](/) takes your bird count, breed size, and climate and returns the CFM target, the square inches of inlet and outlet to cut, and the hardware that hits those numbers. It uses the same cooperative-extension formulas described above, so the recommendation is sourced, not guessed. If you want the longer reference on the standard, read [chicken coop ventilation requirements](/blog/chicken-coop-ventilation-requirements) next.
-
-## Frequently Asked Questions
-
-**Can a chicken coop have too much ventilation?**
-Not really, as long as the openings are placed correctly. The risk is not too much air, it is air entering at the wrong height. Keep fresh-air inlets low and exhaust outlets high so the breeze passes above the roosting birds rather than across them.
-
-**Do I need a fan, or are passive vents enough?**
-For most small flocks in mild and cold climates, correctly sized passive vents are enough year round. A fan becomes worthwhile once summer temperatures regularly climb above 85F or your flock is large enough that the summer CFM target exceeds what passive openings can move.
-
-**Where should coop vents go?**
-Low inlets near the floor and high outlets near the roofline, ideally on opposite or adjacent walls so air crosses the space. Avoid placing vents at roost height, where they create the drafts that chill birds in winter.
-
-**How do I know my coop is under-ventilated?**
-The two clearest signs are an ammonia smell when you open the door in the morning and condensation or frost on the windows and hardware. Both mean moisture and gases are building up faster than the coop can clear them, so add vent area or airflow.
-
-**What to do next:** measure your coop floor, count your birds, and run those numbers through the [ventilation calculator](/) to get the exact vent area and CFM for your setup before you buy any hardware.`,
   },
   {
     slug: 'chicken-coop-size-calculator',

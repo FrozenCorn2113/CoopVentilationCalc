@@ -8,8 +8,7 @@
 
 ## Key guides
 
-- [How Much Ventilation Does a Chicken Coop Need](https://coopventilationcalc.com/blog/how-much-ventilation-does-a-chicken-coop-need): Per-bird airflow and vent-area targets by season.
-- [Chicken Coop Ventilation Requirements](https://coopventilationcalc.com/blog/chicken-coop-ventilation-requirements): How much air per bird, summer and winter.
+- [Chicken Coop Ventilation Requirements](https://coopventilationcalc.com/blog/chicken-coop-ventilation-requirements): How much ventilation a coop needs, per bird and per square foot of floor, summer and winter.
 - [Chicken Coop Ventilation Sq Ft](https://coopventilationcalc.com/blog/chicken-coop-ventilation-sq-ft): Vent area per square foot of coop floor.
 - [Ideal Air Changes Per Hour for a Chicken Coop](https://coopventilationcalc.com/blog/ideal-air-changes-per-hour-chicken-coop): ACH formula and seasonal targets.
 - [Natural vs Mechanical Ventilation](https://coopventilationcalc.com/blog/natural-vs-mechanical-ventilation-chicken-coop): When passive vents are enough and when to add a fan.
