@@ -1457,16 +1457,75 @@ Use the calculator on the homepage to convert your specific flock and floor area
     title: 'Winter ventilation without drafts',
     description:
       'Why winter coops need more airflow than most keepers think, and how to keep it without chilling roost-height birds.',
-    publishedAt: '2026-05-09',
-    body: `The instinct in November is to seal every gap. The instinct is wrong.
+    publishedAt: '2026-08-23',
+    body: `# Winter Ventilation Without Drafts
 
-A sealed winter coop traps moisture from breath and droppings. Humidity climbs. The birds end up wet, and wet birds frostbite long before dry cold birds do. Frostbitten combs and toes are almost always a humidity problem, not a temperature problem.
+Leave the high outlets fully open all winter and reduce, but never close, the low inlets. Winter ventilation exists to carry moisture out, not to cool birds. Cold outside air absorbs water as it warms inside the coop, so sealing the coop to hold heat is exactly what leaves birds damp and frostbitten.
 
-The fix is layered. Keep the high outlets fully open above roost height. Reduce, but do not close, the low inlets. The inlets must stay below roost height so cold air does not blow across the birds. Aim for about 1 CFM per bird of slow exchange. Most keepers get this by leaving a gable vent or ridge vent permanently open year-round.
+## Why a Sealed Winter Coop Is More Dangerous Than a Cold One
 
-Two visible tests confirm it is working. Look at the ceiling first thing in the morning: no condensation means moisture is leaving. Look at the bedding in the corners: dry means airflow is reaching the floor.
+A closed coop does not stay dry. Every bird exhales water vapor all night, and droppings release more moisture and ammonia as they break down. With nowhere to go, that water condenses on the coldest surfaces available: the walls, the ceiling, and the birds themselves.
 
-Calculate your specific winter vent area on the homepage by selecting the cold-winter climate.`,
+[University of Maryland Extension](https://extension.umd.edu/resource/broiler-house-ventilation-during-cold-weather) states the principle plainly: cold weather ventilation "is designed primarily for moisture removal," and it works because "warm air holds more water than cold air." Cold, dry outside air is used "like a sponge" once it heats up inside the building.
+
+How much sponge you get is a real number. The [ventilation guidance published on The Poultry Site](https://www.thepoultrysite.com/articles/key-factors-for-poultry-house-ventilation), adapted from University of Georgia Cooperative Extension Bulletin 893, states that "the moisture-holding capacity of air doubles each time the air temperature is raised approximately 20°F." Air pulled in at 20°F and warmed to 40°F near the ridge leaves carrying roughly twice the water it arrived with. Closing vents in November trades a cold flock for a wet one.
+
+## Where Winter Air Should Enter, and Where the Sources Disagree
+
+Summer and winter airflow do not follow the same path, and the published sources genuinely differ on backyard vent placement.
+
+In summer, the [University of Kentucky's small-flock ventilation article](https://poultry.extension.org/articles/getting-started-with-small-and-backyard-poultry/housing-for-small-and-backyard-poultry-flocks/ventilation-in-small-and-backyard-poultry-flock-housing/) describes the chimney effect: warm air rises and exits "a ridge or eave opening in the ceiling," pulling replacement air in low. The same article's winter description reverses the entry point. "The incoming air enters through the roof of the building and warms as it drops toward the floor."
+
+Commercial practice goes further. [Alabama Cooperative Extension](https://www.aces.edu/blog/topics/farming/cold-weather-ventilation-moisture-control-of-poultry-houses/) tells growers to block the wrong vents so incoming air "targets the ceiling peak" and can "acclimate, mix, and provide fresh air to the house and birds." Cold air is thrown along the ceiling on purpose, so it warms before it falls to bird level. That is the whole draft-prevention strategy in a commercial house, and it depends on fans creating negative pressure. A passive coop cannot throw a jet of air anywhere.
+
+[Virginia Cooperative Extension](https://www.pubs.ext.vt.edu/2902/2902-1092/2902-1092.html) is looser with small-scale keepers, saying "windows or vents on one side of the house usually provide plenty of ventilation for small coops," while insisting that "ample air movement without a draft is essential."
+
+Reconciling those three: in a passive coop the high openings do nearly all the winter work, and every low opening is a potential draft with no fan to temper it. Keep the outlets at full computed area and above roost height, and treat the low inlets as the adjustable part.
+
+## How Much Vent Area to Leave Open in Winter
+
+This site's calculator sizes vents at 144 square inches of total area for every 10 square feet of coop floor, split roughly in half between low inlets and high outlets. Set to a cold-winter climate, it returns these figures:
+
+| Flock | Coop floor | Total vent area | Low inlets | High outlets |
+|---|---|---|---|---|
+| 4 birds | 16 sq ft | 230 sq in | 115 sq in | 115 sq in |
+| 6 birds | 24 sq ft | 346 sq in | 173 sq in | 173 sq in |
+| 8 birds | 32 sq ft | 461 sq in | 231 sq in | 230 sq in |
+| 12 birds | 48 sq ft | 691 sq in | 346 sq in | 345 sq in |
+
+Two caveats. That table is this site's sizing model, not a measurement of your coop. And it sizes year-round vent area, so it does not tell you how far to throttle the inlets on a January night. None of the extension publications cited here give a backyard-scale number for that either, because it turns on coop tightness, insulation, and wind.
+
+Build to the outlet figure and leave it alone. A single 12x12 inch gable or ridge vent is 144 square inches, so most of these coops need more than one permanent high opening. Placement is covered in the guide on [high, low, and ridge vents](/blog/vent-placement-high-low-ridge).
+
+## How to Tell From Inside the Coop That You Have It Wrong
+
+Stop computing the winter setting and start measuring the result. Alabama and Maryland Extension both manage cold-weather houses to a humidity band rather than an airflow number. Alabama's rule is to hold "relative humidity between 50 and 70 percent during cold weather" and to check it "first thing in the morning for best results." Maryland gives the direction to move: if RH approaches 65 percent, increase ventilation; if it nears 50 percent, back it off.
+
+Those figures come from heated commercial buildings, and an unheated coop in deep cold will not sit neatly inside that band. Read it with a cheap hygrometer at roost height as a direction indicator, not a setpoint.
+
+Four signs you are under-ventilated:
+
+- **Condensation on the ceiling or windows at dawn.** Virginia Extension notes that failing to insulate or ventilate properly "causes moisture to accumulate on the walls and ceiling in cool weather." Both causes give the same symptom, so check insulation before blaming airflow alone.
+- **Ammonia you can smell at bird level.** Published ceilings vary: The Poultry Site's gas table lists ammonia as desirable below 40 ppm, while Maryland Extension cites typical integrator guidelines of 20 to 25 ppm and calls 50 ppm and higher "a serious welfare concern." Your nose registers it well below all of those. See [ammonia and moisture](/blog/ammonia-and-moisture).
+- **Damp or crusted litter, especially along walls and under waterers.**
+- **Frostbitten comb tips on birds that were fine in colder, drier weather.**
+
+One sign of a draft rather than a ventilation shortfall: birds bunched at one end of the roost bar, leaving perch space empty on a cold night. They are telling you where the moving air is.
+
+## Size Your Winter Vents
+
+Measure your coop floor, then count the square inches of permanent high opening you actually have. Most winter moisture problems are an outlet shortage, not an inlet problem. Run your flock size, floor area, and a cold-winter climate through the [ventilation calculator](/), build the outlets to the number it returns, then adjust the low inlets down until morning humidity settles.
+
+## FAQ
+
+**Should I close coop vents in winter?**
+No. Reduce the low inlets and leave the high outlets fully open. Winter ventilation is for moisture removal, and cold incoming air only works as a drying agent if it can warm up and then leave.
+
+**How do I tell a draft from ventilation?**
+Ventilation is air exchange you cannot feel at roost height. A draft is air you can feel on a hand held where the birds sit. If birds avoid part of the roost, you have a draft.
+
+**Does an open vent make frostbite worse?**
+An open vent above roost height reduces frostbite risk by removing the humidity that causes it. An open vent at or below roost height that blows on the birds makes it worse. Height matters more than area.`,
   },
   {
     slug: 'summer-heat-stress',
