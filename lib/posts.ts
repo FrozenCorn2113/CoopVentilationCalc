@@ -2327,20 +2327,19 @@ See the [winter ventilation without drafts guide](/blog/winter-ventilation-witho
 
 ## Sizing Your Winter Vents
 
-Use 1 CFM per bird as the baseline. Penn State Extension's poultry housing guidance converts this to vent area at roughly one square inch of outlet area per 1 CFM required. For a 6-hen flock, that is a minimum of 6 square inches of outlet area in winter.
-
-In practice, most builders use the broader rule from [University of Maine Cooperative Extension](https://extension.umaine.edu): 144 square inches of total vent area per 10 square feet of coop floor. That size handles both winter moisture removal and summer cooling without needing seasonal retrofits.
+Use 1 CFM per bird as the winter baseline, but size the vents themselves off floor area, not CFM directly. [University of Maine Cooperative Extension](https://extension.umaine.edu) puts total vent area at 144 square inches per 10 square feet of coop floor. [Penn State Extension](https://extension.psu.edu/poultry) splits that total 50/50 between low inlets and high outlets. That floor-driven number, not a per-CFM conversion, is what sizes the outlets.
 
 For a 4x8 coop (32 sq ft) with 6 hens:
 
 | Target | Number |
 |---|---|
 | Winter CFM needed | 6 CFM |
-| Minimum outlet area | 6 sq in |
-| Recommended total vent area | 461 sq in |
+| Total vent area | 461 sq in |
+| Low inlets (near floor) | 231 sq in |
+| High outlets (at ridge) | 230 sq in |
 | Practical starting point | One 12x12 gable vent (144 sq in) left open year-round |
 
-The larger total looks excessive for 6 hens in January, but it handles summer heat without added hardware. Partially damper the low inlets in deepest winter if drafts appear. Leave the high outlet open year-round.
+The 461 sq in total looks excessive for 6 hens in January, but it is what the floor area calls for, and it handles summer heat without added hardware. Partially damper the low inlets in deepest winter if drafts appear. Leave the high outlet open year-round.
 
 [Run the ventilation calculator](/) to get inlet and outlet sizes for your specific flock count and floor area.
 
