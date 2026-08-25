@@ -5,7 +5,7 @@ import { headers } from 'next/headers'
 // /go/<asin> → amazon.ca/.com/dp/<asin>?tag=<region-tag>
 // Vercel sets x-vercel-ip-country; localhost defaults to US.
 
-const TAG_CA = 'yellowbird052-20'
+const TAG_CA = 'yellowbird211-20'
 const TAG_US = 'tiktokcreatpr-20'
 
 export async function GET(
