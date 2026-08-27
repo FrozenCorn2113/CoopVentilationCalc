@@ -171,7 +171,7 @@ Yes, and you should lean toward the higher end of the recommended range. A conve
     slug: 'chicken-coop-ventilation-for-10-chickens',
     title: 'Chicken Coop Ventilation for 10 Chickens',
     description:
-      'A 10-chicken coop needs roughly 4 square feet of vent opening on a 40 square foot floor, split high and low. Here is how to choose vent types, place them correctly, and adjust them by season.',
+      'A 10-chicken coop needs roughly 4 square feet of vent opening on a 40 square foot floor, split high and low. Here is how to pick and place them.',
     publishedAt: '2026-08-04',
     body: `# Chicken Coop Ventilation for 10 Chickens
 
@@ -322,7 +322,7 @@ The coop does not need to hold heat, only stay dry and above freezing. A flock r
     slug: 'how-much-ventilation-per-chicken-coop-square-footage',
     title: 'How Much Ventilation Per Chicken Coop Square Footage',
     description:
-      'The standard is 1 square foot of vent opening per 10 square feet of coop floor. Use the size table and the math behind it to find your coop\'s exact vent area.',
+      'The standard is 1 square foot of vent opening per 10 square feet of coop floor. Use the size table below to find your coop\'s exact vent area.',
     publishedAt: '2026-07-10',
     body: `# How Much Ventilation Per Chicken Coop Square Footage
 
@@ -484,7 +484,7 @@ Rarely, if vents are placed correctly and outlets sit above roost height. The re
     slug: 'how-to-keep-chicken-coop-cool-in-summer',
     title: 'How to Keep a Chicken Coop Cool in Summer',
     description:
-      'A coop cannot be made cooler than the shaded outside air without a fan or evaporation. Here is how to size summer airflow, place fans, and use shade and water so hens stay under the heat stress threshold.',
+      'A coop cannot be cooler than the shaded outside air without a fan or evaporation. Here is how to size summer airflow and place fans and shade.',
     publishedAt: '2026-08-18',
     body: `# How to Keep a Chicken Coop Cool in Summer
 
@@ -629,7 +629,7 @@ Not in winter, if the vents are sized and placed correctly. In summer, most 10-b
     slug: 'ventilation-for-10-chickens-in-coop',
     title: 'Ventilation for 10 Chickens in Coop',
     description:
-      'A coop for 10 chickens needs about 4 square feet of vent opening on a 40 square foot floor. Here is how to check whether your existing coop actually hits that number.',
+      'A coop for 10 chickens needs about 4 square feet of vent opening on a 40 square foot floor. Here is how to check whether yours actually hits it.',
     publishedAt: '2026-08-07',
     body: `# Ventilation for 10 Chickens in Coop
 

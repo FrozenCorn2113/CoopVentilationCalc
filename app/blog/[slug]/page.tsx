@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import { getBlogPost, allBlogPosts } from '@/lib/blog-posts'
-import { pageTitle, clampDescription } from '@/lib/site'
+import { pageTitle, clampDescription, stripDuplicateTitleHeading } from '@/lib/site'
 import { AffiliateProducts } from '@/components/AffiliateProducts'
 import { EmailCapture } from '@/components/EmailCapture'
 import { articleNode, breadcrumbNode, faqPageNode, absoluteImageUrl, SITE_ORIGIN } from '@/lib/schema'
@@ -76,8 +76,10 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           <ReactMarkdown
             remarkPlugins={[remarkGfm]}
             components={{
-              // The page title is the sole <h1>. Any leading `#` in a post body
-              // renders one level down so every /blog/* page has exactly one h1.
+              // The page title is the sole <h1>. A leading `#` in a post body that
+              // merely restates that title is stripped upstream (stripDuplicateTitleHeading);
+              // anything else that arrives as `#` renders one level down so every
+              // /blog/* page still has exactly one h1.
               h1: ({ node: _node, ...props }) => <h2 {...props} />,
               // Markdown tables arrive unstyled, so cells butt against each
               // other and column labels read as one run-on word. The min-width
@@ -89,7 +91,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
               ),
             }}
           >
-            {post.body}
+            {stripDuplicateTitleHeading(post.body, post.title)}
           </ReactMarkdown>
         </div>
       </article>

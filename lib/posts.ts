@@ -96,7 +96,7 @@ A cupola vent is a small roof structure with louvered sides that functions simil
     slug: 'ideal-air-changes-per-hour-chicken-coop',
     title: 'Ideal Air Changes Per Hour for a Chicken Coop',
     description:
-      'A backyard chicken coop needs 1 to 2 air changes per hour in cold weather and 4 to 8 in summer. Here is the formula, the seasonal targets by flock size, and what happens when the numbers are wrong.',
+      'A backyard chicken coop needs 1 to 2 air changes per hour in cold weather and 4 to 8 in summer. Here is the formula and the targets by flock size.',
     publishedAt: '2026-06-11',
     body: `# Ideal Air Changes Per Hour for a Chicken Coop
 
@@ -224,7 +224,7 @@ Ammonia builds in the litter and air. At 25 ppm, birds show respiratory symptoms
     title: 'Natural vs mechanical ventilation: which does your chicken coop actually need?',
     seoTitle: 'Natural vs Mechanical Coop Ventilation',
     description:
-      'Most backyard coops run fine on natural ventilation alone. Here is when a fan earns its place, how to size passive vents, and how to avoid the draft problem that causes frostbite in winter.',
+      'Most backyard coops run fine on natural ventilation alone. Here is when a fan earns its place and how to size passive vents without drafts.',
     publishedAt: '2026-06-11',
     body: `# Natural vs mechanical ventilation chicken coop: which one do you need?
 
@@ -337,7 +337,7 @@ Natural ventilation is better for most small coops: lower cost, nothing to break
     slug: 'chicken-coop-ventilation-sq-ft',
     title: 'Chicken Coop Ventilation Sq Ft: How Much Vent Area You Need',
     description:
-      'The rule is 1 square foot of vent opening per 10 square feet of coop floor. Here is how to calculate your number, where to place the vents, and how to check what you already have.',
+      'The rule is 1 square foot of vent opening per 10 square feet of coop floor. Here is how to calculate your number and where to place the vents.',
     publishedAt: '2026-06-11',
     body: `# Chicken Coop Ventilation Sq Ft: How Much Vent Area You Need
 
@@ -526,7 +526,7 @@ Ventilation removes ammonia after it forms. A droppings board removes the source
     slug: 'beginner-chicken-keeping',
     title: 'Beginner\'s Guide to Raising Backyard Chickens',
     description:
-      'Starting with 3-6 hens, a coop sized at 4 sq ft per bird indoors and 10 sq ft per bird in the run, and proper ventilation covers 90% of what new keepers get wrong in year one.',
+      'Start with 3-6 hens, 4 sq ft per bird indoors, and 10 sq ft in the run. Ventilation plus those numbers covers 90% of first-year mistakes.',
     publishedAt: '2026-06-11',
     body: `Starting with 3-6 hens, a coop built to 4 square feet per bird indoors and 10 square feet per bird in the run, and working ventilation covers the three mistakes that send most beginners to the vet or the forum. This guide walks through five decisions that matter most in year one: flock size, coop space, feed, ventilation, and winter prep.
 
@@ -607,7 +607,7 @@ Go inside the coop and close the door. If you smell ammonia within 30 seconds, v
     slug: 'chickens-not-laying-winter',
     title: 'Why Chickens Stop Laying Eggs in Winter',
     description:
-      'Chickens stop laying in winter mainly because days get shorter. Here is what triggers the break, what makes it longer, and what to do if you want eggs year-round.',
+      'Chickens stop laying in winter mainly because days get shorter. Here is what triggers the break and what to do if you want eggs year-round.',
     publishedAt: '2026-06-11',
     body: `# Why Chickens Stop Laying Eggs in Winter
 
@@ -689,7 +689,7 @@ Cold alone is not the main cause. Healthy standard breeds tolerate temperatures 
     slug: 'keep-water-from-freezing',
     title: 'How to Keep Chicken Water From Freezing in Winter',
     description:
-      'Chicken water freezes at 32°F. Here are five practical methods to keep it liquid, from heated bases to no-electricity rotation, with placement tips that slow freezing in any waterer.',
+      'Chicken water freezes at 32°F. Here are five ways to keep it liquid, from heated bases to no-electricity rotation, plus placement that slows freezing.',
     publishedAt: '2026-06-11',
     body: `# How to Keep Chicken Water From Freezing in Winter
 
@@ -887,7 +887,7 @@ The baseline from extension guidelines is 1 square foot of vent opening per 10 s
     slug: 'nesting-box-setup',
     title: 'Chicken Nesting Box Setup and Placement Guide',
     description:
-      'One box per 4-5 hens, 12x12 inches minimum, mounted 18 to 24 inches off the floor and below the roost bar. Placement also determines whether boxes sit in a moisture dead zone or get refreshed airflow.',
+      'One box per 4-5 hens, 12x12 inches minimum, mounted 18 to 24 inches off the floor and below the roost bar, clear of the coop\'s moisture dead zones.',
     publishedAt: '2026-06-11',
     body: `# Chicken Nesting Box Setup and Placement Guide
 
@@ -1039,7 +1039,7 @@ Raise airflow by about half and add roughly 25 percent more vent area until the 
     slug: 'coop-flooring-options',
     title: 'Best Chicken Coop Flooring Materials Compared',
     description:
-      'The right coop floor controls moisture, ammonia, and cleaning time. Here is how the most common materials stack up so you can choose what fits your flock and climate.',
+      'The right coop floor controls moisture, ammonia, and cleaning time. Here is how the common materials compare so you can match one to your climate.',
     publishedAt: '2026-06-02',
     body: `# Best Chicken Coop Flooring Materials Compared
 
@@ -1144,7 +1144,7 @@ Yes. Sheet vinyl or peel-and-stick vinyl tiles over a plywood floor extend floor
     slug: 'chicken-respiratory-issues',
     title: 'Respiratory Issues in Chickens: Causes and Prevention',
     description:
-      'Poor ventilation is the leading cause of respiratory illness in backyard chickens. Learn the warning signs, the diseases linked to bad air quality, and the fixes.',
+      'Poor ventilation is the leading cause of respiratory illness in backyard chickens. Here are the warning signs, the diseases linked to it, and the fixes.',
     publishedAt: '2026-05-26',
     body: `# Respiratory Issues in Chickens: Causes and Prevention
 
@@ -1238,7 +1238,7 @@ Tylosin and oxytetracycline are available at most farm supply stores and address
     slug: 'mite-prevention-coop',
     title: 'How to Prevent and Treat Mites in Chickens',
     description:
-      'Mites are the most common external parasite in backyard flocks. Here\'s how to spot them early, prevent infestations through dust baths and clean bedding, and treat both birds and coop when mites do appear.',
+      'Mites are the most common external parasite in backyard flocks. Here is how to spot them early, prevent them with dust baths, and treat birds and coop.',
     publishedAt: '2026-05-26',
     body: `# How to Prevent and Treat Mites in Chickens
 
@@ -1352,7 +1352,7 @@ Yes. Chicken lice (flat, fast-moving insects, not true mites) are often found al
     slug: 'deep-litter-method',
     title: 'The Deep Litter Method for Chicken Coops Explained',
     description:
-      'The deep litter method builds a composting floor layer that reduces ammonia and generates heat. Here is how it works, why ventilation drives success or failure, and how to manage it through the year.',
+      'The deep litter method builds a composting floor layer that cuts ammonia and generates heat. Here is how it works and why ventilation decides it.',
     publishedAt: '2026-05-26',
     body: `The deep litter method turns your coop floor into a slow-composting system. Instead of cleaning out droppings weekly, you add fresh bedding on top of soiled material and let microbial activity break down the nitrogen. Done right, it cuts ammonia, generates a small amount of floor heat in winter, and reduces how often you haul compost. It fails when the litter gets too wet, which happens when ventilation is inadequate.
 
@@ -1674,7 +1674,7 @@ At dusk or after dark, take a flashlight and inspect the cracks and joints of ne
     slug: 'coop-size-calculator',
     title: 'What Size Chicken Coop Do I Need?',
     description:
-      'The standard rule is 4 sq ft per bird inside and 10 sq ft per bird in the run. Get the sizing math right before you build, and see how floor area drives your ventilation requirements.',
+      'The standard rule is 4 sq ft per bird inside and 10 sq ft per bird in the run. Get the math right first, because floor area sets your vent area.',
     publishedAt: '2026-05-10',
     body: `# What Size Chicken Coop Do I Need?
 
@@ -1869,7 +1869,7 @@ For 6 standard hens, the indoor minimum is 24 square feet (4 sq ft per bird). A 
     slug: 'fly-control-chicken-coop',
     title: 'How to Reduce Flies Around the Chicken Coop',
     description:
-      'Flies breed in wet manure and damp litter. Fix the moisture with better ventilation, manage the litter properly, and use traps or fly parasites for the population that remains. Here is the order of operations.',
+      'Flies breed in wet manure and damp litter. Fix the moisture with better ventilation, manage the litter, then trap the population that remains.',
     publishedAt: '2026-05-10',
     body: `Flies breed in wet manure. That is the whole problem. Every fly-reduction strategy that actually works traces back to drying out or removing the material they lay eggs in. A well-ventilated coop with dry litter produces far fewer flies than a damp one, regardless of any trap or spray you add on top. Fix the root cause first, then manage the population that remains with traps or fly parasites.
 
@@ -1967,7 +1967,7 @@ House flies become sluggish below 50°F (10°C) and stop reproducing below 55°F
     slug: 'how-to-clean-chicken-coop',
     title: 'How to Clean a Chicken Coop: Step-by-Step Guide',
     description:
-      'Dirty litter produces ammonia that overwhelms even good ventilation. Clean on the right schedule, use the right bedding, and your airflow can actually do its job. Here is the order of operations.',
+      'Dirty litter produces ammonia that overwhelms even good ventilation. Clean on the right schedule with the right bedding so your airflow can work.',
     publishedAt: '2026-05-10',
     body: `Clean a chicken coop by removing all old bedding, scraping droppings off the floor and roosts, washing surfaces with a dilute bleach solution (1 tablespoon per gallon of water), letting everything dry completely, then adding fresh bedding at least 3 to 4 inches deep. Full clean-outs should happen every 1 to 3 months depending on flock size and season. Spot-clean under roosts every 7 to 10 days.
 
@@ -2092,7 +2092,7 @@ Chicken manure mixed with carbon bedding like shavings or straw is excellent com
     slug: 'how-to-winterize-coop',
     title: 'How to Winterize Your Chicken Coop',
     description:
-      'Winterizing a chicken coop is mostly a ventilation problem. Here is a practical five-step process for balancing airflow, moisture, and bedding before cold weather arrives.',
+      'Winterizing a chicken coop is mostly a ventilation problem. Here is a five-step process for balancing airflow, moisture, and bedding before frost.',
     publishedAt: '2026-05-10',
     body: `# How to Winterize Your Chicken Coop
 
@@ -2198,7 +2198,7 @@ Yes, but insulation does not replace ventilation. Add it only after you have con
     slug: 'predator-proofing-coop-run',
     title: 'How to Predator-Proof Your Chicken Coop and Run',
     description:
-      'Five things that stop predators from taking your birds: the right wire, buried aprons, raccoon-proof latches, covered runs, and a door that closes before dark.',
+      'Five things stop predators taking your birds: the right wire, buried aprons, raccoon-proof latches, covered runs, and a door that closes by dusk.',
     publishedAt: '2026-05-10',
     body: `A predator-proof coop needs five things: hardware cloth over every opening, a buried or flat-apron skirt around the perimeter, latches a raccoon cannot manipulate, a covered run, and a door that closes before dark. Most flock losses happen because one of those five was missing. This guide covers each in order of how often they cause losses, plus the ventilation-opening detail most builders overlook.
 
@@ -2470,7 +2470,7 @@ Damp bedding from poor airflow gives rodents better nesting material and a more 
     slug: 'sand-vs-shavings-coop-bedding',
     title: 'Sand vs Pine Shavings: Best Chicken Coop Bedding',
     description:
-      'Sand and pine shavings handle moisture differently, and that difference drives your ammonia levels. Here is how to choose based on your coop setup and climate.',
+      'Sand and pine shavings handle moisture differently, and that drives your ammonia levels. Here is how to choose for your coop setup and climate.',
     publishedAt: '2026-05-10',
     body: `Pine shavings win for most backyard keepers. They absorb moisture quickly, support the deep litter method, and stay warmer in winter. Sand drains well and is easy to scoop, but it gets cold, doesn't compost, and can trap ammonia below the surface when wet. Your coop's ventilation controls how well either bedding performs. Without enough airflow, both turn sour fast.
 

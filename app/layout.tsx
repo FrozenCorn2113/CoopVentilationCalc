@@ -32,7 +32,7 @@ const caveat = Caveat({
 export const metadata: Metadata = {
   metadataBase: new URL('https://coopventilationcalc.com'),
   title: {
-    default: 'Chicken Coop Ventilation Calculator — Air Your Coop Needs',
+    default: 'Chicken Coop Ventilation Calculator: Vent Size by Flock',
     template: '%s · Coop Vent Calc',
   },
   description:
