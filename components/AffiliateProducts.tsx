@@ -1,4 +1,5 @@
 import { filterProducts } from '@/lib/affiliate-products'
+import { AffiliateLink } from '@/components/AffiliateLink'
 import { Card } from '@/components/ui/card'
 
 // Inline editorial product list. Each product is a shadcn <Card> wrapper so
@@ -18,6 +19,7 @@ export function AffiliateProducts({
   max = 3,
   heading = 'Products that match this setup',
   showHeading = true,
+  surface = 'affiliate-products',
 }: {
   flock?: number
   climate?: string
@@ -25,6 +27,8 @@ export function AffiliateProducts({
   max?: number
   heading?: string
   showHeading?: boolean
+  /** Reported on affiliate_click so the two blocks are countable apart. */
+  surface?: string
 }) {
   // `cohort` is the operator-facing name (used in MDX blog content); maps to
   // the category filter under the hood. Scribe writes `<AffiliateProducts cohort="ventilation-fans" />`
@@ -46,13 +50,14 @@ export function AffiliateProducts({
                 <p className="mt-1 text-sm text-charcoal leading-relaxed">{p.why}</p>
                 <div className="mt-2 flex items-center gap-4 text-sm">
                   <span className="text-stone">{p.price_range}</span>
-                  <a
-                    href={`/go/${p.asin}`}
-                    rel="sponsored nofollow noopener"
+                  <AffiliateLink
+                    asin={p.asin}
+                    title={p.title}
+                    surface={surface}
                     className="text-ink underline decoration-hairline underline-offset-4 hover:decoration-ink"
                   >
                     View on Amazon →
-                  </a>
+                  </AffiliateLink>
                 </div>
               </div>
             </Card>

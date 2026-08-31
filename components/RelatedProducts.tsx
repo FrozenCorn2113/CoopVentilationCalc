@@ -27,6 +27,7 @@ export function RelatedProducts({
       climate={typeof inputs.climateZone === 'string' ? inputs.climateZone : undefined}
       max={max}
       heading={heading}
+      surface="related-products"
     />
   )
 }
