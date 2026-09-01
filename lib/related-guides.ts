@@ -98,6 +98,7 @@ export const RELATED_GUIDES: Record<string, string[]> = {
     'natural-vs-mechanical-ventilation-chicken-coop',
     'ideal-air-changes-per-hour-chicken-coop',
     'choosing-coop-location',
+    'how-to-keep-chicken-coop-cool-in-summer',
   ],
 
   // --- Air quality + health ---
@@ -106,12 +107,14 @@ export const RELATED_GUIDES: Record<string, string[]> = {
     'deep-litter-method',
     'how-to-clean-chicken-coop',
     'chicken-coop-ventilation-requirements',
+    'signs-of-poor-ventilation-in-chicken-coop',
   ],
   'chicken-respiratory-issues': [
     'ammonia-and-moisture',
     'chicken-coop-ventilation-requirements',
     'how-to-clean-chicken-coop',
     'mite-prevention-coop',
+    'signs-of-poor-ventilation-in-chicken-coop',
   ],
   'deep-litter-method': [
     'sand-vs-shavings-coop-bedding',
@@ -222,6 +225,41 @@ export const RELATED_GUIDES: Record<string, string[]> = {
     'predator-proofing-coop-run',
     'ammonia-and-moisture',
     'how-to-clean-chicken-coop',
+  ],
+
+  // --- Auto-written posts (lib/genesis-blog-posts.ts) ---
+  //
+  // Ten of the eleven generated posts had no entry here, so they rendered the
+  // generic FALLBACK block and received no inbound curated link from anywhere.
+  // Only the two below are wired up, and the omission of the other eight is
+  // deliberate, not an oversight:
+  //
+  //   chicken-coop-ventilation-for-10-chickens / ventilation-for-10-chickens-coop /
+  //   ventilation-for-10-chickens-in-coop      -> one intent, three URLs
+  //   chicken-coop-vent-sizing-recommendations / how-to-calculate-chicken-coop-ventilation /
+  //   how-much-ventilation-per-chicken-coop-square-footage -> the 1-per-10 rule, three URLs
+  //   cold-weather-chicken-coop-ventilation / minimum-temperature-for-chickens-in-winter
+  //                                            -> the winter cluster
+  //
+  // Those eight are consolidation candidates (see seo/needs-human.md). Pointing
+  // curated links INTO them would strengthen exactly the near-duplicate split we
+  // want to collapse, and would have to be unpicked when they are merged or
+  // redirected. They keep FALLBACK, which already routes them to the canonical
+  // guide, until that decision is made.
+  //
+  // The two below target genuinely distinct intents with no sibling competing
+  // for the same query, so they are safe to link in both directions.
+  'signs-of-poor-ventilation-in-chicken-coop': [
+    'chicken-coop-ventilation-requirements',
+    'ammonia-and-moisture',
+    'chicken-respiratory-issues',
+    'chicken-coop-ventilation-sq-ft',
+  ],
+  'how-to-keep-chicken-coop-cool-in-summer': [
+    'summer-heat-stress',
+    'fan-vs-passive-vents',
+    'natural-vs-mechanical-ventilation-chicken-coop',
+    'chicken-coop-ventilation-requirements',
   ],
 }
 

@@ -32,7 +32,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const staticRoutes: MetadataRoute.Sitemap = [
     {
-      url: `${SITE_ORIGIN}/`,
+      // No trailing slash, to byte-match the canonical the homepage actually
+      // emits. Next strips the slash from `alternates.canonical`, so submitting
+      // `${SITE_ORIGIN}/` here meant the URL we asked Google to index and the
+      // URL the page declared canonical differed by one character. Aligning the
+      // sitemap is the cheap side of that fix; the alternative (`trailingSlash:
+      // true`) would rewrite every URL on the site.
+      url: SITE_ORIGIN,
       changeFrequency: 'weekly',
       priority: 1,
     },

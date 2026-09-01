@@ -10,7 +10,14 @@ import { faqsForHomepage } from '@/lib/faqs'
 import { recentPosts } from '@/lib/posts'
 import { hero, byBucket } from '@/lib/images'
 import { sources, lastReviewed } from '@/lib/sources'
-import { organizationNode, websiteNode, webPageNode, ORG_ID, SOFTWARE_APP_ID } from '@/lib/schema'
+import {
+  organizationNode,
+  websiteNode,
+  webPageNode,
+  ORG_ID,
+  SOFTWARE_APP_ID,
+  HERO_IMAGE_ID,
+} from '@/lib/schema'
 
 // calculator-tool homepage. Section order per template-rules:
 // 1. Hero (H1 + calculator above fold)
@@ -23,6 +30,11 @@ import { organizationNode, websiteNode, webPageNode, ORG_ID, SOFTWARE_APP_ID } f
 // 8. Email capture
 
 export const metadata = {
+  // Emits `https://coopventilationcalc.com` (no trailing slash) — Next strips a
+  // trailing slash from canonical URLs unless `trailingSlash: true` is set
+  // globally, so passing the slashed absolute form here does NOT survive the
+  // build. The sitemap is aligned to this form instead (see app/sitemap.ts);
+  // do not "fix" it here, it will silently no-op.
   alternates: { canonical: '/' },
 }
 
@@ -72,6 +84,12 @@ export default function HomePage() {
         '@type': 'SoftwareApplication',
         '@id': SOFTWARE_APP_ID,
         name: 'Coop Ventilation Calculator',
+        // The node states what the tool returns. Without this the calculator
+        // entity carried only a name and a category, so anything reading the
+        // graph alone (rather than the rendered page) had nothing describing
+        // what it computes.
+        description:
+          'Sizes chicken coop ventilation from flock size, coop floor area, and climate. Returns the airflow target in CFM, the total vent area in square inches, and the split between the low inlet and the high outlet.',
         applicationCategory: 'UtilitiesApplication',
         operatingSystem: 'Web',
         url: 'https://coopventilationcalc.com',
@@ -83,6 +101,9 @@ export default function HomePage() {
   const heroImageJsonLd = heroImg && {
     '@context': 'https://schema.org',
     '@type': 'ImageObject',
+    // Same @id as WebPage.primaryImageOfPage, so the licence/creator metadata
+    // below merges into that image entity rather than floating unreferenced.
+    '@id': HERO_IMAGE_ID,
     contentUrl: `https://coopventilationcalc.com${heroImg.localPath}`,
     url: `https://coopventilationcalc.com${heroImg.localPath}`,
     width: heroImg.width,

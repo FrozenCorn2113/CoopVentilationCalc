@@ -9,6 +9,14 @@ export const ORG_ID = `${SITE_ORIGIN}/#organization`
 export const WEBSITE_ID = `${SITE_ORIGIN}/#website`
 export const WEBPAGE_ID = `${SITE_ORIGIN}/#webpage`
 export const SOFTWARE_APP_ID = `${SITE_ORIGIN}/#calculator`
+// The hero photograph as an entity. The homepage emits a second, richer
+// ImageObject (Pexels licence, creator, dimensions) as its own script block;
+// both carry this same @id so a consumer merges them into ONE image entity
+// instead of seeing an unlinked licence node next to a bare url. Sharing an
+// @id is deliberately used here rather than a one-way reference, because the
+// licence node is conditional on the hero resolving — a reference would dangle
+// if it ever did not.
+export const HERO_IMAGE_ID = `${SITE_ORIGIN}/#primaryimage`
 
 // Shared hero/og:image. Blog posts inherit this via the layout openGraph image,
 // so BlogPosting.image points at the same absolute URL the page emits as og:image.
@@ -61,7 +69,7 @@ export const webPageNode = {
     'Free chicken coop ventilation calculator. Size the exact airflow, vent area, and inlet/outlet split for your flock, from cooperative-extension formulas.',
   isPartOf: { '@id': WEBSITE_ID },
   about: { '@id': SOFTWARE_APP_ID },
-  primaryImageOfPage: { '@type': 'ImageObject', url: HERO_IMAGE_URL },
+  primaryImageOfPage: { '@type': 'ImageObject', '@id': HERO_IMAGE_ID, url: HERO_IMAGE_URL },
 }
 
 // Article (BlogPosting) node for a blog post, bound to the org as both author and publisher.
