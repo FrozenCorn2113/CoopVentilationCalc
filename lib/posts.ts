@@ -1442,8 +1442,15 @@ The litter should smell earthy, not like ammonia. It should feel slightly cool f
   {
     slug: 'winter-ventilation-without-drafts',
     title: 'Winter ventilation without drafts',
+    // SERP title only; the visible H1 keeps the sentence-case phrasing. This
+    // page carried 493 impressions at position 7.8 over 30 days to 2026-09-18
+    // and took zero clicks, the widest CTR gap on the site. The old title was a
+    // bare restatement of the H1 plus the brand suffix and promised nothing, so
+    // this one keeps the head term and states the payoff instead. Long enough
+    // that pageTitle drops the suffix, which is the intent.
+    seoTitle: 'Winter Coop Ventilation Without Drafts: Vents to Open',
     description:
-      'Why winter coops need more airflow than most keepers think, and how to keep it without chilling roost-height birds.',
+      'Leave high outlets open all winter and reduce, never close, the low inlets. Winter airflow carries moisture out without chilling birds at roost height.',
     publishedAt: '2026-08-23',
     body: `# Winter Ventilation Without Drafts
 

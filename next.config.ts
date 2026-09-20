@@ -75,6 +75,34 @@ const config: NextConfig = {
         destination: '/blog/chicken-coop-ventilation-requirements',
         statusCode: 301,
       },
+      // Near-miss slugs that 404. Each drew a Search Console impression in the
+      // 30 days to 2026-09-18 despite never having existed on this site and
+      // never appearing in the sitemap, so something external -- most likely an
+      // answer engine composing a plausible-looking URL -- is sending traffic
+      // at a guess. The guess is one token away from a real guide in every
+      // case, so point each at the page the visitor was actually after rather
+      // than leaving a dead end. Volume is ~1 impression each: this is index
+      // hygiene and citation recovery, not a traffic play.
+      {
+        source: '/blog/coop-ventilation-requirements',
+        destination: '/blog/chicken-coop-ventilation-requirements',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/chicken-tax-ventilation-requirements',
+        destination: '/blog/chicken-coop-ventilation-requirements',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/coop-vent-sizing-recommendations',
+        destination: '/blog/chicken-coop-vent-sizing-recommendations',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/signs-of-ventilation-in-chicken-coop',
+        destination: '/blog/signs-of-poor-ventilation-in-chicken-coop',
+        statusCode: 301,
+      },
     ]
   },
 }
