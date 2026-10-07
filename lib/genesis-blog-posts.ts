@@ -408,7 +408,7 @@ To calculate chicken coop ventilation, measure your coop's floor area in square 
 
 Measure the inside length and width of the coop, in feet, and multiply. A 4x8 coop is 32 sq ft. A 6x10 coop is 60 sq ft. Use interior dimensions, not the footprint of the exterior walls, since wall thickness eats a few inches on each side.
 
-If you have not settled on a coop size yet, floor area itself follows a standard: 4 sq ft of usable indoor space per standard-breed hen, per [University of Kentucky Cooperative Extension (ID-204)](https://www2.ca.uky.edu/agcomm/pubs/id/id204/id204.pdf). A flock of eight needs roughly 32 sq ft. If you are still sizing the build, see our [chicken coop size calculator](/coop-size-calculator) before you finalize vent placement.
+If you have not settled on a coop size yet, floor area itself follows a standard: 4 sq ft of usable indoor space per standard-breed hen, per [University of Kentucky Cooperative Extension (ID-204)](https://www2.ca.uky.edu/agcomm/pubs/id/id204/id204.pdf). A flock of eight needs roughly 32 sq ft. If you are still sizing the build, see our [chicken coop size calculator](/blog/coop-size-calculator) before you finalize vent placement.
 
 ## Step 2: Apply the 1-in-10 vent area rule
 
