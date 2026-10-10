@@ -6,7 +6,7 @@ import { getBlogPost, allBlogPosts } from '@/lib/blog-posts'
 import { pageTitle, clampDescription, stripDuplicateTitleHeading } from '@/lib/site'
 import { AffiliateProducts } from '@/components/AffiliateProducts'
 import { EmailCapture } from '@/components/EmailCapture'
-import { articleNode, breadcrumbNode, faqPageNode, absoluteImageUrl, SITE_ORIGIN } from '@/lib/schema'
+import { articleNode, breadcrumbNode, faqPageNode, absoluteImageUrl, organizationNode, websiteNode, SITE_ORIGIN } from '@/lib/schema'
 import { relatedSlugsFor } from '@/lib/related-guides'
 
 export function generateStaticParams() {
@@ -38,6 +38,12 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   })
   const breadcrumb = breadcrumbNode(post.slug, post.title)
   const faqPage = faqPageNode(post.body, `${SITE_ORIGIN}/blog/${post.slug}`)
+  // The article's author/publisher and isPartOf point at #organization and
+  // #website by @id. Those nodes were only ever emitted on the homepage, so a
+  // consumer reading this URL in isolation (Rich Results Test, an answer
+  // engine fetching one guide) saw dangling references. Emit them here too;
+  // same @id, so a consumer that has both pages merges them into one entity.
+  const articleGraph = { '@context': 'https://schema.org', '@graph': [organizationNode, websiteNode, article] }
   // Resolve through the live roster so a related entry naming an undeployed
   // post is dropped instead of rendering a link to a 404.
   const related = relatedSlugsFor(post.slug)
@@ -54,7 +60,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
 
   return (
     <main className="mx-auto max-w-3xl px-5 sm:px-12 py-16">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(article) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleGraph) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
       {faqPage && (
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqPage) }} />

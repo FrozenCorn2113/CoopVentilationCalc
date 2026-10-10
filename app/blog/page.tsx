@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { allBlogPosts } from '@/lib/blog-posts'
 import { pageTitle, clampDescription } from '@/lib/site'
-import { blogIndexBreadcrumbNode, ORG_ID, WEBSITE_ID, SITE_ORIGIN } from '@/lib/schema'
+import { blogIndexBreadcrumbNode, organizationNode, websiteNode, ORG_ID, WEBSITE_ID, SITE_ORIGIN } from '@/lib/schema'
 
 export const metadata = {
   title: { absolute: pageTitle('Coop Ventilation Guides') },
@@ -35,11 +35,14 @@ const blogJsonLd = {
 }
 
 const blogBreadcrumb = blogIndexBreadcrumbNode()
+// Same reason as the guide template: this page references #organization and
+// #website by @id, so the nodes must be present on the page itself.
+const blogGraph = { '@context': 'https://schema.org', '@graph': [organizationNode, websiteNode, blogJsonLd] }
 
 export default function BlogIndex() {
   return (
     <main className="mx-auto max-w-3xl px-5 sm:px-12 py-16">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogGraph) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogBreadcrumb) }} />
       <h1 className="font-display text-5xl sm:text-6xl leading-[0.95] tracking-[-0.02em] text-[var(--color-ink)]">
         Guides
