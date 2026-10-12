@@ -14,8 +14,8 @@ export const metadata = {
 // isPartOf/publisher reference the canonical @id nodes from lib/schema.ts rather
 // than inlining copies. Inlining a second WebSite object here created a duplicate,
 // unlinked WebSite entity in the site graph with nothing joining it to /#website.
+// No '@context' on this node: it is emitted inside blogGraph, which declares it.
 const blogJsonLd = {
-  '@context': 'https://schema.org',
   '@type': 'WebPage',
   '@id': `${SITE_ORIGIN}/blog#webpage`,
   name: 'Coop Ventilation Guides',

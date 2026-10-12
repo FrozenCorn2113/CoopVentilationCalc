@@ -82,8 +82,10 @@ export function articleNode(opts: {
   imageUrl?: string
 }) {
   const url = `${SITE_ORIGIN}/blog/${opts.slug}`
+  // No '@context' here: this node is only ever emitted inside a @graph whose
+  // wrapper already declares it, and a nested @context on a graph member is
+  // redundant, non-canonical JSON-LD.
   const node: Record<string, unknown> = {
-    '@context': 'https://schema.org',
     '@type': 'BlogPosting',
     '@id': `${url}/#article`,
     headline: opts.title,
