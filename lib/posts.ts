@@ -341,7 +341,7 @@ Natural ventilation is better for most small coops: lower cost, nothing to break
     publishedAt: '2026-06-11',
     body: `# Chicken Coop Ventilation Sq Ft: How Much Vent Area You Need
 
-The rule: 1 square foot of vent opening for every 10 square feet of coop floor area. A 40 sq ft coop needs 4 sq ft of vent space. Split that roughly 60/40 between a high outlet above roost level and a low inlet below it. That ratio comes from [University of Kentucky Cooperative Extension publication ID-204](https://publications.ca.uky.edu/sites/publications.ca.uky.edu/files/id204.pdf), the most widely cited small-flock housing reference in the US, and it holds across nearly every North American climate as a starting minimum.
+The rule: 1 square foot of vent opening for every 10 square feet of coop floor area. A 40 sq ft coop needs 4 sq ft of vent space. Split that 50/50 between a high outlet above roost level and a low inlet below it. That ratio comes from [Penn State Extension publication 1083](https://extension.psu.edu/poultry), and it holds across nearly every North American climate as a starting minimum.
 
 ## The Formula: Floor Area to Vent Area
 
@@ -375,7 +375,7 @@ You can hit the square footage target and still have a poorly ventilated coop if
 
 Warm, moist, ammonia-laden air rises. Put your outlet vents high, above roost height, and that air exits naturally through stack effect. Put your inlet vents lower, below roost height, and fresh air comes in without blowing directly across sleeping birds.
 
-A practical split: 55 to 65 percent of total vent area goes high (outlet), the rest low (inlet). A common mistake is cutting all vents on one wall at the same height. That kills the stack effect and makes the coop entirely dependent on wind pressure for air exchange. On still, humid nights, it does not work.
+A practical split: 50 percent of total vent area goes high (outlet), 50 percent low (inlet). A common mistake is cutting all vents on one wall at the same height. That kills the stack effect and makes the coop entirely dependent on wind pressure for air exchange. On still, humid nights, it does not work.
 
 The [Alabama Cooperative Extension System](https://www.aces.edu/blog/topics/farming/cold-weather-ventilation-moisture-control-of-poultry-houses/) states it directly: adequate inlet area is what makes it possible to hold relative humidity between 50 and 70 percent during cold weather. High outlets alone are not sufficient.
 
