@@ -1019,8 +1019,8 @@ Rather than guess at which floor standard applies to you, run your own numbers. 
 
 ## Frequently Asked Questions
 
-**How much ventilation does a chicken coop need per bird?**
-Work from floor area, not bird count: 14.4 square inches of vent per square foot of floor, or 43 to 58 square inches per bird at standard density. The 1 CFM winter and 5 CFM summer figures describe what that opening should achieve, not what you cut.
+**How much ventilation does a chicken coop need?**
+About 1 square foot of vent opening for every 10 square feet of floor, which is 14.4 square inches per square foot, or 43 to 58 square inches per bird at standard density. That opening should move roughly 1 CFM per bird in winter and 5 CFM in summer. Size from floor area, not head count.
 
 **Can a chicken coop have too much ventilation?**
 Rarely. Drafts across roosting birds cause problems, but total area almost never does. The fix is placement, not less opening: outlets high, inlets low, so air exchanges above the birds.
@@ -1204,7 +1204,7 @@ For a concrete example: a flock of 8 hens needs at least 8 CFM in winter. A pair
 
 Vent placement matters as much as total area. High outlets above roost height remove warm, ammonia-laden air as it rises. Low inlets below roost height bring in fresh air without directing it across sleeping birds. Direct drafts cause problems. Steady air exchange does not.
 
-If you have never checked your vent area against your flock size, it takes about two minutes. Measure your existing vent openings in square inches, convert to square feet, and compare against the general guideline of 1 square foot of vent area per 10 square feet of floor space.
+If you have never checked your vent area against your flock size, it takes about two minutes. Measure your existing vent openings in square inches, convert to square feet, and compare against the general guideline of 1 square foot of vent area per 10 square feet of floor space. The [ventilation calculator](/) does the same arithmetic from your flock size and floor area.
 
 ## Four Ventilation Habits That Prevent Most Respiratory Illness
 
@@ -1540,8 +1540,11 @@ Run the calculator at the homepage with the hot-summer climate selection to size
   {
     slug: 'ammonia-and-moisture',
     title: 'Ammonia and moisture: causes and fixes',
+    // SERP title only (2026-10-15 CTR test): 106 impressions at position 5.9 in
+    // the 28d to 10-13 and zero clicks. The H1 keeps the title above.
+    seoTitle: 'Coop Ammonia Smell: Cause and Fix Order',
     description:
-      'Where ammonia comes from in a coop, why a sharp smell means the flock is already breathing it, and the order to fix it in.',
+      'A sharp ammonia smell means the flock is already breathing it. Find the moisture source, then fix airflow first, bedding second, water last.',
     publishedAt: '2026-05-09',
     body: `If you can smell ammonia walking into the coop in the morning, your birds have been breathing it all night.
 
@@ -1551,7 +1554,9 @@ Fix airflow first, bedding second, water third. Adding more vent area on the hig
 
 Bedding next. Pine shavings stay drier longer than straw or hay. Replace before the moisture wicks up to the surface, not after. The deep-litter method works in some climates and fails badly in coastal humidity.
 
-Water last. Move waterers outside if your coop has space constraints. The single biggest moisture input in most coops is a dripping nipple-bucket the keeper never noticed.`,
+Water last. Move waterers outside if your coop has space constraints. The single biggest moisture input in most coops is a dripping nipple-bucket the keeper never noticed.
+
+To check whether airflow is the problem, run the [ventilation calculator](/) with your flock size and floor area and compare its vent area against what your coop has open.`,
   },
   {
     slug: 'vent-placement-high-low-ridge',
@@ -2204,8 +2209,11 @@ Yes, but insulation does not replace ventilation. Add it only after you have con
   {
     slug: 'predator-proofing-coop-run',
     title: 'How to Predator-Proof Your Chicken Coop and Run',
+    // SERP title only (2026-10-15 CTR test): 108 impressions at position 6.8 in
+    // the 28d to 10-13 and zero clicks. The H1 keeps the title above.
+    seoTitle: 'Predator-Proof Your Coop and Run: 5 Fixes That Work',
     description:
-      'Five things stop predators taking your birds: the right wire, buried aprons, raccoon-proof latches, covered runs, and a door that closes by dusk.',
+      'Raccoons, hawks and weasels get in through the same five gaps. Check your wire gauge, apron depth, latches and run cover against what stops them.',
     publishedAt: '2026-05-10',
     body: `A predator-proof coop needs five things: hardware cloth over every opening, a buried or flat-apron skirt around the perimeter, latches a raccoon cannot manipulate, a covered run, and a door that closes before dark. Most flock losses happen because one of those five was missing. This guide covers each in order of how often they cause losses, plus the ventilation-opening detail most builders overlook.
 
@@ -2476,8 +2484,11 @@ Damp bedding from poor airflow gives rodents better nesting material and a more 
   {
     slug: 'sand-vs-shavings-coop-bedding',
     title: 'Sand vs Pine Shavings: Best Chicken Coop Bedding',
+    // SERP title only (2026-10-15 CTR test): 179 impressions at position 6.8 in
+    // the 28d to 10-13 and zero clicks. The H1 keeps the title above.
+    seoTitle: 'Sand vs Shavings Coop Bedding: Which Cuts Ammonia',
     description:
-      'Sand and pine shavings handle moisture differently, and that drives your ammonia levels. Here is how to choose for your coop setup and climate.',
+      'Sand or pine shavings: which bedding keeps a coop drier and lowers ammonia, how the deep litter method fits, and which suits your climate.',
     publishedAt: '2026-05-10',
     body: `Pine shavings win for most backyard keepers. They absorb moisture quickly, support the deep litter method, and stay warmer in winter. Sand drains well and is easy to scoop, but it gets cold, doesn't compost, and can trap ammonia below the surface when wet. Your coop's ventilation controls how well either bedding performs. Without enough airflow, both turn sour fast.
 

@@ -24,6 +24,8 @@ export const RELATED_GUIDES: Record<string, string[]> = {
     'chicken-coop-ventilation-sq-ft',
     'natural-vs-mechanical-ventilation-chicken-coop',
     'coop-space-requirements',
+    'vent-placement-high-low-ridge',
+    'summer-heat-stress',
   ],
   'chicken-coop-ventilation-sq-ft': [
     'vent-placement-high-low-ridge',
