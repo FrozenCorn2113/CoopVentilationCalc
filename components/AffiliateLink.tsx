@@ -1,6 +1,7 @@
 'use client'
 
 import * as React from 'react'
+import { isInternalTraffic } from '@/lib/internal-traffic'
 
 // Outbound Amazon link that reports the click before the browser leaves.
 //
@@ -49,6 +50,11 @@ export function AffiliateLink({
           // The page the click fired from, not the /go/<asin> hop it lands on.
           page_path: window.location.pathname,
           page_url: window.location.href,
+          // Always set, never inferred. The metric reader filters on
+          // `internal != true`, and until now this property was NULL on every
+          // click this site had ever sent, which made the filter a no-op and
+          // put operator test clicks inside the graded number.
+          internal: isInternalTraffic(),
         },
         // send_instantly bypasses PostHog's request batching, which would
         // otherwise still be holding the event when the document unloads.

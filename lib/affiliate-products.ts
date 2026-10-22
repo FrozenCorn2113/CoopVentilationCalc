@@ -3,6 +3,7 @@
 // for the AffiliateProducts and RelatedProducts components.
 
 import productsJson from '@/data/affiliate-products.json'
+import { byDemand } from '@/lib/affiliate-demand'
 
 export type AffiliateProduct = {
   asin: string
@@ -46,6 +47,14 @@ export function filterProducts(filter: ProductFilter, max = 3): AffiliateProduct
   if (filter.category) {
     pool = pool.filter((p) => p.category === filter.category)
   }
+
+  // Order by observed demand before anything is chosen, so every pass below
+  // picks the product people actually click rather than the one that happens to
+  // sit highest in data/affiliate-products.json. Category diversification was
+  // deciding both which categories showed AND which product represented each
+  // one, and on the homepage that put two never-clicked ASINs into a six-slot
+  // grid that earned nothing across 142 pageviews.
+  pool = byDemand(pool)
 
   // Diversify across categories: keep at most 1 per category until we run out.
   const seen = new Set<string>()

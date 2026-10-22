@@ -12,6 +12,7 @@ import { CalculatorInputs } from './CalculatorInputs'
 import { CalculatorLoadingState } from './CalculatorLoadingState'
 import { CalculatorResult } from './CalculatorResult'
 import { RelatedProducts } from './RelatedProducts'
+import { isInternalTraffic } from '@/lib/internal-traffic'
 import { Card, CardContent } from '@/components/ui/card'
 
 // Stateful shell. Owns inputs, loading, result. Implements the
@@ -23,6 +24,10 @@ import { Card, CardContent } from '@/components/ui/card'
 // Wrapped in shadcn <Card> so theme tokens (border, background) flow from
 // app/globals.css. The post-result surface (RelatedProducts) renders OUTSIDE
 // the card, in editorial-list form, per affiliate-surface rules.
+
+type PosthogLike = {
+  capture: (event: string, properties?: Record<string, unknown>) => void
+}
 
 export function Calculator({
   showRelated = true,
@@ -37,7 +42,28 @@ export function Calculator({
   const [result, setResult] = React.useState<CalculatorResultData | null>(null)
   const [submittedInputs, setSubmittedInputs] = React.useState<Inputs | null>(null)
 
+  // The post-result product panel takes 93% of this site's affiliate clicks and
+  // has no denominator: pageviews are not submissions, so nothing could say
+  // whether a change moved the panel's rate or just its traffic. One event fixes
+  // that for the next read.
+  function reportSubmit(inputs: Inputs) {
+    try {
+      const ph = (window as unknown as { posthog?: PosthogLike }).posthog
+      if (!ph || typeof ph.capture !== 'function') return
+      ph.capture('calculator_submit', {
+        flock_size: inputs.flockSize,
+        climate_zone: inputs.climateZone,
+        floor_sq_ft: inputs.floorSqFt,
+        page_path: window.location.pathname,
+        internal: isInternalTraffic(),
+      })
+    } catch {
+      // Analytics must never cost a result.
+    }
+  }
+
   async function handleSubmit(inputs: Inputs) {
+    reportSubmit(inputs)
     setSubmittedInputs(inputs)
     setResult(null)
     setLoading(true)

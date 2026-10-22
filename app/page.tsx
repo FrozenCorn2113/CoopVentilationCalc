@@ -349,15 +349,21 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* RECOMMENDED HARDWARE — always-visible affiliate surface (homepage variant) */}
+      {/* RECOMMENDED HARDWARE — always-visible affiliate surface (homepage variant).
+          Three slots, not six. Over 142 pageviews this block took 0 affiliate
+          clicks while the three-product panel after the calculator result, on
+          this same page, took 27. Six slots of page furniture was not inventory,
+          and two of the six were ASINs nobody has ever clicked anywhere. The
+          block stays, at a third of the weight and ordered by demand, so the
+          position is still being counted rather than written off on one read. */}
       <section id="recommended-hardware" className="mx-auto max-w-[1320px] px-5 sm:px-12 py-20">
         <h2 className="font-display text-3xl sm:text-4xl leading-[1.05] tracking-[-0.015em] max-w-2xl">
           Recommended hardware.
         </h2>
         <p className="mt-4 max-w-xl text-base text-[var(--color-ink-soft)]">
-          The vents and fans that fit most backyard coops, picked from the same shortlist the calculator pulls from after you run the numbers. Sized to span the typical 4-to-15 bird range.
+          Hardware that fits most backyard coops, drawn from the same shortlist the calculator pulls from. Run your numbers above and the list narrows to your flock size and climate.
         </p>
-        <AffiliateProducts max={6} showHeading={false} />
+        <AffiliateProducts max={3} showHeading={false} />
       </section>
 
       {/* EMAIL CAPTURE */}
