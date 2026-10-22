@@ -44,7 +44,7 @@ body{margin:0;padding:0;background:#f6f1e7;font-family:Georgia,sans-serif;color:
 <p>Here is your printable checklist.</p>
 <div class="cta-block">
 <p>The Backyard Coop Ventilation Checklist</p>
-<a href="https://coopventilationcalc.com/checklist" class="cta-btn">Download PDF</a>
+<a href="https://coopventilationcalc.com/downloads/coop-ventilation-checklist.pdf" class="cta-btn">Download PDF</a>
 </div>
 <p>Print it, laminate it, hang it near the coop. It has the vent area numbers for 4x4, 4x8, 6x8, and 8x10 coops, the ammonia thresholds you actually need to act on, and the four early warning signs most keepers catch too late.</p>
 <p><strong>One thing worth fixing today if you have not already:</strong></p>

@@ -52,6 +52,14 @@ const config: NextConfig = {
   },
   async redirects() {
     return [
+      // The day-0 welcome email used to link "Download PDF" to /checklist,
+      // which never existed. Send it to the static lead-magnet PDF. Temporary
+      // (307) so the target can move without browsers caching the hop.
+      {
+        source: '/checklist',
+        destination: '/downloads/coop-ventilation-checklist.pdf',
+        permanent: false,
+      },
       {
         // Canonical host is the apex. Send www to apex with a 308 so link
         // equity and canonicals consolidate on one hostname.
