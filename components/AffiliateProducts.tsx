@@ -1,5 +1,6 @@
 import { filterProducts } from '@/lib/affiliate-products'
 import { AffiliateLink } from '@/components/AffiliateLink'
+import Link from 'next/link'
 import { Card } from '@/components/ui/card'
 
 // Inline editorial product list. Each product is a shadcn <Card> wrapper so
@@ -41,6 +42,11 @@ export function AffiliateProducts({
       {showHeading && (
         <h2 className="font-display text-2xl font-medium text-ink mb-6">{heading}</h2>
       )}
+      {/* FTC: disclosure sits next to the links, not only in the footer. */}
+      <p className="text-xs text-[var(--color-ink-soft)] mb-4">
+        Affiliate links: we may earn a commission if you buy, at no cost to you.{' '}
+        <Link href="/privacy#affiliate-disclosure" className="underline">Disclosure</Link>
+      </p>
       <ul className="space-y-3">
         {picks.map((p) => (
           <li key={p.asin}>
