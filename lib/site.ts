@@ -15,6 +15,14 @@ export const site = {
   ],
 } as const
 
+// Publisher identity for trust pages, footer and email. Brand decision
+// 2026-10-22: operate publicly as Yellowbird Company, no personal names.
+export const company = {
+  name: 'Yellowbird Company',
+  email: 'Brett@yellowbirdcompany.com',
+  postalAddress: 'Yellowbird Company, PO Box 14 STN A, Victoria BC V8S 4H8, Canada',
+} as const
+
 // Short brand suffix for <title> tags. The long-form name blows past the ~60ch
 // SERP limit once appended, so pages that already read long use pageTitle to
 // drop the suffix rather than truncate the meaningful part.

@@ -9,6 +9,9 @@ import { Resend } from 'resend'
 const RESEND_API_KEY = process.env.RESEND_API_KEY || ''
 const RESEND_AUDIENCE_ID = process.env.RESEND_AUDIENCE_ID || ''
 const RESEND_FROM = 'Coop Ventilation Calc <hello@coopventilationcalc.com>'
+// Replies (including the "reply UNSUBSCRIBE" fallback on /unsubscribe) go to
+// the monitored publisher inbox; hello@ is not confirmed to be read.
+const RESEND_REPLY_TO = 'Brett@yellowbirdcompany.com'
 
 function day0Html(unsubscribeUrl: string): string {
   return `<!DOCTYPE html>
@@ -53,12 +56,14 @@ body{margin:0;padding:0;background:#f6f1e7;font-family:Georgia,sans-serif;color:
 Most chicken keepers close every vent when it gets cold. But moisture and ammonia build up behind sealed boards faster than the temperature drops. Frostbitten combs are almost always a moisture problem, not a temperature problem. High vents, eave gaps, and ridge vents stay open year-round. Side vents below roost level are the ones to close or baffle.
 </div>
 <p>Nothing to buy today. Just check your high vents are clear before the next cold night.</p>
-<p>Talk soon,<br>The team at coopventilationcalc.com</p>
+<p>Talk soon,<br>Yellowbird Company, coopventilationcalc.com</p>
 <p style="font-size:13px;color:#6E6B3A;">P.S. Run your exact vent calculation free anytime at <a href="https://coopventilationcalc.com" style="color:#C5402A;">coopventilationcalc.com</a></p>
 </div>
 <div class="footer">
 You are receiving this because you downloaded the coop ventilation checklist.<br>
-<a href="${unsubscribeUrl}">Unsubscribe</a> &bull; coopventilationcalc.com
+<a href="${unsubscribeUrl}">Unsubscribe</a> &bull; coopventilationcalc.com<br>
+Coop Ventilation Calculator is published by Yellowbird Company.<br>
+Yellowbird Company, PO Box 14 STN A, Victoria BC V8S 4H8, Canada
 </div>
 </div>
 </body>
@@ -96,6 +101,7 @@ export async function POST(req: NextRequest) {
     await resend.emails.send({
       from: RESEND_FROM,
       to: email,
+      replyTo: RESEND_REPLY_TO,
       subject: 'Your coop ventilation checklist (and one mistake to fix today)',
       html: day0Html(unsubUrl),
       headers: {

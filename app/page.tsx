@@ -198,7 +198,7 @@ export default function HomePage() {
               Or grab the printable ventilation checklist (PDF).
             </p>
             <p className="mt-2 text-sm text-[var(--color-ink-soft)]">
-              One-page PDF guide, eight common flock sizes, all the seasonal targets. We email it instantly.
+              One-page PDF guide with vent area targets for four common coop sizes. We email it instantly.
             </p>
             <div className="mt-3">
               <EmailCapture />
@@ -368,7 +368,7 @@ export default function HomePage() {
               Get the printable coop ventilation checklist.
             </h2>
             <p className="mt-4 text-[16px] leading-[1.6] text-[var(--color-ink-soft)] max-w-xl">
-              A one-page PDF with the CFM and vent area targets for the eight most-common backyard flock sizes, plus the seasonal adjustments. Drop your email and we send it. We follow up only when a new calculator or guide ships.
+              A one-page PDF with vent area targets for four common coop sizes: 4x4, 4x8, 6x8 and 8x10. Drop your email and we send it. We follow up only when a new calculator or guide ships.
             </p>
           </div>
           <div>

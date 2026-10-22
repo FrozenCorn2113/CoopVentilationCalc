@@ -48,6 +48,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 0.8,
     },
+    // Trust pages. No lastModified: they carry no tracked content date (see
+    // policy above). /checklist is a redirect to the PDF, not a page, so it
+    // stays out.
+    { url: `${SITE_ORIGIN}/about`, changeFrequency: 'yearly', priority: 0.3 },
+    { url: `${SITE_ORIGIN}/contact`, changeFrequency: 'yearly', priority: 0.3 },
+    { url: `${SITE_ORIGIN}/privacy`, changeFrequency: 'yearly', priority: 0.2 },
   ]
 
   const postRoutes: MetadataRoute.Sitemap = allBlogPosts.map((post) => ({
