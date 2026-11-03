@@ -37,25 +37,40 @@ export function AffiliateLink({
   className?: string
 }) {
   const onClick = React.useCallback(() => {
+    // Built before the PostHog guard so GA4 still fires when PostHog is
+    // blocked, slow, or not loaded. Same fields the capture call sends.
+    const properties =
+      typeof window === 'undefined'
+        ? undefined
+        : {
+            asin,
+            product_title: title,
+            surface,
+            merchant: 'amazon',
+            // The page the click fired from, not the /go/<asin> hop it lands on.
+            page_path: window.location.pathname,
+            page_url: window.location.href,
+            // Always set, never inferred. The metric reader filters on
+            // `internal != true`, and until now this property was NULL on every
+            // click this site had ever sent, which made the filter a no-op and
+            // put operator test clicks inside the graded number.
+            internal: isInternalTraffic(),
+          }
+
+    try {
+      if (typeof window !== 'undefined') {
+        window.gtag?.('event', 'affiliate_click', properties)
+      }
+    } catch {
+      // Analytics must never cost a click.
+    }
+
     try {
       const ph = (window as unknown as { posthog?: PosthogLike }).posthog
       if (!ph || typeof ph.capture !== 'function') return
       ph.capture(
         'affiliate_click',
-        {
-          asin,
-          product_title: title,
-          surface,
-          merchant: 'amazon',
-          // The page the click fired from, not the /go/<asin> hop it lands on.
-          page_path: window.location.pathname,
-          page_url: window.location.href,
-          // Always set, never inferred. The metric reader filters on
-          // `internal != true`, and until now this property was NULL on every
-          // click this site had ever sent, which made the filter a no-op and
-          // put operator test clicks inside the graded number.
-          internal: isInternalTraffic(),
-        },
+        properties,
         // send_instantly bypasses PostHog's request batching, which would
         // otherwise still be holding the event when the document unloads.
         { transport: 'sendBeacon', send_instantly: true },

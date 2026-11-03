@@ -62,6 +62,20 @@ export function Calculator({
     }
   }
 
+  // Once per completed calculation, when the result is committed — not on
+  // keystroke. floorSqFt is the coop floor area the form collects.
+  function reportResultViewed(inputs: Inputs) {
+    try {
+      if (typeof window === 'undefined') return
+      window.gtag?.('event', 'calculator_result_viewed', {
+        flock_size: Number(inputs.flockSize),
+        coop_sqft: Number(inputs.floorSqFt),
+      })
+    } catch {
+      // Analytics must never cost a result.
+    }
+  }
+
   async function handleSubmit(inputs: Inputs) {
     reportSubmit(inputs)
     setSubmittedInputs(inputs)
@@ -71,6 +85,7 @@ export function Calculator({
     await new Promise((r) => setTimeout(r, delay))
     setResult(calculateResult(inputs))
     setLoading(false)
+    reportResultViewed(inputs)
   }
 
   return (
