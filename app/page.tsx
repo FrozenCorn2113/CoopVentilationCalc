@@ -39,10 +39,10 @@ export const metadata = {
 }
 
 const STATS = [
-  { num: '5', unit: 'CFM', label: 'summer airflow target per bird in CFM (cubic feet per minute), per UKy ID-204' },
-  { num: '1', unit: 'CFM', label: 'winter airflow per bird for moisture removal, per PSU 1083' },
-  { num: '144', unit: 'sq in', label: 'vent area in square inches per 10 sq ft of coop floor, per U Maine 2227' },
-  { num: '50', unit: '/ 50', label: 'split between low inlets and high outlets, per PSU 1083' },
+  { num: '5', unit: 'CFM', label: "summer airflow target per bird in CFM (cubic feet per minute), per this site's model" },
+  { num: '1', unit: 'CFM', label: "winter airflow per bird for moisture removal, per this site's model" },
+  { num: '144', unit: 'sq in', label: 'vent area in square inches per 10 sq ft of coop floor, a common rule of thumb for open-front houses in University of Illinois Extension Circular 337' },
+  { num: '50', unit: '/ 50', label: "split between low inlets and high outlets, per this site's model" },
 ]
 
 const HOW_IT_WORKS = [
@@ -54,7 +54,7 @@ const HOW_IT_WORKS = [
   {
     n: '02',
     h: 'We size to extension-service formulas',
-    p: 'The calculator runs the University of Kentucky 5-CFM-per-bird summer rule (CFM = cubic feet per minute, the standard airflow measurement) against the U Maine 144-square-inches-per-10-sq-ft floor rule and takes the larger of the two, climate-adjusted.',
+    p: "The calculator runs this site's 5-CFM-per-bird summer model (CFM = cubic feet per minute, the standard airflow measurement) against the 144-square-inches-per-10-sq-ft floor rule, a common rule of thumb for open-front houses in University of Illinois Extension Circular 337, and takes the larger of the two, climate-adjusted.",
   },
   {
     n: '03',
@@ -145,7 +145,7 @@ export default function HomePage() {
           </p>
           <p className="mt-6 max-w-xl text-lg leading-[1.55] text-[var(--color-ink-soft)] border-t border-[var(--color-line)] pt-5">
             <strong className="text-[var(--color-ink)] font-semibold">A free chicken coop ventilation calculator for backyard keepers.</strong>{' '}
-            Tell it your flock size and your climate. Get the airflow target, the vent area, and the inlet and outlet split that fit. Built on University of Kentucky and Penn State extension-service formulas, not forum hearsay.
+            Tell it your flock size and your climate. Get the airflow target, the vent area, and the inlet and outlet split that fit. Built on this site's model, not forum hearsay.
           </p>
 
           <div className="mt-9 grid grid-cols-1 sm:grid-cols-3 border-y-2 border-[var(--color-ink)]">
@@ -262,7 +262,7 @@ export default function HomePage() {
               Sourced from <em className="italic text-[var(--color-accent)]">named</em> extension-service publications.
             </h2>
             <p className="mt-5 text-[17px] leading-[1.6] opacity-80 max-w-md">
-              The formulas in this calculator come from cooperative-extension docs your county vet would point to. Every result page shows the source next to the math. Check our work, then go buy the right vent.
+              Airflow rates are this site's model. These are the extension publications this site cites. Every result page shows the source next to the math. Check our work, then go buy the right vent.
             </p>
           </div>
           <div>

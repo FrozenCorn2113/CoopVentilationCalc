@@ -1,9 +1,10 @@
 // Coop ventilation calculator math.
 // Sources:
-//   UKy ID-204 — 5 CFM per bird summer, 1 CFM per bird winter
-//   U Maine 2227 — 144 sq inches of vent area per 10 sq ft of floor
-//   PSU 1083 — vent area split 50/50 between low inlets and high outlets
-//   USDA ARS — +50% airflow above 70% humidity or detectable ammonia
+//   This site's model — 5 CFM per bird summer, 1 CFM per bird winter,
+//     climate multiplier up to 1.5, vent area split 50/50 between low inlets and high outlets
+//   University of Illinois Extension Circular 337 — 1 square foot of opening per
+//     10 square feet of floor (144 sq inches per 10 sq ft), given as a common rule of thumb
+//     for open-front houses
 
 export type ClimateZone =
   | 'cold-winter'

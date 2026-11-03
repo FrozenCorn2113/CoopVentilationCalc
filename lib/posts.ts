@@ -399,7 +399,7 @@ Most undersized coops fail this check significantly. A 6-inch by 18-inch vent is
 
 The square footage formula sizes your static vent openings. How much air actually moves through them varies with the season, and the requirements shift accordingly.
 
-**Winter:** The goal is moisture removal. Keep high outlets open year-round, even at freezing temperatures. [University of Kentucky Cooperative Extension](https://publications.ca.uky.edu/sites/publications.ca.uky.edu/files/asc187.pdf) sets the winter ventilation rate at 1 CFM (cubic foot per minute) per adult hen. CFM is how much air your coop moves per minute. That winter rate is sized to carry off moisture from respiration and droppings, not to regulate temperature. Closing vents to hold warmth traps humidity and causes frostbite from the inside out.
+**Winter:** The goal is moisture removal. Keep high outlets open year-round, even at freezing temperatures. This site's calculator uses 1 CFM (cubic foot per minute) per adult hen in winter. CFM is how much air your coop moves per minute. That winter rate is sized to carry off moisture from respiration and droppings, not to regulate temperature. Closing vents to hold warmth traps humidity and causes frostbite from the inside out.
 
 **Summer:** The target jumps to 4 to 8 CFM per bird, because airflow now has to carry away body heat on top of moisture. Static vents sized at 1-in-10 often cannot move enough air on still, hot days. An exhaust fan sized to your flock closes that gap. The [ventilation calculator](/) on this site returns the summer CFM target for your coop dimensions and bird count.
 
@@ -637,7 +637,7 @@ High ammonia and excess humidity are the two main stressors. Each adult hen prod
 
 A coop that smells like ammonia when you open the door in the morning is not ventilated well enough. The fix is more airflow: specifically, open outlets above roost height so warm, moist air can exit. This is the same principle that prevents frostbite in winter and reduces respiratory illness year-round.
 
-The [University of Kentucky Cooperative Extension](https://publications.ca.uky.edu/sites/publications.ca.uky.edu/files/asc187.pdf) sets the winter ventilation target at 1 CFM per standard adult hen, measured as a moisture-removal rate rather than a temperature target. [Use the ventilation calculator](/) to confirm your outlet area matches your flock count and floor space. If ammonia or condensation appears on interior surfaces at dawn, more airflow above roost height is the fix.
+This site's calculator uses 1 CFM per standard adult hen in winter, measured as a moisture-removal rate rather than a temperature target. [Use the ventilation calculator](/) to confirm your outlet area matches your flock count and floor space. If ammonia or condensation appears on interior surfaces at dawn, more airflow above roost height is the fix.
 
 ## How to Keep Hens Laying Through Winter
 
@@ -796,7 +796,7 @@ Thermostatically controlled heated bases and all-in-one heated waterers are desi
 
 **Does warming the coop prevent the water from freezing?**
 
-Heating the coop to prevent water from freezing adds humidity from the birds' respiration and droppings, which is the primary cause of frostbite. A better approach is to heat the water directly with a low-wattage heated base and keep the coop ventilated. The [University of Kentucky Cooperative Extension](https://publications.ca.uky.edu/sites/publications.ca.uky.edu/files/asc187.pdf) sets the winter ventilation minimum at 1 CFM per adult hen specifically to control moisture, not temperature.
+Heating the coop to prevent water from freezing adds humidity from the birds' respiration and droppings, which is the primary cause of frostbite. A better approach is to heat the water directly with a low-wattage heated base and keep the coop ventilated. This site's calculator uses 1 CFM per adult hen in winter specifically to control moisture, not temperature.
 `,
   },
 
@@ -974,7 +974,7 @@ That distinction is where most keepers go wrong. They seal a coop tight against 
 
 Two numbers cover almost every backyard coop: 144 square inches of vent area per 10 square feet of floor, and about 1 cubic foot per minute (CFM) of airflow per hen in winter, rising to roughly 5 CFM in summer. Both are design rules. The requirement itself is an outcome. [Poultry Extension](https://poultry.extension.org/articles/getting-started-with-small-and-backyard-poultry/housing-for-small-and-backyard-poultry-flocks/ventilation-in-small-and-backyard-poultry-flock-housing/) defines the job: maintain adequate oxygen levels while removing carbon dioxide, moisture, dust, and odors. Two thresholds tell you whether you did. The [Alabama Cooperative Extension System](https://www.aces.edu/blog/topics/farming/cold-weather-ventilation-moisture-control-of-poultry-houses/) states that general practice is to maintain house relative humidity between 50 and 70 percent during cold weather, and the [University of Kentucky ventilation principles chapter](https://afs.mgcafe.uky.edu/files/chapter7.pdf) sets the gas limit at under 25 ppm ammonia. Both were written for heated commercial houses, so treat them as targets an unheated coop moves toward, not setpoints it holds through January.
 
-That Kentucky chapter also carries the finding that should change how you inspect. Keepers exposed to ammonia daily lose the ability to smell it, and most cannot detect it until 50 to 60 ppm, already double the limit. "I do not smell anything" is not a passing grade.
+That Kentucky chapter also carries the finding that should change how you inspect. Keepers exposed to ammonia daily lose the ability to smell it, and [most cannot detect it until 50 to 60 ppm](https://afs.mgcafe.uky.edu/files/chapter7.pdf), already double the limit. "I do not smell anything" is not a passing grade.
 
 ## Ventilation Rate Per Bird: Winter vs Summer
 
@@ -984,7 +984,7 @@ This site's calculator uses 1 CFM per standard-breed hen in winter and 5 CFM in 
 
 Those are this site's sizing model, not a measurement of your coop. No cooperative-extension small-flock publication we could retrieve gives a CFM-per-bird figure for backyard coops at all, worth knowing before you accept one from a page that states it flatly.
 
-It matters less than it looks, because in a passive coop CFM is not what you build. Vent area is. Kentucky's chapter puts a mechanical inlet at roughly one square inch per four CFM of fan capacity, and the fan is what makes that ratio work. Unpowered openings on stack effect move a fraction of that per square inch, which is why passive coops size off floor area instead.
+It matters less than it looks, because in a passive coop CFM is not what you build. Vent area is. Kentucky's chapter puts a mechanical inlet at roughly [one square inch per four CFM of fan capacity](https://afs.mgcafe.uky.edu/files/chapter7.pdf), and the fan is what makes that ratio work. Unpowered openings on stack effect move a fraction of that per square inch, which is why passive coops size off floor area instead.
 
 ## Vent Area Per Square Foot of Floor
 
@@ -992,7 +992,7 @@ Vent area is the one requirement you can check with a tape measure: 1 square foo
 
 Two details decide whether that number does any work:
 
-1. **Split it evenly, high and low.** Warm, moist, ammonia-laden air collects above roost height and leaves through the high outlet, pulling fresh air in low. Poultry Extension describes the same chimney effect running through a ridge or eave opening, no electricity required.
+1. **Split it evenly, high and low.** Warm, moist, ammonia-laden air collects above roost height and leaves through the high outlet, pulling fresh air in low. [Poultry Extension](https://poultry.extension.org/articles/getting-started-with-small-and-backyard-poultry/housing-for-small-and-backyard-poultry-flocks/ventilation-in-small-and-backyard-poultry-flock-housing/) describes the same chimney effect running through a ridge or eave opening, no electricity required.
 2. **Measure the opening, not the frame.** A vent covered in half-inch hardware cloth keeps most of its open area. The same vent backed by fine insect screen can lose a third or more.
 
 The floor rule always governs. At 14.4 square inches per square foot of floor and a realistic 3 to 4 square feet per bird, it asks 43 to 58 square inches per bird. The airflow path, converted at this site's passive rate, asks at most 12. Stop chasing CFM per bird and go measure square inches.
@@ -1011,7 +1011,7 @@ The input that swings your vent requirement hardest is not flock size or climate
 
 A confined coop needs more than three times the vent area of one whose birds range during the day, because those birds and their droppings sit indoors producing moisture around the clock. If your run door stays shut all winter, size to the confined figure.
 
-Oregon State is blunt about the ceiling: build in as much ventilation as possible without creating drafts or predator access. Total area is not the risk. Placement is, and the [winter ventilation without drafts](/blog/winter-ventilation-without-drafts) guide covers holding that airflow through cold months.
+[Oregon State](https://extension.oregonstate.edu/catalog/ec-1644-living-land-backyard-chicken-coop-design) is blunt about the ceiling: build in as much ventilation as possible without creating drafts or predator access. Total area is not the risk. Placement is, and the [winter ventilation without drafts](/blog/winter-ventilation-without-drafts) guide covers holding that airflow through cold months.
 
 ## Size Your Coop's Vents With the Calculator
 
@@ -1198,7 +1198,7 @@ Inadequate ventilation does not always cause respiratory disease by itself. More
 
 ## How Much Ventilation Chickens Actually Need
 
-The benchmark from [University of Kentucky Cooperative Extension](https://publications.ca.uky.edu/sites/publications.ca.uky.edu/files/asc187.pdf) is 1 CFM (cubic foot per minute) of airflow per adult hen in winter, scaling to 4 to 8 CFM per bird in summer. Those targets exist primarily to remove moisture and ammonia, not to regulate temperature.
+This site's calculator uses 1 CFM (cubic foot per minute) of airflow per adult hen in winter. Summer airflow scales to 4 to 8 CFM per bird. Those targets exist primarily to remove moisture and ammonia, not to regulate temperature.
 
 For a concrete example: a flock of 8 hens needs at least 8 CFM in winter. A pair of properly placed 12x12 inch vents, one high for exhaust and one low for intake, generates enough passive stack-effect airflow to reach that target in most climates without a fan.
 
@@ -2120,7 +2120,7 @@ Winterizing a chicken coop is mostly a ventilation problem. Cold temperatures al
 
 Each adult hen produces roughly one ounce of water vapor per hour through respiration and droppings. In a sealed coop with eight birds, that is half a pound of moisture entering the air every hour overnight. Without an exit path, humidity climbs, condensation forms on walls and bedding, and the wet air accelerates frostbite and respiratory illness far faster than cold air alone would.
 
-The [University of Kentucky Cooperative Extension](https://publications.ca.uky.edu/sites/publications.ca.uky.edu/files/asc187.pdf) sets the winter ventilation target at 1 CFM (cubic foot per minute) per standard adult hen. That number is a moisture-removal target, not a temperature target. It stays the same whether your overnight low is 20°F or 5°F.
+This site's calculator uses 1 CFM (cubic foot per minute) per standard adult hen in winter. That number is a moisture-removal target, not a temperature target. It stays the same whether your overnight low is 20°F or 5°F.
 
 Most keepers make one of two mistakes in fall: they seal everything to hold heat, or they open everything and create a wind tunnel through the roost. The right approach sits between those: outlets above roost height stay open all winter, inlets below roost height can be partially closed in extreme cold.
 
@@ -2326,7 +2326,7 @@ Cold air alone is not the culprit. Chickens in cold-climate operations at -20°F
 
 ## How Ventilation Prevents Frostbite
 
-Proper winter ventilation removes moisture before it condenses on the birds and bedding. The [University of Kentucky Cooperative Extension Service](https://publications.ca.uky.edu/sites/publications.ca.uky.edu/files/asc187.pdf) recommends a winter airflow rate of approximately 1 CFM (cubic foot per minute) per standard adult hen. That target exists for moisture removal, not temperature control.
+Proper winter ventilation removes moisture before it condenses on the birds and bedding. This site's calculator uses a winter airflow rate of approximately 1 CFM (cubic foot per minute) per standard adult hen. That target exists for moisture removal, not temperature control.
 
 For a flock of 8 hens, that is 8 CFM of steady exchange. You do not need a fan to hit it. A permanently open ridge vent or gable vent above roost height creates enough passive stack-effect airflow to meet the target in most backyard coops.
 

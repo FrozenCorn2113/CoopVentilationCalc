@@ -248,7 +248,7 @@ Most new keepers get this backwards. They see a cold snap coming and seal every 
 
 Each adult hen releases close to an ounce of water vapor per hour through breathing and droppings. In a coop with eight hens, that adds up to roughly half a pound of moisture in the air every hour, all night, every night. If that moisture has no way out, it condenses on the walls, the ceiling, and the birds themselves.
 
-The [University of Kentucky Cooperative Extension](https://publications.ca.uky.edu/sites/publications.ca.uky.edu/files/asc187.pdf) sets the winter airflow target at about 1 CFM (cubic foot per minute) of fresh air per standard adult hen. That number holds steady whether it is 25°F outside or minus 5°F. It is a moisture target, not a heat target, so the airflow needs to keep moving no matter how cold it gets.
+This site's calculator uses about 1 CFM (cubic foot per minute) of fresh air per standard adult hen in winter. That number holds steady whether it is 25°F outside or minus 5°F. It is a moisture target, not a heat target, so the airflow needs to keep moving no matter how cold it gets.
 
 ## Vent Placement: High Stays Open, Low Gets Adjusted
 
@@ -326,7 +326,7 @@ The coop does not need to hold heat, only stay dry and above freezing. A flock r
     publishedAt: '2026-07-10',
     body: `# How Much Ventilation Per Chicken Coop Square Footage
 
-The standard is 1 square foot of vent opening for every 10 square feet of coop floor space, split between a high outlet and a low inlet. A 32 square foot coop (4 by 8 feet) needs about 3.2 square feet of vent area. That ratio comes from cooperative extension poultry housing guidance and holds as a starting minimum across most flock sizes and climates.
+The standard is 1 square foot of vent opening for every 10 square feet of coop floor space, split between a high outlet and a low inlet. A 32 square foot coop (4 by 8 feet) needs about 3.2 square feet of vent area. That ratio appears in [University of Illinois Extension poultry-housing guidance](https://www.ideals.illinois.edu/items/30741/bitstreams/102220/data.pdf) as far back as 1929, where it is given as a common rule of thumb for open-front houses.
 
 Floor square footage is the fastest way to size vents because it is the number every coop already has. Measure the inside floor, divide by 10, and you have a target before you touch a tape measure on the vents themselves. Here is the full breakdown by coop size, why floor area is the right variable to use, and how the number shifts by season.
 
@@ -349,23 +349,23 @@ These are floor minimums, not targets. A humid climate, a dense flock, or a tigh
 
 ## Why Floor Area Drives the Vent Number
 
-Vent sizing runs off floor area instead of bird count because the job of ventilation is removing moisture and ammonia rising off the litter, not just the moisture birds exhale. More floor space holds more litter surface. More litter surface produces more moisture and gas load as it breaks down. [Penn State Extension](https://extension.psu.edu/poultry) identifies litter moisture as the primary driver of ammonia buildup in poultry housing, which is why the formula tracks square footage rather than a fixed number per bird.
+Vent sizing runs off floor area instead of bird count because the job of ventilation is removing moisture and ammonia rising off the litter, not just the moisture birds exhale. More floor space holds more litter surface. More litter surface produces more moisture and gas load as it breaks down. [Litter moisture is one of the main factors in how much ammonia litter releases](https://afs.mgcafe.uky.edu/files/chapter7.pdf), which is why the formula tracks square footage rather than a fixed number per bird.
 
-Bird count still matters, but it enters through floor space. Standard guidance runs 4 square feet of floor per laying hen, so a 10 bird flock needs roughly 40 square feet of coop and, by the 1-in-10 rule, about 4 square feet of vent area. Get the floor size right for your flock first. The vent number follows automatically.
+Bird count still matters, but it enters through floor space. [Standard guidance](https://poultry.extension.org/articles/getting-started-with-small-and-backyard-poultry/housing-for-small-and-backyard-poultry-flocks/space-allowances-in-housing-for-small-and-backyard-poultry-flocks/) runs 3 to 4 square feet of floor per laying hen, so a 10 bird flock needs roughly 40 square feet of coop and, by the 1-in-10 rule, about 4 square feet of vent area. Get the floor size right for your flock first. The vent number follows automatically.
 
 ## Ventilation Rate Per Bird: Winter vs Summer
 
 The square footage formula sizes your fixed vent openings, but how much air actually moves through them depends on the season.
 
-In winter, the goal is moisture removal, not warmth. [University of Kentucky Cooperative Extension](https://publications.ca.uky.edu/sites/publications.ca.uky.edu/files/asc187.pdf) puts the winter target at 1 CFM (cubic foot per minute) per adult hen, just enough to carry off the water vapor and ammonia from respiration and droppings. Closing vents to trap heat instead traps that moisture, and trapped moisture is what causes frostbite, not cold air itself.
+In winter, the goal is moisture removal, not warmth. This site's calculator uses 1 CFM (cubic foot per minute) per adult hen in winter, just enough to carry off the water vapor and ammonia from respiration and droppings. Closing vents to trap heat instead traps that moisture, and trapped moisture is what causes frostbite, not cold air itself.
 
-In summer, the target jumps to 5.0 to 7.5 CFM per bird, because airflow now has to remove body heat on top of moisture. Static vents sized at 1-in-10 often cannot move that much air on a still, hot day. That is when a thermostat-controlled exhaust fan closes the gap. The [ventilation calculator](/) converts your floor size and flock into the exact CFM target for both seasons.
+In summer, this site's calculator targets 5.0 to 7.5 CFM per bird, because airflow now has to remove body heat on top of moisture. Static vents sized at 1-in-10 often cannot move that much air on a still, hot day. That is when a thermostat-controlled exhaust fan closes the gap. The [ventilation calculator](/) converts your floor size and flock into the exact CFM target for both seasons.
 
 ## Where the Vent Area Should Go
 
 Hitting the square footage total does not help much if every vent sits at the same height. Warm, moist, ammonia-heavy air rises, so outlet vents belong high, above roost level, where that air can leave through stack effect. Inlet vents belong lower, below roost height, so fresh air enters without blowing directly on sleeping birds.
 
-A workable split is 50/50 between high and low. The [Alabama Cooperative Extension System](https://www.aces.edu/blog/topics/farming/cold-weather-ventilation-moisture-control-of-poultry-houses/) notes that adequate inlet area, not outlet area alone, is what keeps relative humidity in the 50 to 70 percent range during cold weather. Skipping the low inlet and relying only on a ridge vent leaves half the system missing.
+A workable split is 50/50 between high and low. The [Alabama Cooperative Extension System](https://www.aces.edu/blog/topics/farming/cold-weather-ventilation-moisture-control-of-poultry-houses/) puts the cold-weather humidity target at 50 to 70 percent; a coop with only a high outlet and no low inlet has no path for dry air to come in. Skipping the low inlet and relying only on a ridge vent leaves half the system missing.
 
 One more detail changes the real number: mesh choice. A vent covered in half inch hardware cloth keeps nearly all its open area. Fine insect screen can cut real open area by 30 to 40 percent, so a screened vent needs to be cut larger than the table above suggests to hit the same effective square footage.
 
@@ -590,7 +590,7 @@ The 50/50 outlet-to-inlet split matters as much as the total. Warm, ammonia-heav
 
 Fixed vent area is a year-round number, but how much air actually moves through those openings changes with the season, and 10 birds move a meaningful amount of moisture and ammonia either way.
 
-In winter, [University of Kentucky Cooperative Extension](https://publications.ca.uky.edu/sites/publications.ca.uky.edu/files/asc187.pdf) puts the target at 1 cubic foot per minute (CFM) per adult hen, sized to remove moisture and ammonia rather than to warm the coop. Ten hens need about 10 CFM. A properly sized and placed static vent pair, high outlet and low inlet, generates that much passive airflow through stack effect alone in most climates. No fan is required in winter if the vent area and placement are correct.
+In winter, this site's calculator uses 1 cubic foot per minute (CFM) per adult hen, sized to remove moisture and ammonia rather than to warm the coop. Ten hens need about 10 CFM. A properly sized and placed static vent pair, high outlet and low inlet, generates that much passive airflow through stack effect alone in most climates. No fan is required in winter if the vent area and placement are correct.
 
 Summer changes the job. The target jumps to 5.0 to 7.5 CFM per bird, or 50 to 75 CFM for a flock of 10, because airflow now has to carry off body heat on top of moisture. Static vents sized to the winter minimum usually cannot move that much air on a still, hot afternoon. A thermostat-controlled exhaust fan is the standard fix, closing the gap between what stack effect provides passively and what 10 birds need to stay cool.
 
@@ -676,7 +676,7 @@ Watery eyes, wheezing, or labored breathing across several birds, not just one, 
 
 ## Adjusting for Winter and Summer
 
-Fixed vent area does not change with the seasons, but how you manage it does. In winter, [University of Kentucky Cooperative Extension](https://publications.ca.uky.edu/sites/publications.ca.uky.edu/files/asc187.pdf) puts the target at 1 CFM per adult hen, about 10 CFM for a flock of 10, aimed at removing moisture rather than warming the coop. Keep the full vent area open through winter. Closing the high outlet to hold in heat traps humidity instead, and trapped humidity is what causes frostbite, not cold air on its own.
+Fixed vent area does not change with the seasons, but how you manage it does. In winter, this site's calculator uses 1 CFM per adult hen, about 10 CFM for a flock of 10, aimed at removing moisture rather than warming the coop. Keep the full vent area open through winter. Closing the high outlet to hold in heat traps humidity instead, and trapped humidity is what causes frostbite, not cold air on its own.
 
 Summer raises the bar to 5.0 to 7.5 CFM per bird, or 50 to 75 CFM for 10 hens, because airflow now has to remove body heat as well as moisture. Static vents sized to the winter minimum often cannot move that much air on a still, hot afternoon. If birds are panting or holding their wings away from their bodies at roost time, passive airflow is falling short, and a thermostat-controlled exhaust fan mounted near the highest point of the coop is the standard fix.
 
@@ -757,7 +757,7 @@ Chicks without a mother hen are the exception. They cannot regulate body tempera
 
 ## Ventilation Is the Actual Lever
 
-Coops sized and vented correctly do the cold-tolerance work without any heat source. The [University of Kentucky Cooperative Extension](https://publications.ca.uky.edu/sites/publications.ca.uky.edu/files/asc187.pdf) recommends roughly 1 CFM (cubic foot per minute) of airflow per adult hen in winter, sized to remove moisture and ammonia rather than to control temperature. High outlets above roost height let humid air escape. Low inlets below roost height bring in fresh air without blowing directly on sleeping birds.
+Coops sized and vented correctly do the cold-tolerance work without any heat source. This site's calculator uses roughly 1 CFM (cubic foot per minute) of airflow per adult hen in winter, sized to remove moisture and ammonia rather than to control temperature. High outlets above roost height let humid air escape. Low inlets below roost height bring in fresh air without blowing directly on sleeping birds.
 
 Getting that balance right is what keeps a coop dry at any outside temperature, which is the actual variable that determines whether a flock handles winter safely. [Run the ventilation calculator](/) to get inlet and outlet sizes sized to your flock count and floor area, so you are not guessing at vent placement going into the cold months.
 
