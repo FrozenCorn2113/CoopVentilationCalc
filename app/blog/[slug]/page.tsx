@@ -37,7 +37,17 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     imageUrl: absoluteImageUrl(post.image?.src),
   })
   const breadcrumb = breadcrumbNode(post.slug, post.title)
-  const faqPage = faqPageNode(post.body, `${SITE_ORIGIN}/blog/${post.slug}`)
+  // The closing calculator line is body copy after the FAQ. faqPageNode reads
+  // through the end of the body, so leaving it in would append that sentence
+  // to the last FAQ answer. Strip only that trailing line before parsing.
+  const faqSource =
+    post.slug === 'winter-ventilation-without-drafts'
+      ? post.body.replace(
+          /\n+Not sure your coop has enough vent area for winter\?[\s\S]*$/,
+          '',
+        )
+      : post.body
+  const faqPage = faqPageNode(faqSource, `${SITE_ORIGIN}/blog/${post.slug}`)
   // The article's author/publisher and isPartOf point at #organization and
   // #website by @id. Those nodes were only ever emitted on the homepage, so a
   // consumer reading this URL in isolation (Rich Results Test, an answer
@@ -95,6 +105,18 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                   <table className="w-full min-w-[32rem] border-collapse text-[15px]" {...props} />
                 </div>
               ),
+              // This guide's opening callout is a blockquote. The shared prose
+              // styles treat blockquote as an italic quotation. Render this one
+              // as a bordered box in the site's ink / paper palette instead.
+              ...(post.slug === 'winter-ventilation-without-drafts'
+                ? {
+                    blockquote: ({ node: _node, children }: { node?: unknown; children?: React.ReactNode }) => (
+                      <aside className="border-2 border-[var(--color-ink)] bg-[var(--color-paper-2)] px-5 py-4 space-y-3">
+                        {children}
+                      </aside>
+                    ),
+                  }
+                : {}),
             }}
           >
             {stripDuplicateTitleHeading(post.body, post.title)}
