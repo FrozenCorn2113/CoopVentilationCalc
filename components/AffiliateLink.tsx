@@ -40,26 +40,30 @@ export function AffiliateLink({
     try {
       const ph = (window as unknown as { posthog?: PosthogLike }).posthog
       if (!ph || typeof ph.capture !== 'function') return
+      const properties = {
+        asin,
+        product_title: title,
+        surface,
+        merchant: 'amazon',
+        // The page the click fired from, not the /go/<asin> hop it lands on.
+        page_path: window.location.pathname,
+        page_url: window.location.href,
+        // Always set, never inferred. The metric reader filters on
+        // `internal != true`, and until now this property was NULL on every
+        // click this site had ever sent, which made the filter a no-op and
+        // put operator test clicks inside the graded number.
+        internal: isInternalTraffic(),
+      }
       ph.capture(
         'affiliate_click',
-        {
-          asin,
-          product_title: title,
-          surface,
-          merchant: 'amazon',
-          // The page the click fired from, not the /go/<asin> hop it lands on.
-          page_path: window.location.pathname,
-          page_url: window.location.href,
-          // Always set, never inferred. The metric reader filters on
-          // `internal != true`, and until now this property was NULL on every
-          // click this site had ever sent, which made the filter a no-op and
-          // put operator test clicks inside the graded number.
-          internal: isInternalTraffic(),
-        },
+        properties,
         // send_instantly bypasses PostHog's request batching, which would
         // otherwise still be holding the event when the document unloads.
         { transport: 'sendBeacon', send_instantly: true },
       )
+      if (typeof window !== 'undefined') {
+        window.gtag?.('event', 'affiliate_click', properties)
+      }
     } catch {
       // Analytics must never cost a click.
     }
