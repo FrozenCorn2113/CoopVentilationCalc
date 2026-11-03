@@ -1456,6 +1456,10 @@ The litter should smell earthy, not like ammonia. It should feel slightly cool f
 
 Leave the high outlets fully open all winter and reduce, but never close, the low inlets. Winter ventilation exists to carry moisture out, not to cool birds. Cold outside air absorbs water as it warms inside the coop, so sealing the coop to hold heat is exactly what leaves birds damp and frostbitten.
 
+> **Size your winter vents first.** Drafts come from vents in the wrong place, not from having too much vent. Enter your flock size and coop footprint and the calculator gives the vent area to keep high and out of the wind.
+>
+> [Run the ventilation calculator →](/)
+
 ## Why a Sealed Winter Coop Is More Dangerous Than a Cold One
 
 A closed coop does not stay dry. Every bird exhales water vapor all night, and droppings release more moisture and ammonia as they break down. With nowhere to go, that water condenses on the coldest surfaces available: the walls, the ceiling, and the birds themselves.
@@ -1519,7 +1523,9 @@ No. Reduce the low inlets and leave the high outlets fully open. Winter ventilat
 Ventilation is air exchange you cannot feel at roost height. A draft is air you can feel on a hand held where the birds sit. If birds avoid part of the roost, you have a draft.
 
 **Does an open vent make frostbite worse?**
-An open vent above roost height reduces frostbite risk by removing the humidity that causes it. An open vent at or below roost height that blows on the birds makes it worse. Height matters more than area.`,
+An open vent above roost height reduces frostbite risk by removing the humidity that causes it. An open vent at or below roost height that blows on the birds makes it worse. Height matters more than area.
+
+Not sure your coop has enough vent area for winter? [Check it in under a minute with the free calculator](/).`,
   },
   {
     slug: 'summer-heat-stress',
