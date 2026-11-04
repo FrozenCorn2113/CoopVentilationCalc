@@ -1,9 +1,9 @@
 // Affiliate tag config. Yellow Bird's canonical Amazon associate IDs.
-// CA: yellowbird211-20  /  US: tiktokcreatpr-20  (source: Vault/Memory/References.md)
+// CA: yellowbird211-20  /  US: yellowbird208-20  (source: Vault/Memory/References.md)
 
 export const AFFILIATES = {
   amazonCa: 'yellowbird211-20',
-  amazonUs: 'tiktokcreatpr-20',
+  amazonUs: 'yellowbird208-20',
 } as const
 
 export function buildAmazonUrl(asin: string, region: 'CA' | 'US' = 'US'): string {
