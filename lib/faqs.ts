@@ -10,7 +10,7 @@ export type Faq = {
 export const faqs: Faq[] = [
   {
     q: 'How much ventilation does a chicken coop need?',
-    a: 'Plan for 5 CFM of airflow per adult standard hen in summer, dropping to about 1 CFM per bird in winter for moisture removal. In square inches of vent area, the cooperative-extension rule of thumb is 144 sq in per 10 sq ft of coop floor, split roughly half low inlets and half high outlets.',
+    a: 'Plan for 5 CFM of airflow per adult standard hen in summer, dropping to about 1 CFM per bird in winter for moisture removal. In square inches of vent area, a long-standing rule of thumb is 144 sq in per 10 sq ft of coop floor, split roughly half low inlets and half high outlets.',
     topic: 'sizing',
   },
   {
@@ -20,7 +20,7 @@ export const faqs: Faq[] = [
   },
   {
     q: 'What is CFM and why does it matter for my coop?',
-    a: 'CFM stands for cubic feet per minute, the unit that measures how much air moves through a space. A coop without enough CFM holds humidity, ammonia from droppings, and respiratory irritants. The University of Kentucky small-flock standard is 5 CFM per bird in summer, 1 CFM in winter. Most coops fail the summer number, which is why heat stress and respiratory illness show up in July.',
+    a: 'CFM stands for cubic feet per minute, the unit that measures how much air moves through a space. A coop without enough CFM holds humidity, ammonia from droppings, and respiratory irritants. This site\'s model is 5 CFM per bird in summer, 1 CFM in winter. Most coops fail the summer number, which is why heat stress and respiratory illness show up in July.',
     topic: 'basics',
   },
   {
@@ -30,7 +30,7 @@ export const faqs: Faq[] = [
   },
   {
     q: 'How do I ventilate a chicken coop in summer to prevent heat stress?',
-    a: 'Open everything you can: low inlets near the floor, high outlets at the ridge, and any window vents on the shaded side. The extension-service summer target is 5 CFM per bird, which most passive coops cannot hit without help. Above 85°F, add a small DC fan on the outlet side rather than relying on cross-breeze.',
+    a: 'Open everything you can: low inlets near the floor, high outlets at the ridge, and any window vents on the shaded side. This site\'s model targets 5 CFM per bird in summer, which most passive coops cannot hit without help. Above 85°F, add a small DC fan on the outlet side rather than relying on cross-breeze.',
     topic: 'seasonal',
   },
   {
@@ -70,7 +70,7 @@ export const faqs: Faq[] = [
   },
   {
     q: 'What counts as good ventilation in a chicken coop?',
-    a: 'Good ventilation means continuous airflow that removes moisture and ammonia without blowing directly on the birds. In practice that means low inlets near the floor and high outlets at the ridge, split roughly 50/50, sized to the cooperative-extension rule of 144 sq in of vent area per 10 sq ft of coop floor. If the coop smells clean and stays dry inside on a humid morning, the ventilation is working.',
+    a: 'Good ventilation means continuous airflow that removes moisture and ammonia without blowing directly on the birds. In practice that means low inlets near the floor and high outlets at the ridge, split roughly 50/50, sized to a long-standing rule of thumb, 144 sq in of vent area per 10 sq ft of coop floor. If the coop smells clean and stays dry inside on a humid morning, the ventilation is working.',
     topic: 'basics',
   },
   {

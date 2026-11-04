@@ -130,7 +130,7 @@ The right ACH shifts significantly between winter and summer because the problem
 | Hot (above 85°F) | 6 to 10 | Prevent heat stress; birds at risk above 95°F body temp |
 | Heat wave (above 95°F air temp) | 10+ | Active cooling required; fan mandatory |
 
-These targets align with the per-bird CFM figures in [University of Kentucky Cooperative Extension ID-204](https://publications.ca.uky.edu/sites/publications.ca.uky.edu/files/id204.pdf) and [Penn State Extension's small flock housing guidance](https://extension.psu.edu/small-and-backyard-poultry), which recommend roughly 1 CFM per standard laying hen in cold conditions, rising to 4 to 8 CFM per bird in summer.
+This site's calculator uses 1 CFM (cubic foot per minute) of airflow per adult hen in winter. In summer, this site's calculator scales that to 5.0 to 7.5 CFM per bird, depending on climate.
 
 Working that through the ACH formula for a 6-bird flock in a 192-cubic-foot coop (4x8x6 ft):
 
@@ -199,7 +199,7 @@ Do not seal the coop entirely to warm it. A sealed coop grows ammonia faster tha
 
 **What is the ideal air changes per hour for a chicken coop?**
 
-1 to 2 ACH in cold weather, 4 to 8 in summer, and 10 or more during heat waves. These ranges come from 1 CFM per bird in winter and 4 to 8 CFM per bird in summer, converted through the ACH formula for a typical small-flock coop volume.
+1 to 2 ACH in cold weather, 4 to 8 in summer, and 10 or more during heat waves. This site's calculator uses 1 CFM (cubic foot per minute) of airflow per adult hen in winter. In summer, this site's calculator scales that to 5.0 to 7.5 CFM per bird, depending on climate. Those rates are converted through the ACH formula for a typical small-flock coop volume.
 
 **How do I calculate air changes per hour for my coop?**
 
@@ -401,7 +401,7 @@ The square footage formula sizes your static vent openings. How much air actuall
 
 **Winter:** The goal is moisture removal. Keep high outlets open year-round, even at freezing temperatures. This site's calculator uses 1 CFM (cubic foot per minute) per adult hen in winter. CFM is how much air your coop moves per minute. That winter rate is sized to carry off moisture from respiration and droppings, not to regulate temperature. Closing vents to hold warmth traps humidity and causes frostbite from the inside out.
 
-**Summer:** The target jumps to 4 to 8 CFM per bird, because airflow now has to carry away body heat on top of moisture. Static vents sized at 1-in-10 often cannot move enough air on still, hot days. An exhaust fan sized to your flock closes that gap. The [ventilation calculator](/) on this site returns the summer CFM target for your coop dimensions and bird count.
+**Summer:** In summer, this site's calculator scales that to 5.0 to 7.5 CFM per bird, depending on climate, because airflow now has to carry away body heat on top of moisture. Static vents sized at 1-in-10 often cannot move enough air on still, hot days. An exhaust fan sized to your flock closes that gap. The [ventilation calculator](/) on this site returns the summer CFM target for your coop dimensions and bird count.
 
 ## Two Field Checks That Take 90 Seconds
 

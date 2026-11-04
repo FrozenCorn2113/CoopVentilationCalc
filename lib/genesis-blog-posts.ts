@@ -140,7 +140,7 @@ A coop somewhere in between, solid walls with a few small windows, needs the mos
 
 ## Recommendations by season
 
-Static vent size is a year-round number, but how much air actually needs to move through those vents changes with the season. [Penn State Extension's poultry housing guidance](https://extension.psu.edu/poultry) and similar land-grant programs put winter airflow at roughly 1 cubic foot per minute (CFM) per adult standard hen, sized for moisture removal, not warmth. Summer airflow needs jump to 5.0 to 7.5 CFM per bird, since the job shifts to carrying away body heat.
+Static vent size is a year-round number, but how much air actually needs to move through those vents changes with the season. This site's model puts winter airflow at roughly 1 cubic foot per minute (CFM) per adult standard hen, sized for moisture removal, not warmth. In summer, this site's calculator scales that to 5.0 to 7.5 CFM per bird, depending on climate, since the job shifts to carrying away body heat.
 
 That gap means a coop built to the winter minimum usually needs supplemental summer capacity. Larger operable vent panels, added gable vents, or a thermostat-controlled exhaust fan all close it. [Alabama Cooperative Extension System](https://www.aces.edu/blog/topics/farming/cold-weather-ventilation-moisture-control-of-poultry-houses/) is direct about the winter side: adequate low inlet area is what keeps relative humidity in the 50 to 70 percent range during cold weather, and high outlets alone do not get there.
 
