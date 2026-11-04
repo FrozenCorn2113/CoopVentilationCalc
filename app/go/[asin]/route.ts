@@ -6,7 +6,7 @@ import { headers } from 'next/headers'
 // Vercel sets x-vercel-ip-country; localhost defaults to US.
 
 const TAG_CA = 'yellowbird211-20'
-const TAG_US = 'tiktokcreatpr-20'
+const TAG_US = 'yellowbird208-20'
 
 export async function GET(
   _req: NextRequest,
