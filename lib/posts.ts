@@ -552,7 +552,7 @@ Good ventilation removes three things from a coop: ammonia from droppings, moist
 
 The minimum: **1 square foot of vent opening for every 10 square feet of coop floor area.** A 40 sq ft coop needs at least 4 sq ft of vent space as a static minimum. Airflow needs scale with temperature and flock density from there.
 
-[University of Kentucky Cooperative Extension ID-204](https://publications.ca.uky.edu/sites/publications.ca.uky.edu/files/id204.pdf) specifies 1 CFM (cubic foot per minute) of airflow per bird in winter and 4-8 CFM per bird in summer. CFM is the actual air movement rate. The vent area rule gets you to that number under natural ventilation. Larger flocks, hot climates, or very humid winters often need a supplemental exhaust fan.
+This site's calculator uses 1 CFM (cubic foot per minute) of airflow per bird in winter. In summer, this site's calculator scales that to 5.0 to 7.5 CFM per bird, depending on climate. CFM is the actual air movement rate. The vent area rule gets you to that number under natural ventilation. Larger flocks, hot climates, or very humid winters often need a supplemental exhaust fan.
 
 Vent placement matters as much as vent area. Openings should sit high on the wall or in the roofline, not at roost level. Air entering at bird height in winter is a draft. Drafts cause respiratory illness and frostbite even at temperatures that would otherwise be safe. Use the [ventilation calculator](/) to translate your coop dimensions and flock size into a specific vent area and airflow recommendation before you build or buy.
 
