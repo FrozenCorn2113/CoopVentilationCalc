@@ -41,7 +41,23 @@ export const metadata = {
 const STATS = [
   { num: '5', unit: 'CFM', label: "summer airflow target per bird in CFM (cubic feet per minute), per this site's model" },
   { num: '1', unit: 'CFM', label: "winter airflow per bird for moisture removal, per this site's model" },
-  { num: '144', unit: 'sq in', label: 'vent area in square inches per 10 sq ft of coop floor, a common rule of thumb for open-front houses in University of Illinois Extension Circular 337' },
+  {
+    num: '144',
+    unit: 'sq in',
+    label: [
+      'vent area in square inches per 10 sq ft of coop floor, a long-standing rule of thumb (',
+      <a
+        key="circular-337"
+        href="https://www.ideals.illinois.edu/items/30741/bitstreams/102220/data.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="underline underline-offset-2 hover:text-[var(--color-accent-deep)]"
+      >
+        Illinois Extension Circular 337, 1929
+      </a>,
+      ')',
+    ],
+  },
   { num: '50', unit: '/ 50', label: "split between low inlets and high outlets, per this site's model" },
 ]
 
@@ -54,7 +70,19 @@ const HOW_IT_WORKS = [
   {
     n: '02',
     h: 'We size to extension-service formulas',
-    p: "The calculator runs this site's 5-CFM-per-bird summer model (CFM = cubic feet per minute, the standard airflow measurement) against the 144-square-inches-per-10-sq-ft floor rule, a common rule of thumb for open-front houses in University of Illinois Extension Circular 337, and takes the larger of the two, climate-adjusted.",
+    p: [
+      "The calculator runs this site's 5-CFM-per-bird summer model (CFM = cubic feet per minute, the standard airflow measurement) against the 144-square-inches-per-10-sq-ft floor rule, a long-standing rule of thumb (",
+      <a
+        key="circular-337"
+        href="https://www.ideals.illinois.edu/items/30741/bitstreams/102220/data.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="underline underline-offset-2 hover:text-[var(--color-accent-deep)]"
+      >
+        Illinois Extension Circular 337, 1929
+      </a>,
+      '), and takes the larger of the two, climate-adjusted.',
+    ],
   },
   {
     n: '03',

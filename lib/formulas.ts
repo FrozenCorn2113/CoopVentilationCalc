@@ -2,9 +2,9 @@
 // Sources:
 //   This site's model — 5 CFM per bird summer, 1 CFM per bird winter,
 //     climate multiplier up to 1.5, vent area split 50/50 between low inlets and high outlets
-//   University of Illinois Extension Circular 337 — 1 square foot of opening per
-//     10 square feet of floor (144 sq inches per 10 sq ft), given as a common rule of thumb
-//     for open-front houses
+//   a long-standing rule of thumb (Illinois Extension Circular 337, 1929) —
+//     https://www.ideals.illinois.edu/items/30741/bitstreams/102220/data.pdf —
+//     1 square foot of opening per 10 square feet of floor (144 sq inches per 10 sq ft)
 
 export type ClimateZone =
   | 'cold-winter'

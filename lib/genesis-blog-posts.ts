@@ -326,7 +326,7 @@ The coop does not need to hold heat, only stay dry and above freezing. A flock r
     publishedAt: '2026-07-10',
     body: `# How Much Ventilation Per Chicken Coop Square Footage
 
-The standard is 1 square foot of vent opening for every 10 square feet of coop floor space, split between a high outlet and a low inlet. A 32 square foot coop (4 by 8 feet) needs about 3.2 square feet of vent area. That ratio appears in [University of Illinois Extension poultry-housing guidance](https://www.ideals.illinois.edu/items/30741/bitstreams/102220/data.pdf) as far back as 1929, where it is given as a common rule of thumb for open-front houses.
+The standard is 1 square foot of vent opening for every 10 square feet of coop floor space, split between a high outlet and a low inlet. A 32 square foot coop (4 by 8 feet) needs about 3.2 square feet of vent area. That ratio is a long-standing rule of thumb ([Illinois Extension Circular 337, 1929](https://www.ideals.illinois.edu/items/30741/bitstreams/102220/data.pdf)).
 
 Floor square footage is the fastest way to size vents because it is the number every coop already has. Measure the inside floor, divide by 10, and you have a target before you touch a tape measure on the vents themselves. Here is the full breakdown by coop size, why floor area is the right variable to use, and how the number shifts by season.
 
@@ -351,7 +351,7 @@ These are floor minimums, not targets. A humid climate, a dense flock, or a tigh
 
 Vent sizing runs off floor area instead of bird count because the job of ventilation is removing moisture and ammonia rising off the litter, not just the moisture birds exhale. More floor space holds more litter surface. More litter surface produces more moisture and gas load as it breaks down. [Litter moisture is one of the main factors in how much ammonia litter releases](https://afs.mgcafe.uky.edu/files/chapter7.pdf), which is why the formula tracks square footage rather than a fixed number per bird.
 
-Bird count still matters, but it enters through floor space. [Standard guidance](https://poultry.extension.org/articles/getting-started-with-small-and-backyard-poultry/housing-for-small-and-backyard-poultry-flocks/space-allowances-in-housing-for-small-and-backyard-poultry-flocks/) runs 3 to 4 square feet of floor per laying hen, so a 10 bird flock needs roughly 40 square feet of coop and, by the 1-in-10 rule, about 4 square feet of vent area. Get the floor size right for your flock first. The vent number follows automatically.
+Bird count still matters, but it enters through floor space. [Standard guidance](https://poultry.extension.org/articles/getting-started-with-small-and-backyard-poultry/housing-for-small-and-backyard-poultry-flocks/space-allowances-in-housing-for-small-and-backyard-poultry-flocks/) runs 3 to 4 square feet of floor per laying hen, so a 10 bird flock needs roughly 30 to 40 square feet of coop and, by the 1-in-10 rule ([Illinois Extension Circular 337, 1929](https://www.ideals.illinois.edu/items/30741/bitstreams/102220/data.pdf)), about 3 to 4 square feet of vent area. Get the floor size right for your flock first. The vent number follows automatically.
 
 ## Ventilation Rate Per Bird: Winter vs Summer
 
@@ -796,7 +796,7 @@ Before a single bird looks sick, the building tells you first.
 
 **Frost on the inside of the roof in winter.** This is condensation's colder cousin. Warm, moist air rising from the flock hits a cold roof deck with nowhere to go and freezes on contact. A coop with proper high-outlet venting lets that air out before it ever reaches the roof.
 
-**Wet, caked, or slimy litter, especially near the roost.** Litter should dry out between cleanings. If it stays damp, packs into a mat, or smells sour, airflow is not removing moisture as fast as the birds and their droppings are producing it. [University of Kentucky Cooperative Extension](https://publications.ca.uky.edu/sites/publications.ca.uky.edu/files/asc187.pdf) lists adequate ventilation as the primary defense against wet litter, ahead of bedding choice or cleaning frequency.
+**Wet, caked, or slimy litter, especially near the roost.** Litter should dry out between cleanings. If it stays damp, packs into a mat, or smells sour, airflow is not removing moisture as fast as the birds and their droppings are producing it. Adequate ventilation is the first defense against wet litter, ahead of bedding choice or cleaning frequency.
 
 **A strong ammonia smell when you open the door.** A faint whiff is normal in any coop with droppings. A smell that hits you immediately, or lingers after a few minutes inside, means ammonia concentration has climbed well past a safe level.
 

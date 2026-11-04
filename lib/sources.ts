@@ -23,7 +23,7 @@ export const sources: Source[] = [
     url: 'https://poultry.extension.org/articles/getting-started-with-small-and-backyard-poultry/housing-for-small-and-backyard-poultry-flocks/ventilation-in-small-and-backyard-poultry-flock-housing/',
   },
   {
-    label: 'University of Illinois Extension Circular 337, Housing Farm Poultry (1929)',
+    label: 'a long-standing rule of thumb (Illinois Extension Circular 337, 1929)',
     url: 'https://www.ideals.illinois.edu/items/30741/bitstreams/102220/data.pdf',
   },
 ]

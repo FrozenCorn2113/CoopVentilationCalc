@@ -1198,7 +1198,7 @@ Inadequate ventilation does not always cause respiratory disease by itself. More
 
 ## How Much Ventilation Chickens Actually Need
 
-This site's calculator uses 1 CFM (cubic foot per minute) of airflow per adult hen in winter. Summer airflow scales to 4 to 8 CFM per bird. Those targets exist primarily to remove moisture and ammonia, not to regulate temperature.
+This site's calculator uses 1 CFM (cubic foot per minute) of airflow per adult hen in winter. In summer, this site's calculator scales that to 5.0 to 7.5 CFM per bird, depending on climate. Those targets exist primarily to remove moisture and ammonia, not to regulate temperature.
 
 For a concrete example: a flock of 8 hens needs at least 8 CFM in winter. A pair of properly placed 12x12 inch vents, one high for exhaust and one low for intake, generates enough passive stack-effect airflow to reach that target in most climates without a fan.
 
@@ -1808,7 +1808,7 @@ Standard hens need 4 square feet of indoor floor space each, minimum. Bantams ca
 | Standard layer | 4 sq ft per bird | 10 sq ft per bird |
 | Large breed | 8 to 10 sq ft per bird | 15 sq ft per bird |
 
-These figures come from cooperative extension services including [Penn State Extension](https://extension.psu.edu/poultry) and the [University of Kentucky Cooperative Extension](https://publications.ca.uky.edu/sites/publications.ca.uky.edu/files/asc187.pdf). They represent the lower bound of what healthy birds need, not an ideal.
+The standard-layer indoor and run figures match [Poultry Extension's space allowances](https://poultry.extension.org/articles/getting-started-with-small-and-backyard-poultry/housing-for-small-and-backyard-poultry-flocks/space-allowances-in-housing-for-small-and-backyard-poultry-flocks/), which recommend a minimum of 3 to 4 square feet per hen indoors and 10 outdoors. They represent the lower bound of what healthy birds need, not an ideal.
 
 ## How stocking density drives ventilation load
 
