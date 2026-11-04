@@ -244,7 +244,7 @@ It works well when:
 - Your flock is under 25 to 30 birds
 - You can place at least one vent on each wall, especially in the upper third
 
-A long-standing rule of thumb, given in [University of Illinois Circular 337](https://www.ideals.illinois.edu/items/30741/bitstreams/102220/data.pdf), sets the baseline: 1 square foot of ventilation area per 10 square feet of floor space, minimum. Penn State's extension materials push that to 1 square foot per 8 square feet in humid climates, or for heavier breeds that produce more body heat.
+A long-standing rule of thumb, given in [University of Illinois Circular 337](https://www.ideals.illinois.edu/items/30741/bitstreams/102220/data.pdf), sets the baseline: 1 square foot of ventilation area per 10 square feet of floor space. Penn State's extension materials push that to 1 square foot per 8 square feet in humid climates, or for heavier breeds that produce more body heat.
 
 Those numbers are for passive vents at rest. The actual airflow through a vent depends on placement, temperature differential, and wind. High-low vent pairs move more air than same-height vents because the height difference amplifies the stack effect.
 
@@ -1368,7 +1368,7 @@ The biology depends on maintaining the right carbon-to-nitrogen ratio. Droppings
 
 Moisture is the single variable that determines whether deep litter composts or rots. If your coop holds too much humidity, the litter stays wet, microbial activity slows, and ammonia builds instead of breaking down. Good ventilation removes that moisture continuously.
 
-In our experience, managed deep litter can stay drier than frequently spot-cleaned litter because surface layers wick moisture down into the composting base. That advantage disappears in a poorly ventilated coop. Warm, moist air sits against the litter surface, slows evaporation, and tips the system toward rot.
+This site's guidance is that managed deep litter can stay drier than frequently spot-cleaned litter because surface layers wick moisture down into the composting base. That advantage disappears in a poorly ventilated coop. Warm, moist air sits against the litter surface, slows evaporation, and tips the system toward rot.
 
 A baseline rule: 1 square foot of vent area per 10 square feet of coop floor. If you are running deep litter, treat that as a minimum, not a target. More airflow removes more moisture. The [ventilation calculator](/) on this site gives exact vent sizing based on your flock size and coop dimensions.
 
@@ -1702,7 +1702,7 @@ The short answer: **4 square feet of indoor floor space per standard-breed chick
 
 ## The core rule: indoor space per bird
 
-Most cooperative-extension programs land on the same number: 4 sq ft of usable floor space per bird for standard-size laying hens kept in a covered coop. [Poultry Extension](https://poultry.extension.org/articles/getting-started-with-small-and-backyard-poultry/housing-for-small-and-backyard-poultry-flocks/space-allowances-in-housing-for-small-and-backyard-poultry-flocks/) recommends a minimum of 3 to 4 square feet per laying hen indoors.
+This site uses 4 sq ft per bird. [Poultry Extension](https://poultry.extension.org/articles/getting-started-with-small-and-backyard-poultry/housing-for-small-and-backyard-poultry-flocks/space-allowances-in-housing-for-small-and-backyard-poultry-flocks/) recommends a minimum of 3 to 4 square feet per laying hen indoors.
 
 "Usable" is the key word. Nesting boxes, feeders, and waterers placed on the floor eat into that number. If your 4x6 coop has a 1x2 nest box bank sitting on the floor, your real per-bird space is smaller than the room dimensions suggest. Mount equipment on the wall or hang it to preserve floor area.
 
@@ -2078,7 +2078,7 @@ The [stable rewritten query](https://coopventilationcalc.com/blog/) that brings 
 
 **Reduce the source.** More frequent litter removal means less manure available for bacteria to work on. Spot-cleaning under roosts, where 70 to 80 percent of overnight droppings land, makes a bigger difference per effort than any other single action.
 
-**Remove what builds up.** That is the ventilation system's job. A long-standing rule of thumb, given in [University of Illinois Circular 337](https://www.ideals.illinois.edu/items/30741/bitstreams/102220/data.pdf), calls for at minimum 1 square foot of vent area per 10 square feet of coop floor. That baseline assumes reasonably managed litter. If litter management is poor, no amount of ventilation will fully compensate.
+**Remove what builds up.** That is the ventilation system's job. A long-standing rule of thumb, given in [University of Illinois Circular 337](https://www.ideals.illinois.edu/items/30741/bitstreams/102220/data.pdf), calls for 1 square foot of vent area per 10 square feet of coop floor. That baseline assumes reasonably managed litter. If litter management is poor, no amount of ventilation will fully compensate.
 
 Both levers matter. Cleaning reduces how much ammonia gets produced. Ventilation removes what does get produced. Neither one substitutes for the other.
 
@@ -2518,7 +2518,7 @@ Kiln-dried pine shavings are the standard choice. Fresh or green pine shavings c
 
 Cedar shavings are not a substitute. Cedar contains aromatic compounds that damage poultry respiratory tissue at sustained exposure. Use pine, not cedar.
 
-The deep litter method works with shavings. You start with 4 to 6 inches, add fresh material on top of soiled litter every week or two rather than doing full cleanouts, and allow microbial breakdown to reduce nitrogen. The composting action generates a small amount of heat. Some keepers in cold climates run a full-winter deep litter system without a cleanout, topping up as the material compresses. In our experience, managed deep litter can stay drier than frequently spot-cleaned litter because surface layers wick moisture down into the composting base.
+The deep litter method works with shavings. You start with 4 to 6 inches, add fresh material on top of soiled litter every week or two rather than doing full cleanouts, and allow microbial breakdown to reduce nitrogen. The composting action generates a small amount of heat. Some keepers in cold climates run a full-winter deep litter system without a cleanout, topping up as the material compresses. This site's guidance is that managed deep litter can stay drier than frequently spot-cleaned litter because surface layers wick moisture down into the composting base.
 
 The downside is dust. As pine shavings dry and break down, they create fine particulate. A coop with poor ventilation concentrates that dust at bird height, contributing to respiratory irritation alongside ammonia. This is another reason ventilation and bedding choice are linked.
 
