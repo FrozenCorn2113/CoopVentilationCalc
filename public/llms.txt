@@ -1,6 +1,6 @@
 # Coop Ventilation Calculator
 
-> Free chicken coop ventilation calculator that sizes the exact airflow, vent area, and inlet/outlet split for a backyard flock using cooperative-extension formulas (University of Kentucky, Penn State, University of Maine). Enter bird count, coop floor area, and climate to get target CFM and vent square inches.
+> Free chicken coop ventilation calculator that sizes the exact airflow, vent area, and inlet/outlet split for a backyard flock using this site's model. Enter bird count, coop floor area, and climate to get target CFM and vent square inches.
 
 ## Calculator
 

@@ -103,7 +103,7 @@ Start with your coop's interior floor area in square feet and divide by 10. That
 
 **Floor area (sq ft) / 10 = minimum vent area (sq ft)**
 
-This ratio comes from [University of Kentucky Cooperative Extension publication ID-204](https://publications.ca.uky.edu/sites/publications.ca.uky.edu/files/id204.pdf) and holds as a starting point across most North American climates. Split the total 50/50 between high outlet, above roost height, and low inlet, below it. Outlets let warm, moist air escape through the stack effect. Inlets replace it with drier air without blowing directly on sleeping birds.
+This ratio is a long-standing rule of thumb, given in [University of Illinois Circular 337](https://www.ideals.illinois.edu/items/30741/bitstreams/102220/data.pdf), and works as a starting point in most North American climates. Split the total 50/50 between high outlet, above roost height, and low inlet, below it. Outlets let warm, moist air escape through the stack effect. Inlets replace it with drier air without blowing directly on sleeping birds.
 
 Treat this as a floor, not a ceiling. Every recommendation below adjusts it upward, never down.
 
@@ -179,7 +179,7 @@ A coop housing 10 standard-breed chickens needs about 4 square feet of total ven
 
 ## How Much Vent Area a 10-Bird Coop Actually Needs
 
-Ten hens at the standard 4 square feet of indoor space per bird need a 40 square foot floor, and the [University of Kentucky Cooperative Extension](https://publications.ca.uky.edu/sites/publications.ca.uky.edu/files/id204.pdf) housing guidance runs vent area off that floor number: 1 square foot of vent opening per 10 square feet of floor. On a 40 square foot coop, that is 4 square feet total, with the high-outlet, low-inlet split doing more work than the total figure alone.
+Ten hens at 4 square feet of indoor space per bird, the upper end of [Poultry Extension's](https://poultry.extension.org/articles/getting-started-with-small-and-backyard-poultry/housing-for-small-and-backyard-poultry-flocks/space-allowances-in-housing-for-small-and-backyard-poultry-flocks/) 3 to 4 square foot minimum, need a 40 square foot floor, and a [long-standing rule of thumb](https://www.ideals.illinois.edu/items/30741/bitstreams/102220/data.pdf) runs vent area off that floor number: 1 square foot of vent opening per 10 square feet of floor. On a 40 square foot coop, that is 4 square feet total, with the high-outlet, low-inlet split doing more work than the total figure alone.
 
 For the exact breakdown by season, including winter and summer CFM targets for a 10-bird flock, see the full [ventilation requirements for 10 chickens](/blog/ventilation-for-10-chickens-coop). This post covers how to actually build that vent area into a real coop.
 
@@ -408,7 +408,7 @@ To calculate chicken coop ventilation, measure your coop's floor area in square 
 
 Measure the inside length and width of the coop, in feet, and multiply. A 4x8 coop is 32 sq ft. A 6x10 coop is 60 sq ft. Use interior dimensions, not the footprint of the exterior walls, since wall thickness eats a few inches on each side.
 
-If you have not settled on a coop size yet, floor area itself follows a standard: 4 sq ft of usable indoor space per standard-breed hen, per [University of Kentucky Cooperative Extension (ID-204)](https://publications.ca.uky.edu/sites/publications.ca.uky.edu/files/id204.pdf). A flock of eight needs roughly 32 sq ft. If you are still sizing the build, see our [chicken coop size calculator](/blog/coop-size-calculator) before you finalize vent placement.
+If you have not settled on a coop size yet, floor area itself follows a standard: a minimum of 3 to 4 sq ft of indoor space per laying hen, per [Poultry Extension](https://poultry.extension.org/articles/getting-started-with-small-and-backyard-poultry/housing-for-small-and-backyard-poultry-flocks/space-allowances-in-housing-for-small-and-backyard-poultry-flocks/). A flock of eight needs roughly 32 sq ft. If you are still sizing the build, see our [chicken coop size calculator](/blog/coop-size-calculator) before you finalize vent placement.
 
 ## Step 2: Apply the 1-in-10 vent area rule
 
@@ -569,7 +569,7 @@ A coop built for 10 standard-breed chickens needs roughly 4 square feet of total
 
 ## Chicken Coop Vent Size Per Chicken
 
-The vent ratio does not run per bird directly. It runs off floor area, and floor area is set by bird count. [University of Kentucky Cooperative Extension publication ID-204](https://publications.ca.uky.edu/sites/publications.ca.uky.edu/files/id204.pdf) uses 4 square feet of usable indoor floor space per standard hen as the housing baseline. Ten hens at that standard need a 40 square foot coop, roughly a 5 by 8 foot footprint.
+The vent ratio does not run per bird directly. It runs off floor area, and floor area is set by bird count. [Poultry Extension](https://poultry.extension.org/articles/getting-started-with-small-and-backyard-poultry/housing-for-small-and-backyard-poultry-flocks/space-allowances-in-housing-for-small-and-backyard-poultry-flocks/) recommends a minimum of 3 to 4 square feet of indoor floor space per laying hen; this guide uses 4. Ten hens at that standard need a 40 square foot coop, roughly a 5 by 8 foot footprint.
 
 Divide floor area by 10 and you get the minimum vent area: 40 divided by 10 is 4 square feet. That works out to about 0.4 square feet of vent opening per bird, but the useful number to build from is the floor-area total, not a per-chicken fraction. A coop with less floor space than 40 square feet for 10 birds needs more vent area than the table below, not less, since a crowded coop concentrates ammonia and moisture faster.
 
@@ -646,7 +646,7 @@ A coop holding 10 standard-breed chickens needs roughly 4 square feet of total v
 | Winter airflow target | about 10 CFM |
 | Summer airflow target | 50 to 75 CFM |
 
-These figures come from the 1 square foot of vent per 10 square feet of floor rule in [University of Kentucky Cooperative Extension publication ID-204](https://publications.ca.uky.edu/sites/publications.ca.uky.edu/files/id204.pdf), applied to the standard 4 square feet of indoor floor space per hen. The rest of this guide walks through checking your actual coop against that table instead of assuming it already matches.
+These figures come from the long-standing rule of thumb of 1 square foot of vent per 10 square feet of floor, given in [University of Illinois Circular 337](https://www.ideals.illinois.edu/items/30741/bitstreams/102220/data.pdf), applied to 4 square feet of indoor floor space per hen, the upper end of [Poultry Extension's](https://poultry.extension.org/articles/getting-started-with-small-and-backyard-poultry/housing-for-small-and-backyard-poultry-flocks/space-allowances-in-housing-for-small-and-backyard-poultry-flocks/) 3 to 4 square foot minimum. The rest of this guide walks through checking your actual coop against that table instead of assuming it already matches.
 
 ## Step 1: Measure Your Coop's Actual Floor Area
 

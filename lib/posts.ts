@@ -27,7 +27,7 @@ The type you need depends on coop size, insulation, climate, and flock count. He
 
 Passive ventilation relies on the stack effect. Warm air inside the coop rises and carries ammonia and moisture with it. That air exits through high openings while cooler, drier air enters through low ones. No moving parts, no electricity, nothing to fail if the power goes out.
 
-[University of Kentucky Cooperative Extension publication ID-204](https://publications.ca.uky.edu/sites/publications.ca.uky.edu/files/id204.pdf) sets the baseline for passive vent sizing at 1 square foot of vent opening per 10 square feet of coop floor, split between high outlets and low inlets. That formula holds for the four common passive vent types.
+A long-standing rule of thumb, given in [University of Illinois Circular 337](https://www.ideals.illinois.edu/items/30741/bitstreams/102220/data.pdf), sets the baseline for passive vent sizing at 1 square foot of vent opening per 10 square feet of coop floor, split between high outlets and low inlets. That formula holds for the four common passive vent types.
 
 ### Ridge vents
 
@@ -155,7 +155,7 @@ If your fan has multiple speeds, note the ACH at each. You want the low-speed AC
 2. Estimate CFM: multiply total vent area by 30 (calm day) or 50 (breezy day).
 3. Apply the formula using the calm-day estimate. If your minimum falls below 1 ACH in cold weather, you have a moisture problem waiting to develop.
 
-A note on why passive estimates feel high: a 40-square-foot coop with 4 square feet of vent area (the 1-in-10 minimum from ID-204) calculates to over 25 ACH at 30 CFM per square foot. That is the theoretical maximum. Real-world passive airflow on a still winter day is far lower, often 5 to 15 CFM total. Passive systems are sized for the worst-case scenario (still, hot day) rather than the average. This is why hot, still summer days are the dangerous case: wind drives passive ventilation, and without it, ACH in a passive coop can drop under 1 even in warm temperatures.
+A note on why passive estimates feel high: a 40-square-foot coop with 4 square feet of vent area (the long-standing 1-in-10 rule of thumb) calculates to over 25 ACH at 30 CFM per square foot. That is the theoretical maximum. Real-world passive airflow on a still winter day is far lower, often 5 to 15 CFM total. Passive systems are sized for the worst-case scenario (still, hot day) rather than the average. This is why hot, still summer days are the dangerous case: wind drives passive ventilation, and without it, ACH in a passive coop can drop under 1 even in warm temperatures.
 
 ## Why winter ACH is lower, not higher
 
@@ -244,7 +244,7 @@ It works well when:
 - Your flock is under 25 to 30 birds
 - You can place at least one vent on each wall, especially in the upper third
 
-The [University of Kentucky's poultry housing guide (ID-204)](https://uknowledge.uky.edu/cgi/viewcontent.cgi?article=1127&context=anr_reports) sets the baseline most cooperative extension services reference: 1 square foot of ventilation area per 10 square feet of floor space, minimum. Penn State's extension materials push that to 1 square foot per 8 square feet in humid climates, or for heavier breeds that produce more body heat.
+A long-standing rule of thumb, given in [University of Illinois Circular 337](https://www.ideals.illinois.edu/items/30741/bitstreams/102220/data.pdf), sets the baseline: 1 square foot of ventilation area per 10 square feet of floor space. Penn State's extension materials push that to 1 square foot per 8 square feet in humid climates, or for heavier breeds that produce more body heat.
 
 Those numbers are for passive vents at rest. The actual airflow through a vent depends on placement, temperature differential, and wind. High-low vent pairs move more air than same-height vents because the height difference amplifies the stack effect.
 
@@ -361,7 +361,7 @@ These are minimums. Climate, flock density, and coop construction all push the r
 
 ## Vent Area Per Chicken: A Useful Sanity Check
 
-The square footage formula is built around floor area, not bird count. But the two connect because floor space is set by flock size. ID-204 recommends 4 square feet of floor per standard laying hen, which works out to 0.4 sq ft of vent per bird at the 1-in-10 ratio.
+The square footage formula is built around floor area, not bird count. But the two connect because floor space is set by flock size. [Poultry Extension](https://poultry.extension.org/articles/getting-started-with-small-and-backyard-poultry/housing-for-small-and-backyard-poultry-flocks/space-allowances-in-housing-for-small-and-backyard-poultry-flocks/) recommends a minimum of 3 to 4 square feet of floor per laying hen; at 4 square feet, that works out to 0.4 sq ft of vent per bird at the 1-in-10 ratio.
 
 That per-bird figure is useful for a quick check: multiply your bird count by 0.4, and you have an approximate vent area target.
 
@@ -419,7 +419,7 @@ If either check fails, the first fix is more high vent area, not bedding changes
 
 **How many square feet of ventilation does a chicken coop need?**
 
-The standard is 1 square foot of vent opening per 10 square feet of coop floor area, split between a high outlet and a low inlet. A 4 x 8 ft coop (32 sq ft) needs roughly 3.2 sq ft of total vent area. This comes from University of Kentucky Cooperative Extension ID-204 and is consistent across US extension services.
+The standard is 1 square foot of vent opening per 10 square feet of coop floor area, split between a high outlet and a low inlet. A 4 x 8 ft coop (32 sq ft) needs roughly 3.2 sq ft of total vent area. This is a long-standing rule of thumb, given as far back as [University of Illinois Circular 337](https://www.ideals.illinois.edu/items/30741/bitstreams/102220/data.pdf).
 
 **Is there a vent area requirement per chicken?**
 
@@ -540,7 +540,7 @@ Check your local bylaws before you order chicks. Many municipalities cap backyar
 
 ## How Much Space Do Chickens Need in a Coop
 
-The standard from cooperative extension services: 4 square feet per bird inside the coop and 10 square feet per bird in the outdoor run. A six-bird flock needs at least a 24 sq ft coop interior and a 60 sq ft run minimum. Those numbers come from [University of Kentucky Cooperative Extension publication ID-204](https://publications.ca.uky.edu/sites/publications.ca.uky.edu/files/id204.pdf), the most widely cited US standard for small-flock housing.
+The standard from cooperative extension services: 4 square feet per bird inside the coop and 10 square feet per bird in the outdoor run. A six-bird flock needs at least a 24 sq ft coop interior and a 60 sq ft run minimum. Those numbers match [Poultry Extension's space allowances](https://poultry.extension.org/articles/getting-started-with-small-and-backyard-poultry/housing-for-small-and-backyard-poultry-flocks/space-allowances-in-housing-for-small-and-backyard-poultry-flocks/), which recommend a minimum of 3 to 4 square feet per hen indoors and 10 square feet per hen outdoors.
 
 Bantam breeds can manage on slightly less. Heavy breeds like Jersey Giants or Brahmas need more. Either way, the run size matters as much as the coop interior. Overcrowded runs produce pecking, feather damage, and parasite pressure faster than an overcrowded coop does.
 
@@ -1296,7 +1296,7 @@ Practical steps:
 
 High coop humidity accelerates mite reproduction and keeps bedding damp longer, compounding the problem. A coop that holds moisture is harder to keep mite-free regardless of how often you clean it.
 
-Proper ventilation keeps relative humidity between 50 and 75 percent inside the coop. The guideline from [University of Kentucky Cooperative Extension (ID-204)](https://publications.ca.uky.edu/sites/publications.ca.uky.edu/files/id204.pdf) is 1 square foot of vent area per 10 square feet of coop floor. Vents belong high on the walls or at the ridge, where they exhaust warm, moist air without creating drafts at bird level.
+Proper ventilation keeps relative humidity between 50 and 75 percent inside the coop. A long-standing rule of thumb, given in [University of Illinois Circular 337](https://www.ideals.illinois.edu/items/30741/bitstreams/102220/data.pdf), is 1 square foot of vent area per 10 square feet of coop floor. Vents belong high on the walls or at the ridge, where they exhaust warm, moist air without creating drafts at bird level.
 
 A basic hygrometer costs under $15 and removes the guesswork. If your coop reads above 75 percent consistently, you need more airflow, not just more cleaning.
 
@@ -1368,7 +1368,7 @@ The biology depends on maintaining the right carbon-to-nitrogen ratio. Droppings
 
 Moisture is the single variable that determines whether deep litter composts or rots. If your coop holds too much humidity, the litter stays wet, microbial activity slows, and ammonia builds instead of breaking down. Good ventilation removes that moisture continuously.
 
-The [University of Kentucky ID-204](https://publications.ca.uky.edu/sites/publications.ca.uky.edu/files/id204.pdf) notes that managed deep litter can stay drier than frequently spot-cleaned litter because surface layers wick moisture down into the composting base. That advantage disappears in a poorly ventilated coop. Warm, moist air sits against the litter surface, slows evaporation, and tips the system toward rot.
+This site's guidance is that managed deep litter can stay drier than frequently spot-cleaned litter because surface layers wick moisture down into the composting base. That advantage disappears in a poorly ventilated coop. Warm, moist air sits against the litter surface, slows evaporation, and tips the system toward rot.
 
 A baseline rule: 1 square foot of vent area per 10 square feet of coop floor. If you are running deep litter, treat that as a minimum, not a target. More airflow removes more moisture. The [ventilation calculator](/) on this site gives exact vent sizing based on your flock size and coop dimensions.
 
@@ -1610,7 +1610,7 @@ Four trigger dates work better than a single annual clean-out.
 
 **Spring (March or when nighttime temps stay above freezing):** Ventilation needs shift from cold-weather minimum to full passive airflow. Check that any vents you restricted for winter are fully opened. Winter moisture often warps wood and corrodes hardware cloth.
 
-**Early summer (before temperatures exceed 85°F):** Heat stress in chickens starts around 90°F according to [University of Kentucky Cooperative Extension](https://publications.ca.uky.edu/sites/publications.ca.uky.edu/files/id204.pdf). You want fans mounted and ridge vents unobstructed before the heat arrives, not during it.
+**Early summer (before temperatures exceed 85°F):** This site's guidance treats roughly 90°F as the point where heat stress in chickens becomes a real risk. You want fans mounted and ridge vents unobstructed before the heat arrives, not during it.
 
 **Fall (September, before first frost):** The highest-stakes inspection of the year. Ventilation hardware needs to be in place and working before you reduce airflow for cold weather. Structural problems that spent a wet summer getting worse show up now.
 
@@ -1678,7 +1678,7 @@ Condensation on the ceiling or walls in the morning, a sharp ammonia smell when 
 
 ### How do I know if I have enough vents?
 
-The standard starting point is 1 square foot of vent area per 10 square feet of coop floor, per [University of Kentucky Cooperative Extension ID-204](https://publications.ca.uky.edu/sites/publications.ca.uky.edu/files/id204.pdf). For flock-specific calculations based on bird count and climate, use the [ventilation calculator](/).
+The standard starting point is 1 square foot of vent area per 10 square feet of coop floor, a long-standing rule of thumb given in [University of Illinois Circular 337](https://www.ideals.illinois.edu/items/30741/bitstreams/102220/data.pdf). For flock-specific calculations based on bird count and climate, use the [ventilation calculator](/).
 
 ### Can too much ventilation hurt my chickens in winter?
 
@@ -1702,7 +1702,7 @@ The short answer: **4 square feet of indoor floor space per standard-breed chick
 
 ## The core rule: indoor space per bird
 
-Most cooperative-extension programs land on the same number: 4 sq ft of usable floor space per bird for standard-size laying hens kept in a covered coop. [University of Kentucky Cooperative Extension (ID-204)](https://publications.ca.uky.edu/sites/publications.ca.uky.edu/files/id204.pdf) uses this as its baseline for backyard flock housing.
+This site uses 4 sq ft per bird. [Poultry Extension](https://poultry.extension.org/articles/getting-started-with-small-and-backyard-poultry/housing-for-small-and-backyard-poultry-flocks/space-allowances-in-housing-for-small-and-backyard-poultry-flocks/) recommends a minimum of 3 to 4 square feet per laying hen indoors.
 
 "Usable" is the key word. Nesting boxes, feeders, and waterers placed on the floor eat into that number. If your 4x6 coop has a 1x2 nest box bank sitting on the floor, your real per-bird space is smaller than the room dimensions suggest. Mount equipment on the wall or hang it to preserve floor area.
 
@@ -1901,7 +1901,7 @@ Dry litter does not eliminate flies, but it breaks the cycle. Larvae need moistu
 
 ## Ventilation Reduces Moisture, Which Reduces Flies
 
-This is the connection most fly-control articles miss. The [University of Kentucky poultry housing guide (ID-204)](https://publications.ca.uky.edu/sites/publications.ca.uky.edu/files/id204.pdf) recommends 1 square foot of vent area per 10 square feet of coop floor as a baseline for moisture management. Adequate airflow does three things: it removes the water vapor chickens exhale, it speeds drying of fresh droppings, and it prevents the condensation that keeps bedding wet even when no water is spilled.
+This is the connection most fly-control articles miss. A long-standing rule of thumb, given in [University of Illinois Circular 337](https://www.ideals.illinois.edu/items/30741/bitstreams/102220/data.pdf), calls for 1 square foot of vent area per 10 square feet of coop floor as a baseline. Adequate airflow does three things: it removes the water vapor chickens exhale, it speeds drying of fresh droppings, and it prevents the condensation that keeps bedding wet even when no water is spilled.
 
 In a coop with poor ventilation, humidity climbs fast. Eight chickens produce roughly a gallon of moisture per day between respiration and droppings. That moisture has to go somewhere. Without airflow, it goes into the litter.
 
@@ -2078,7 +2078,7 @@ The [stable rewritten query](https://coopventilationcalc.com/blog/) that brings 
 
 **Reduce the source.** More frequent litter removal means less manure available for bacteria to work on. Spot-cleaning under roosts, where 70 to 80 percent of overnight droppings land, makes a bigger difference per effort than any other single action.
 
-**Remove what builds up.** That is the ventilation system's job. The [University of Kentucky ID-204 poultry housing guide](https://publications.ca.uky.edu/sites/publications.ca.uky.edu/files/id204.pdf) recommends at minimum 1 square foot of vent area per 10 square feet of coop floor. That baseline assumes reasonably managed litter. If litter management is poor, no amount of ventilation will fully compensate.
+**Remove what builds up.** That is the ventilation system's job. A long-standing rule of thumb, given in [University of Illinois Circular 337](https://www.ideals.illinois.edu/items/30741/bitstreams/102220/data.pdf), calls for 1 square foot of vent area per 10 square feet of coop floor. That baseline assumes reasonably managed litter. If litter management is poor, no amount of ventilation will fully compensate.
 
 Both levers matter. Cleaning reduces how much ammonia gets produced. Ventilation removes what does get produced. Neither one substitutes for the other.
 
@@ -2518,7 +2518,7 @@ Kiln-dried pine shavings are the standard choice. Fresh or green pine shavings c
 
 Cedar shavings are not a substitute. Cedar contains aromatic compounds that damage poultry respiratory tissue at sustained exposure. Use pine, not cedar.
 
-The deep litter method works with shavings. You start with 4 to 6 inches, add fresh material on top of soiled litter every week or two rather than doing full cleanouts, and allow microbial breakdown to reduce nitrogen. The composting action generates a small amount of heat. Some keepers in cold climates run a full-winter deep litter system without a cleanout, topping up as the material compresses. The [University of Kentucky ID-204](https://publications.ca.uky.edu/sites/publications.ca.uky.edu/files/id204.pdf) notes that managed deep litter can stay drier than frequently spot-cleaned litter because surface layers wick moisture down into the composting base.
+The deep litter method works with shavings. You start with 4 to 6 inches, add fresh material on top of soiled litter every week or two rather than doing full cleanouts, and allow microbial breakdown to reduce nitrogen. The composting action generates a small amount of heat. Some keepers in cold climates run a full-winter deep litter system without a cleanout, topping up as the material compresses. This site's guidance is that managed deep litter can stay drier than frequently spot-cleaned litter because surface layers wick moisture down into the composting base.
 
 The downside is dust. As pine shavings dry and break down, they create fine particulate. A coop with poor ventilation concentrates that dust at bird height, contributing to respiratory irritation alongside ammonia. This is another reason ventilation and bedding choice are linked.
 
@@ -2552,7 +2552,7 @@ Use the [ventilation calculator](/) to confirm your coop moves enough air for yo
 
 **On ventilation with either option:** Bedding choice adjusts how quickly moisture accumulates. Ventilation determines the ceiling. A well-ventilated coop with shavings will outperform a poorly ventilated coop with sand every time.
 
-The baseline ventilation standard from [UKy ID-204](https://publications.ca.uky.edu/sites/publications.ca.uky.edu/files/id204.pdf) is 1 square foot of vent area per 10 square feet of coop floor. If your coop is below that, start there before changing bedding.
+The baseline ventilation rule of thumb, long given in [University of Illinois Circular 337](https://www.ideals.illinois.edu/items/30741/bitstreams/102220/data.pdf), is 1 square foot of vent area per 10 square feet of coop floor. If your coop is below that, start there before changing bedding.
 
 ## Frequently Asked Questions
 
