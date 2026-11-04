@@ -442,6 +442,7 @@ Crouch to roost height and breathe. Any eye irritation means ammonia is already 
   {
     slug: 'droppings-board-guide',
     title: 'How to Use a Droppings Board in Your Chicken Coop',
+    seoTitle: 'Dropping Board for Chickens: Size, Height & Setup Guide',
     description:
       'A droppings board sits under the roost bar to catch overnight waste before it mixes with floor bedding. Here is how to install one, what to put on it, and how often to clean it to keep ammonia low.',
     publishedAt: '2026-06-11',
@@ -961,6 +962,7 @@ Inside works for most builds. External boxes bolted to the outside wall are a co
   {
     slug: 'chicken-coop-ventilation-requirements',
     title: 'Chicken Coop Ventilation Requirements: How Much Air Per Bird',
+    seoTitle: 'How Much Ventilation Does a Chicken Coop Need? Sq In & CFM',
     description:
       'A chicken coop needs about 1 square foot of vent opening per 10 square feet of floor, split evenly between a low inlet and a high outlet. Here is how to size yours.',
     publishedAt: '2026-06-05',
