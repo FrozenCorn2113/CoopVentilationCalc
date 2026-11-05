@@ -4,29 +4,73 @@ import Script from 'next/script'
 import { Analytics } from '@/components/Analytics'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
-import { DM_Serif_Display, Work_Sans, Caveat } from 'next/font/google'
+import localFont from 'next/font/local'
 import './globals.css'
 
 // Photo credits: Pexels (pexels.com) — see public/images/manifest.json
 
-const dmSerif = DM_Serif_Display({
-  subsets: ['latin'],
-  weight: ['400'],
-  style: ['normal', 'italic'],
+// Self-hosted latin subsets (same families, weights, styles, and display
+// as the previous next/font/google setup). Files are OFL-licensed.
+const dmSerif = localFont({
+  src: [
+    {
+      path: './fonts/dm-serif-display-latin-400-normal.woff2',
+      weight: '400',
+      style: 'normal',
+    },
+    {
+      path: './fonts/dm-serif-display-latin-400-italic.woff2',
+      weight: '400',
+      style: 'italic',
+    },
+  ],
   variable: '--font-display-loaded',
   display: 'swap',
+  adjustFontFallback: 'Times New Roman',
 })
-const workSans = Work_Sans({
-  subsets: ['latin'],
-  weight: ['400', '500', '600', '700'],
+const workSans = localFont({
+  src: [
+    {
+      path: './fonts/work-sans-latin-400-normal.woff2',
+      weight: '400',
+      style: 'normal',
+    },
+    {
+      path: './fonts/work-sans-latin-500-normal.woff2',
+      weight: '500',
+      style: 'normal',
+    },
+    {
+      path: './fonts/work-sans-latin-600-normal.woff2',
+      weight: '600',
+      style: 'normal',
+    },
+    {
+      path: './fonts/work-sans-latin-700-normal.woff2',
+      weight: '700',
+      style: 'normal',
+    },
+  ],
   variable: '--font-body-loaded',
   display: 'swap',
+  adjustFontFallback: 'Arial',
 })
-const caveat = Caveat({
-  subsets: ['latin'],
-  weight: ['500', '600'],
+const caveat = localFont({
+  src: [
+    {
+      path: './fonts/caveat-latin-500-normal.woff2',
+      weight: '500',
+      style: 'normal',
+    },
+    {
+      path: './fonts/caveat-latin-600-normal.woff2',
+      weight: '600',
+      style: 'normal',
+    },
+  ],
   variable: '--font-script-loaded',
   display: 'swap',
+  adjustFontFallback: 'Arial',
 })
 
 export const metadata: Metadata = {
