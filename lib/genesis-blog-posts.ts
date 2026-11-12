@@ -855,4 +855,85 @@ A faint smell right at the litter surface is normal. A smell noticeable from the
 **Will more ventilation help in summer too?**
 Yes. Summer heat raises the CFM chickens need for cooling on top of the moisture and ammonia removal required year-round, so a coop vented only for winter often falls short once temperatures climb.`,
   },
+  {
+    slug: 'which-chicken-coops-have-good-ventilation',
+    title: "Which Chicken Coops Have Good Ventilation? A Buyer's Checklist",
+    description:
+      'How to tell if a prebuilt or kit chicken coop has enough ventilation before you buy: vent area to measure, where vents should sit, and red flags to skip.',
+    publishedAt: '2026-11-12',
+    body: `# Which Chicken Coops Have Good Ventilation? A Buyer's Checklist
+
+You've found a prebuilt coop you like, and the listing photos show small vents but no sizes, so you can't tell whether that's enough air to keep the bedding dry and the ammonia smell down after your hens are shut in for the night.
+
+**A coop has good ventilation when its permanent and adjustable openings add up to roughly 1 square foot (144 square inches) for every 10 square feet of floor. Some of that area should be up high near the roof and the rest lower down, all of it screened with hardware cloth and none of it blowing straight across the roost. Listings often don't show that, so measure the openings yourself, or ask the seller for the vent dimensions, before you buy.**
+
+In this article
+- [What makes a chicken coop well ventilated?](#what-makes-a-chicken-coop-well-ventilated)
+- [How much vent area should a prebuilt coop have?](#how-much-vent-area-should-a-prebuilt-coop-have)
+- [Where should the vents be on a coop you buy?](#where-should-the-vents-be-on-a-coop-you-buy)
+- [Can you close the vents down in winter?](#can-you-close-the-vents-down-in-winter)
+- [Are the vents safe from predators?](#are-the-vents-safe-from-predators)
+- [What are the red flags in a coop listing?](#what-are-the-red-flags-in-a-coop-listing)
+- [How do you check a coop before you buy it?](#how-do-you-check-a-coop-before-you-buy-it)
+
+## What makes a chicken coop well ventilated?
+
+Ventilation is the swap of air between the inside of the coop and the outside. Oregon State University Extension describes the job plainly, saying it "removes ammonia fumes, carbon dioxide and moisture from coops and brings in fresh air," and a well-designed coop "has adequate air exchange without creating drafts" ([OSU Extension EC 1644](https://extension.oregonstate.edu/catalog/ec-1644-living-land-backyard-chicken-coop-design)).
+
+That gives you two tests for any coop you're shopping for. First, is there enough open area for stale, damp air to leave? Second, does that air move above the birds rather than across them while they sleep? OSU also notes that passive ventilation, meaning openings like windows and vents in gables, eaves or roofs, "is adequate for most backyard chickens coops," so most backyard coops don't need a built-in fan ([OSU Extension EC 1644](https://extension.oregonstate.edu/catalog/ec-1644-living-land-backyard-chicken-coop-design)). If you're weighing a fan anyway, see [fan vs. passive vents](/blog/fan-vs-passive-vents).
+
+## How much vent area should a prebuilt coop have?
+
+The long-standing rule of thumb comes from University of Illinois Circular 337 (1929): "A rule quite often given is to have 1 square foot of opening to every 10 square feet of floor space" ([Illinois Circular 337](https://www.ideals.illinois.edu/items/30741/bitstreams/102220/data.pdf)). One square foot is 144 square inches, so that works out to 144 square inches of opening per 10 square feet of floor.
+
+To use it on a coop listing, start with the floor. A coop with a 4 by 4 foot floor has 16 square feet, so the rule asks for about 1.6 square feet of opening, or roughly 230 square inches. Add up every vent, window and screened gap you can measure, and if the total falls well short, the coop is likely to hold moisture no matter how nice it looks.
+
+Airflow is the other half. This site's model plans for about 5 CFM (cubic feet per minute) of airflow per adult standard hen in summer and about 1 CFM per bird in winter for moisture removal, so a flock of six needs about 30 CFM on a hot day under that model. When you know the coop's floor size, you can put it into the [coop ventilation calculator](/) with your flock size and climate, and it runs both numbers for you along with the total vent area. If you want to see how the math works, the [ventilation requirements guide](/blog/chicken-coop-ventilation-requirements) walks through it.
+
+Check the listed bird count against floor space while you're at it. The Poultry Extension site recommends "a minimum of 3-4 square feet/hen indoor" for laying hens ([Poultry Extension, space allowances](https://poultry.extension.org/articles/getting-started-with-small-and-backyard-poultry/housing-for-small-and-backyard-poultry-flocks/space-allowances-in-housing-for-small-and-backyard-poultry-flocks/)), and OSU says 8 to 10 square feet per bird when there's no outdoor access ([OSU Extension EC 1644](https://extension.oregonstate.edu/catalog/ec-1644-living-land-backyard-chicken-coop-design)). Crowding matters for airflow too, and Circular 337 called an overcrowded house "a common cause of dampness" back in 1929 ([Illinois Circular 337](https://www.ideals.illinois.edu/items/30741/bitstreams/102220/data.pdf)). Use the [coop size calculator](/blog/coop-size-calculator) to compare.
+
+## Where should the vents be on a coop you buy?
+
+Look for openings high on the walls, under the eaves, in the gable ends or along the ridge, plus some lower openings to let fresh air in. The Poultry Extension site explains why: "warm air rises and … warm air holds more moisture than cold air," and in summer a coop with "a ridge or eave opening in the ceiling" pulls air through by the chimney effect ([Poultry Extension, ventilation](https://poultry.extension.org/articles/getting-started-with-small-and-backyard-poultry/housing-for-small-and-backyard-poultry-flocks/ventilation-in-small-and-backyard-poultry-flock-housing/)). This site's model splits vent area about half into low inlets and half into high outlets ([calculator](/)).
+
+Circular 337 suggested protecting birds "from direct draft by lining the wall and ceiling directly behind and over the roosts" ([Illinois Circular 337](https://www.ideals.illinois.edu/items/30741/bitstreams/102220/data.pdf)). When you look at a coop you might buy, picture where the birds will sleep. If the only window sits right at roost height on the same wall, air will move across the birds at night. [High, low and ridge vent placement](/blog/vent-placement-high-low-ridge) covers the options in more detail.
+
+The shape of the roof gives you a clue too. University of Kentucky's AEN-161 says gable roofs "are easy to ventilate with a gable or ridge vent," while semi-monitor rooflines are "hard to ventilate" ([UK AEN-161](https://publications.mgcafe.uky.edu/files/AEN161.pdf)).
+
+## Can you close the vents down in winter?
+
+A good coop lets you adjust the openings as the seasons change. AEN-161 says "permanent ventilation is not recommended" and that "an adjustable ventilation system is recommended to provide the required ventilation in winter without drafts and high ventilation rates in summer." It also points to removable or sliding windows as "an ideal design feature" for the hottest days ([UK AEN-161](https://publications.mgcafe.uky.edu/files/AEN161.pdf)).
+
+On a listing, look for windows that slide or lift out, and vent covers you can partly close. A coop with a few fixed holes gives you no way to tune airflow as the seasons change. For cold-weather setup, read [winter ventilation without drafts](/blog/winter-ventilation-without-drafts).
+
+## Are the vents safe from predators?
+
+Every vent is also a way in for a predator. AEN-161 warns that "chicken wire" or chicken netting doesn't have the strength to deter predators, and recommends "a hardware cloth, welded wire mesh or fence" with spacing such as ½ inch ([UK AEN-161](https://publications.mgcafe.uky.edu/files/AEN161.pdf)). If a coop's vents are covered with twisted hex netting, consider replacing it with hardware cloth before the birds move in. See [predator-proofing your coop and run](/blog/predator-proofing-coop-run).
+
+Screens also clog. Alabama Extension notes that in poultry houses "vent screens can become partially or almost entirely blocked off by dust, feathers, and dander" ([Alabama Extension ANR-2849](https://www.aces.edu/blog/topics/farming/cold-weather-ventilation-moisture-control-of-poultry-houses/)). A practical check is whether you can reach the vents to brush them off.
+
+## What are the red flags in a coop listing?
+
+- Vent sizes aren't listed, and the photos show only one or two small holes.
+- The only openings sit at roost height, or there's nothing above the roost.
+- Vents are fixed open or fixed shut, with no covers or sliding panels.
+- Openings are covered with chicken wire or thin netting rather than hardware cloth.
+- The listed bird count would leave far less than 3 to 4 square feet per hen indoors.
+- The listing says the coop is "insulated" but shows little vent area. OSU notes coops "do not need to be insulated, but be sure there are no drafts" ([OSU Extension EC 1644](https://extension.oregonstate.edu/catalog/ec-1644-living-land-backyard-chicken-coop-design)).
+
+If the coop you already own shows damp bedding, frost on the walls or an ammonia smell, read [signs of poor ventilation](/blog/signs-of-poor-ventilation-in-chicken-coop).
+
+## How do you check a coop before you buy it?
+
+1. Get the floor length and width, then multiply for square feet.
+2. Divide by 10 and multiply by 144 to get the target vent area in square inches.
+3. Measure or ask for every vent and window opening, and add them up.
+4. Check that some of that area sits high and some lower, and none blows across the roost.
+5. Confirm the vents can be partly closed and are covered with hardware cloth.
+6. Compare the bird count you plan to keep with the floor space.
+
+If you'd rather skip the arithmetic, enter your flock size, floor area and climate in the [coop ventilation calculator](/). It gives you the summer and winter airflow targets, the total vent area in square inches and the low/high split, so you can hold any coop listing up against real numbers.
+
+*Sources: Illinois Circular 337 (1929), Oregon State University Extension EC 1644, University of Kentucky AEN-161, Poultry Extension (Small and Backyard Poultry), Alabama Cooperative Extension ANR-2849. CFM figures are this site's model.*`,
+  },
 ]
