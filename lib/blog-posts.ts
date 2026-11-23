@@ -15,8 +15,10 @@ export type BlogPost = {
   slug: string
   title: string
   seoTitle?: string
+  h1?: string
   description: string
   publishedAt: string
+  dateModified?: string
   body: string
   image?: { src: string; alt: string }
 }
@@ -26,8 +28,10 @@ const curatedBlogPosts: BlogPost[] = posts.map((p) => ({
   slug: p.slug,
   title: p.title,
   seoTitle: p.seoTitle,
+  h1: p.h1,
   description: p.description,
   publishedAt: p.publishedAt,
+  dateModified: p.dateModified,
   body: p.body,
 }))
 
