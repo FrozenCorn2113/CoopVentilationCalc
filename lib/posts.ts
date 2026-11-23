@@ -5,8 +5,13 @@ export type Post = {
   slug: string
   title: string
   seoTitle?: string  // optional short <title>; falls back to title when unset
+  // On-page H1 when it should differ from `title`. Title stays the Article
+  // headline and the blog index name.
+  h1?: string
   description: string
   publishedAt: string
+  // Article JSON-LD dateModified. Omitted posts keep mirroring publishedAt.
+  dateModified?: string
   body: string  // markdown-ish, rendered as preformatted prose
 }
 
@@ -446,80 +451,84 @@ Crouch to roost height and breathe. Any eye irritation means ammonia is already 
     description:
       'A droppings board sits under the roost bar to catch overnight waste before it mixes with floor bedding. Here is how to install one, what to put on it, and how often to clean it to keep ammonia low.',
     publishedAt: '2026-06-11',
-    body: `# How to Use a Droppings Board in Your Chicken Coop
+    dateModified: '2026-11-25',
+    h1: 'Dropping Board for Chickens: Size, Height & Setup Guide',
+    body: `**A dropping board is a shelf or tray fixed under the roost that catches the manure your hens drop overnight, so you can scrape it out instead of letting it soak into the bedding. Set it far enough below the bars that you can scrape it with the birds' perches in place (an old Illinois guide suggested about 6 inches of clearance), make it cover the whole area under every bar, give it a smooth surface you can scrape, and clean it at least once a week, sooner if you can smell ammonia.**
 
-A droppings board is a flat shelf mounted directly under the roost bar to collect the waste chickens deposit overnight. Because birds produce the majority of their daily droppings while roosting, pulling that waste out of the coop every day or two keeps ammonia levels lower than litter management alone can achieve.
+When you open the coop in the morning, the droppings are piled under the roost, because that's where your hens spent the night. A board under the bars puts that pile on a surface you can scrape, and the rest of this guide covers where to set the board and how to keep it clean.
 
-## What Is a Droppings Board
+In this article
+- [What is a dropping board?](#what-is-a-dropping-board)
+- [How does a dropping board help with ammonia and moisture?](#how-does-a-dropping-board-help-with-ammonia-and-moisture)
+- [How far below the roost should a dropping board sit?](#how-far-below-the-roost-should-a-dropping-board-sit)
+- [How big should a dropping board be?](#how-big-should-a-dropping-board-be)
+- [What should a dropping board be made of?](#what-should-a-dropping-board-be-made-of)
+- [How often should you clean a dropping board?](#how-often-should-you-clean-a-dropping-board)
+- [What should you do with the droppings?](#what-should-you-do-with-the-droppings)
+- [Is a dropping board better than a dropping pit?](#is-a-dropping-board-better-than-a-dropping-pit)
+- [Can you use a dropping board with deep litter?](#can-you-use-a-dropping-board-with-deep-litter)
 
-A droppings board is exactly what the name says: a board positioned below the roost to catch droppings before they reach the floor bedding. It is one of the oldest practical tools in coop management and one of the most effective for controlling ammonia without added expense.
+## What is a dropping board?
 
-The board creates a hard, scrapable surface. Instead of overnight droppings mixing into shavings and fermenting over days, they sit on a flat surface you can scrape clean in a few minutes. That one change removes the largest single input of nitrogen and moisture from your coop floor.
+It's a flat board or removable tray mounted under the roosting bars. University of Kentucky's AEN-167 calls "a dropping board placed under the roosting area" "a common practice implemented in poultry housing," and notes that dropping boards "provide an opportunity to collect manure free of any bedding, which preserves bedding material" ([UK AEN-167](https://publications.mgcafe.uky.edu/sites/publications.ca.uky.edu/files/AEN167.pdf)).
 
-## Why a Droppings Board Reduces Ammonia
+It works because the roost is where the mess piles up. Kentucky's ASC-241 says "the chickens will spend the night on the roosts, allowing manure to collect under them," and that "chickens relieve themselves before getting off the roost in the morning" ([UK ASC-241](https://publications.mgcafe.uky.edu/sites/publications.ca.uky.edu/files/ASC241.pdf)). University of Minnesota Extension says the same: "Manure tends to build up under roosts and other perching sites. Installing trays to collect manure below roosts can make cleaning easy" ([UMN Extension](https://extension.umn.edu/agriculture/animals-and-livestock/poultry/caring-for-chickens-in-cold-weather)).
 
-A droppings board reduces ammonia by removing the most concentrated source of nitrogen before it has time to break down and gas off into the coop air.
+## How does a dropping board help with ammonia and moisture?
 
-Chickens produce the bulk of their waste while roosting through the night. That deposit is wet and high in nitrogen. When it lands on floor bedding, bacteria begin converting the nitrogen compounds to ammonia within hours. [The Poultry Site](https://www.thepoultrysite.com/articles/key-factors-for-poultry-house-ventilation) cites 25 parts per million as the threshold where ammonia begins damaging bird respiratory health. You will smell it before it reaches that level, but by then your flock has already been breathing a compromised atmosphere.
+Ammonia comes from manure sitting in damp litter. University of Georgia's poultry tip explains that it "is produced when the uric acid in fecal droppings is metabolized by bacteria in the litter," and names three drivers: "1) manure, 2) heat, 3) moisture" ([UGA Poultry Tip](https://poultry.caes.uga.edu/content/dam/caes-subsite/poultry/documents/archived-poultry-tips/making-sure-ammonia-levels-do-not-harm-flock-nov-03.pdf)). Manure also brings a lot of water with it. UMN Extension puts chicken manure at "70% water, which makes manure management key to controlling moisture in your coop" ([UMN Extension](https://extension.umn.edu/agriculture/animals-and-livestock/poultry/caring-for-chickens-in-cold-weather)). A board lets you lift that overnight load out before it works into the bedding.
 
-By removing concentrated overnight droppings daily, you cut the ammonia load at its source rather than relying on ventilation to chase it after the fact.
+If you can smell ammonia, it's already at the limit. The same UGA tip says ammonia "should not exceed 25 ppm in coops" and that "people can usually smell ammonia when it reaches a concentration of 20-25 ppm. This means if you smell it, then you have a problem" ([UGA Poultry Tip](https://poultry.caes.uga.edu/content/dam/caes-subsite/poultry/documents/archived-poultry-tips/making-sure-ammonia-levels-do-not-harm-flock-nov-03.pdf)).
 
-Good ventilation still matters. Airflow removes ammonia that the board cannot intercept, and it pulls moisture from litter and surfaces throughout the day. Think of the droppings board and your ventilation system as two tools handling different parts of the same problem. The [ventilation calculator](/) on this site sizes your coop vents and CFM requirement based on flock size and dimensions, giving you a baseline for the airflow side.
+A board doesn't replace airflow. UMN's advice when you smell ammonia or see moisture collecting is to "increase ventilation and clean up manure to help remove moisture" ([UMN Extension](https://extension.umn.edu/agriculture/animals-and-livestock/poultry/caring-for-chickens-in-cold-weather)). This site's model plans for about 1 CFM of airflow per bird in winter for moisture removal and about 5 CFM per bird in summer. If you want numbers for your own coop, the [coop ventilation calculator](https://coopventilationcalc.com/) takes your flock size, floor area and climate and gives you an airflow target and a vent area. When the smell is already there, [coop ammonia smell: cause and fix order](/blog/ammonia-and-moisture) covers what to fix first.
 
-## Where to Install a Droppings Board Under Your Roost
+## How far below the roost should a dropping board sit?
 
-The board goes below the roost bar, positioned to catch droppings that fall straight down. Standard installation places the board 8 to 12 inches below the roost. Lower than 8 inches and birds will land on the board when they dismount in the morning. Higher than 12 inches and droppings scatter past the board edges.
+Leave enough space to get a scraper under the bars. University of Illinois Circular 337 (1929) said perches "should be supported at the bottom with about 6 inches of clearance above the droppings board, in order to facilitate the cleaning of the board" ([Illinois Circular 337](https://www.ideals.illinois.edu/items/30741/bitstreams/102220/data.pdf)). Treat that as a long-standing starting point and adjust for your scraper and your birds.
 
-Size the board to extend 3 to 4 inches past the roost bar on all sides. Birds do not always drop straight down, and slight overhang keeps most waste on the board rather than the floor below.
+The board also has to fit under a roost set at a sensible height, and the published ranges vary. Kentucky's ASC-241 says perches "should be at least 13 inches but no more than 18 inches off the floor" ([UK ASC-241](https://publications.mgcafe.uky.edu/sites/publications.ca.uky.edu/files/ASC241.pdf)), UMN says roosts "should start at least 12 inches above the floor" ([UMN Extension](https://extension.umn.edu/agriculture/animals-and-livestock/poultry/caring-for-chickens-in-cold-weather)), and Oregon State says "in general, set the poles 2 feet off the floor," with silkie roosts only 1 foot up ([OSU Extension EC 1644](https://extension.oregonstate.edu/catalog/ec-1644-living-land-backyard-chicken-coop-design)).
 
-**Material choice:** 3/4-inch plywood is the most common option. Cover the surface with a vinyl floor sheet or wrap it in adhesive vinyl contact paper to prevent the wood absorbing moisture. Bare plywood absorbs urine, warps within a few months, and becomes difficult to scrape clean. A vinyl-covered board wipes and scrapes cleanly for years.
+Two placement rules from the same sources apply to the board as well. ASC-241 says to "never place roosts above food or water containers" ([UK ASC-241](https://publications.mgcafe.uky.edu/sites/publications.ca.uky.edu/files/ASC241.pdf)), and OSU says to avoid placing nest boxes "lower than roosting poles" ([OSU Extension EC 1644](https://extension.oregonstate.edu/catalog/ec-1644-living-land-backyard-chicken-coop-design)). If raising the roost to fit a board puts it level with the nests, move the nests rather than drop the board. [Roosting bar setup](/blog/roosting-bar-setup) goes deeper on bar height and spacing.
 
-Commercial wire-bottom tray inserts designed for coop use are a practical alternative for smaller flocks. The wire frame elevates droppings above a removable tray, which allows air to reach the waste from below. This dries droppings faster and slows ammonia release between cleanings.
+## How big should a dropping board be?
 
-## What to Put on a Droppings Board
+Size the board from the roost, which means starting with how much bar your flock needs. UMN suggests roosts "provide 9 inches of room per chicken" ([UMN Extension](https://extension.umn.edu/agriculture/animals-and-livestock/poultry/caring-for-chickens-in-cold-weather)), OSU says "allow 5 to 10 inches of pole per bird" ([OSU Extension EC 1644](https://extension.oregonstate.edu/catalog/ec-1644-living-land-backyard-chicken-coop-design)), and Circular 337 assumed "8 to 10 inches of linear perch" per hen ([Illinois Circular 337](https://www.ideals.illinois.edu/items/30741/bitstreams/102220/data.pdf)).
 
-You can run the board bare or add a thin layer of absorbent material. Both work. Absorbent material speeds up drying and extends the window between cleanings.
+For six hens at UMN's 9 inches each, that's 54 inches of roost, so the board needs to be at least that long, with a little extra at each end. For depth, the board has to reach under every bar. If you run more than one bar, Circular 337 spaced them "14 inches apart, center to center" and OSU uses "10 inches between each pole," so a two-bar roost needs a deeper board than a single bar does. Keep the bars off the wall as well: ASC-241 says perches "should be at least 13 inches from the walls or other objects or the chickens may not use them" ([UK ASC-241](https://publications.mgcafe.uky.edu/sites/publications.ca.uky.edu/files/ASC241.pdf)).
 
-**PDZ (Sweet PDZ) and stall dry:** Zeolite-based granules absorb moisture and bind ammonium ions before they can gas off. A light dusting (no more than 1/4 inch) on the board surface reduces smell noticeably and gives droppings something dry to land in. [Penn State Extension](https://extension.psu.edu/poultry) recommends zeolite-based amendments as a practical option for reducing ammonia in poultry housing. Both products are inexpensive and available at most farm supply stores.
+## What should a dropping board be made of?
 
-**Fine sand:** A thin layer of coarse construction sand gives droppings something to settle into and makes scraping easy. Sand dries faster than shavings because it does not absorb moisture itself.
+AEN-167 says that "typically, the materials used to create a dropping board involve wooden surfaces," and that "galvanized steel, aluminum, stainless steel, or plastic could also be used to build or cover a dropping board. Trays can also be fabricated to facilitate the collection of manure" ([UK AEN-167](https://publications.mgcafe.uky.edu/sites/publications.ca.uky.edu/files/AEN167.pdf)). The publication's own photo shows a board "covered with galvanized metal."
 
-**Nothing:** Running the board bare and scraping it daily is a perfectly valid approach. On a vinyl-coated surface, scraping takes 60 to 90 seconds.
+A smooth, washable surface is simpler to scrape clean. A tray or board you can slide out and carry to the compost bin is easier still, because you can clean it outside the coop.
 
-## How Often to Clean a Droppings Board
+## How often should you clean a dropping board?
 
-Every one to two days for most flocks. The goal is to remove waste before it dries completely hard (which makes scraping more work) and before ammonia builds from the previous night's deposit.
+Kentucky's ASC-241 says "it is a good idea to clean under the roosts every week," and that the manure "should be cleaned out weekly and composted." Cleaning also lets you "examine the droppings for consistency, parasites, or blood" ([UK ASC-241](https://publications.mgcafe.uky.edu/sites/publications.ca.uky.edu/files/ASC241.pdf)). Treat weekly as the minimum. If you can smell ammonia when you open the door, scrape the board and check your vents that day.
 
-A standard laying hen produces roughly 1/4 pound of manure per day, and most of it accumulates on the board overnight. On a small board with no absorbent layer, detectable ammonia can build within 24 to 36 hours in warm weather.
+Look after your own health while you do it. The CDC says to "wash your hands with soap and running water after touching backyard poultry or anything in the area where they live and roam," to "stay outdoors when cleaning any equipment or materials used to raise or care for poultry," and to use dedicated shoes that stay outside the house ([CDC, Backyard Poultry](https://www.cdc.gov/healthy-pets/about/backyard-poultry.html)).
 
-In cold weather, microbial activity slows and ammonia rises more gradually. You can sometimes stretch to every two to three days in winter. Your nose is the real gauge. If you smell ammonia when you open the coop door, the board needed cleaning the day before.
+## What should you do with the droppings?
 
-## What to Do With the Droppings
+Compost the droppings before they go on the garden. Kentucky's ASC-242 says poultry manure "should not be used fresh. 'Raw' manure can burn plants and may contain pathogens that could contaminate any plants being grown for consumption." Its method builds a bin in layers: about six inches of litter, then "if you have concentrated manure collected from under the perches, add a 3-inch layer of the manure next," followed by a carbon layer such as "leaves, straw, wood shavings or wood chips" ([UK ASC-242](https://publications.mgcafe.uky.edu/sites/publications.ca.uky.edu/files/ASC242.pdf)).
 
-Fresh chicken manure is too nitrogen-rich to apply directly to most garden beds. It burns plant roots. Compost it first.
+ASC-242 says the middle of the pile "should heat to 130-150°F," sitting covered "for at least two weeks" before it's turned into a second bin for "three more weeks." Before it goes on food crops, University of Nevada, Reno advises applying composted or aged manure "no later than 90 days prior to harvest of non-ground-contact crops" and "no later than 120 days prior to harvest of ground-contact crops" ([UNR Extension](https://naes.unr.edu/publication.aspx?PubID=3028)).
 
-Add board scrapings to a compost pile with carbon material such as dried leaves, straw, or shavings. The nitrogen-heavy manure and carbon-rich material balance each other and compost down to a usable garden amendment in four to eight weeks with regular turning. Spent PDZ mixes in without issue, though it adds no nutritional value to the pile.
+## Is a dropping board better than a dropping pit?
 
-If you are running a [deep litter system](/blog/deep-litter-method) on the coop floor alongside the droppings board, the combination works well. The board handles the overnight nitrogen spike. The deep litter system manages the smaller daytime accumulation. Floor litter stays drier and the aerobic decomposition that suppresses ammonia stays active longer.
+They solve the same problem at different scales. AEN-167 describes a dropping pit as "an aboveground structure constructed with a concrete surface and sidewalls to contain the manure," built under a perforated floor, with the back wall used "as a push wall to facilitate the removal of the manure" ([UK AEN-167](https://publications.mgcafe.uky.edu/sites/publications.ca.uky.edu/files/AEN167.pdf)), which makes it a construction project. A board or tray under the roost is the version most small backyard coops can add, and AEN-167 notes that manure from boards can go to a pit or straight to composting.
 
----
+## Can you use a dropping board with deep litter?
 
-## FAQ
+Yes, the two work together. AEN-167 describes deep litter as "a manure handling system that collects, partially treats, and stores manure until land application or further treatment," and separately notes that dropping boards preserve bedding ([UK AEN-167](https://publications.mgcafe.uky.edu/sites/publications.ca.uky.edu/files/AEN167.pdf)). UMN's version of deep bedding is "4 to 6 inches of straw or shavings," stirred as the top gets soiled and topped up with fresh bedding ([UMN Extension](https://extension.umn.edu/agriculture/animals-and-livestock/poultry/caring-for-chickens-in-cold-weather)). The board takes the overnight load off the litter, and the litter handles what lands on the floor during the day. See [the deep litter method](/blog/deep-litter-method) for setup.
 
-**How big should a droppings board be?**
-Make it 3 to 4 inches wider than your roost bar on each side. That margin catches droppings from birds who shift position during the night. For a single 6-foot roost bar, a board 12 to 18 inches deep and at least 6 feet long covers the full area.
+This matters most in winter, and UMN warns that "high moisture in a coop, combined with cold temperatures can lead to condensation, which can cause frostbite," and calls moisture control "through airflow and manure management" critical ([UMN Extension](https://extension.umn.edu/agriculture/animals-and-livestock/poultry/caring-for-chickens-in-cold-weather)). For cold-weather airflow, read [winter ventilation without drafts](/blog/winter-ventilation-without-drafts).
 
-**Do droppings boards work in cold climates?**
-Yes. In winter, droppings land on the board and can freeze quickly, which slows ammonia release. Frozen deposits are easy to scrape from a vinyl-coated surface. Cold-weather coops with droppings boards often have better winter air quality than coops relying on floor litter alone, because the nitrogen source is removed before it thaws and gases off.
+## Check your airflow next
 
-**What is the difference between a droppings board and a droppings pit?**
-A droppings board is a flat shelf you clean on a regular schedule. A droppings pit is a recessed area below the roost with ventilating wire mesh that lets droppings accumulate and dry over a longer period. Pits require high ambient airflow to dry the material before ammonia builds. Boards give the keeper direct control over removal timing and work in most standard backyard coops.
+A dropping board handles the manure and your vents handle the damp air, so check both. The [coop ventilation calculator](https://coopventilationcalc.com/) asks for your flock size, floor area and climate, then gives you an airflow target, the total vent area and the low/high vent split for your coop.
 
-**Can I use a droppings board with the deep litter method?**
-Yes, and the combination is one of the more effective setups for small flocks. The board removes the heaviest overnight nitrogen load before it reaches the floor. The [deep litter system](/blog/deep-litter-method) handles the remaining daytime accumulation. Floor litter stays drier, which keeps the microbial decomposition aerobic and ammonia low.
-
-**Do I need a droppings board if my coop already has good ventilation?**
-Ventilation removes ammonia after it forms. A droppings board removes the source before it forms. Both handle different parts of the air quality problem. In a well-ventilated coop, a droppings board reduces the total ammonia load so your vents can keep up more easily, especially in hot or humid conditions. Use the [ventilation calculator](/) to confirm your coop's airflow is sized correctly, then add a droppings board to cut what the vents have to manage.
+*Sources: University of Kentucky AEN-167, ASC-241 and ASC-242; University of Minnesota Extension; University of Georgia Poultry Tip (Nov 2003); Oregon State University Extension EC 1644; University of Illinois Circular 337 (1929); University of Nevada, Reno Extension; CDC. CFM figures are this site's model.*
 `,
   },
 

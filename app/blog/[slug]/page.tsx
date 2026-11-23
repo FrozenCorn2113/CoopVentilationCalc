@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
+import type { ReactNode } from 'react'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import { getBlogPost, allBlogPosts } from '@/lib/blog-posts'
@@ -8,6 +9,26 @@ import { AffiliateProducts } from '@/components/AffiliateProducts'
 import { EmailCapture } from '@/components/EmailCapture'
 import { articleNode, breadcrumbNode, faqPageNode, absoluteImageUrl, organizationNode, websiteNode, SITE_ORIGIN } from '@/lib/schema'
 import { relatedSlugsFor } from '@/lib/related-guides'
+
+// GitHub-style heading slug so in-page links like #what-is-a-dropping-board
+// land on the matching heading. Punctuation drops; spaces become hyphens.
+function githubHeadingId(text: string): string {
+  return text
+    .toLowerCase()
+    .trim()
+    .replace(/[^\p{L}\p{N}\s-]/gu, '')
+    .replace(/\s+/g, '-')
+}
+
+function reactNodeText(node: ReactNode): string {
+  if (typeof node === 'string' || typeof node === 'number') return String(node)
+  if (Array.isArray(node)) return node.map(reactNodeText).join('')
+  if (node && typeof node === 'object' && 'props' in node) {
+    const el = node as { props?: { children?: ReactNode } }
+    return reactNodeText(el.props?.children)
+  }
+  return ''
+}
 
 export function generateStaticParams() {
   return allBlogPosts.map((p) => ({ slug: p.slug }))
@@ -34,6 +55,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     title: post.title,
     description: post.description,
     datePublished: post.publishedAt,
+    dateModified: post.dateModified,
     imageUrl: absoluteImageUrl(post.image?.src),
   })
   const breadcrumb = breadcrumbNode(post.slug, post.title)
@@ -67,6 +89,30 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         timeZone: 'UTC',
       })
     : null
+  // Title stays the Article headline. A post may carry a separate on-page H1.
+  const pageHeading = post.h1 ?? post.title
+  const headingIds = new Map<string, number>()
+  const headingId = (children: ReactNode) => {
+    const base = githubHeadingId(reactNodeText(children)) || 'section'
+    const seen = headingIds.get(base) ?? 0
+    headingIds.set(base, seen + 1)
+    return seen === 0 ? base : `${base}-${seen}`
+  }
+  const anchorHeadings =
+    post.slug === 'droppings-board-guide'
+      ? {
+          h2: ({ node: _node, children, ...props }: { node?: unknown; children?: ReactNode }) => (
+            <h2 id={headingId(children)} {...props} className="scroll-mt-24">
+              {children}
+            </h2>
+          ),
+          h3: ({ node: _node, children, ...props }: { node?: unknown; children?: ReactNode }) => (
+            <h3 id={headingId(children)} {...props} className="scroll-mt-24">
+              {children}
+            </h3>
+          ),
+        }
+      : {}
 
   return (
     <main className="mx-auto max-w-3xl px-5 sm:px-12 py-16">
@@ -80,7 +126,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
       </Link>
       <article className="mt-6">
         <h1 className="font-display text-4xl sm:text-5xl leading-[1.05] tracking-[-0.02em] text-[var(--color-ink)]">
-          {post.title}
+          {pageHeading}
         </h1>
         <p className="mt-4 text-base text-[var(--color-ink-soft)]">{post.description}</p>
         {publishedLabel && (
@@ -97,6 +143,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
               // anything else that arrives as `#` renders one level down so every
               // /blog/* page still has exactly one h1.
               h1: ({ node: _node, ...props }) => <h2 {...props} />,
+              ...anchorHeadings,
               // Markdown tables arrive unstyled, so cells butt against each
               // other and column labels read as one run-on word. The min-width
               // keeps them legible on a phone by scrolling rather than crushing.
@@ -119,7 +166,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                 : {}),
             }}
           >
-            {stripDuplicateTitleHeading(post.body, post.title)}
+            {stripDuplicateTitleHeading(post.body, pageHeading)}
           </ReactMarkdown>
         </div>
       </article>
